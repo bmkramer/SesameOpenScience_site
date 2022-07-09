@@ -10,11 +10,11 @@ description: Sit down, relax, and get to know Hugo Apéro. Built on top of Blogo
 image_left: true
 images:
 - img/revoir.jpg
-show_action_link: true
+show_action_link: false
 show_social_links: true
-subtitle: A Hugo theme you'll want to hang out with
+subtitle: Bianca Kramer
 text_align_left: false
-title: Hugo Apéro
+title: Sesame Open Science
 type: home
 ---
 
