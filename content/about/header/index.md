@@ -1,3 +1,5 @@
+<!-- show header set to false in content/about/index.md -->
+
 ---
 ## Configure header of page
 text_align_right: false
