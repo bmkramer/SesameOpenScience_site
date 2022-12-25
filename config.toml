@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   orgName = "Sesame Open Science"
   orgLocal = ""
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  description = "Open Science, open metadata, open infrastructure"
   favicon = "/img/SesameOpen_favicon_small.png"
   logo = "/img/SesameOpen_logo.png"
   mainSections = ["blog", "project", "talk"]
