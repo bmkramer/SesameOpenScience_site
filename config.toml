@@ -32,7 +32,7 @@ enableEmoji = true
   orgLocal = ""
   description = "Open science, open metadata, open infrastructure"
   favicon = "/img/SesameOpen_favicon_small.png"
-  logo = "img/SesameOpen_logo.png"
+  logo = "/SesameOpenScience_site/img/SesameOpen_logo.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
