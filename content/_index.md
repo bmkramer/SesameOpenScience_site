@@ -5,7 +5,7 @@ action_type: text
 description: After 15 years at Utrecht University Library, I am taking on an exciting new challenge. I am looking forward to contributing to projects on open science, open metadata and open infrastructure - as advisor, analyst and workshop facilitator.<br><br> More on this site in September 2022! Meanwhile, you can contact me at <bianca@sesameopenscience.org>
 image_left: false
 images:
-- SesameOpenScience_site/img/SesameOpen_logo.png
+- img/SesameOpen_logo.png
 show_action_link: false
 show_social_links: true
 subtitle: Bianca Kramer, PhD
