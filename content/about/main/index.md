@@ -1,15 +1,20 @@
 ---
 ## Configure page content in wide column
-title: "Why apéro?" # leave blank to exclude
+title: "About me" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
-number_categories: 3 # set to zero to exclude
+number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
-  Apéro is a unique kind of casual get-together in French culture, when you gather with friends and get to know each other better over some apéritifs, snacks, and anything in between. A good apéro is one where you'd happily spend a few hours just hanging out.
+  In 2022, I moved to an independent consulting/research analyst role, after having been scholarly communication/open science librarian at Utrecht University Library for 15 years. My focus is open science, open metadata and open infrastructure.
+
+  I am co-leading the'Innovations in Scholarly Communication' project which investigates trends in innovations in scholarly communication across the research cycle, and have organized many interactive workshops on open science.
   
-  I hope this theme helps you create your own virtual apéro. A place where you and your site's visitors enjoy spending time, and one that helps folks get to know you better. 
-show_outro: true
+  Alongside providing detailed analyses of the open science transition in the Netherlands over the past ten years I have delivered strategic information for cOAlitionS and the European Commission.
+
+  I am founding member of the Initiative for Open Abstracts (I4OA) and am currently a member of the Preprint Advisory Group of Crossref, as well as the Europe PMC and Literature Services Scientific Advisory Board of EMBL-EBI.
+
+show_outro: false
 outro: |
   <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
 ---
