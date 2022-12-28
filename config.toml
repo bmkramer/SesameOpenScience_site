@@ -86,6 +86,14 @@ enableEmoji = true
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
   [[params.social]]
+      icon      = "envelope" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "mailto:bianca@sesameopenscience.org"
+  [[params.social]]
+      icon      = "orcid" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "http://orcid.org/0000-0002-5965-6560"
+  [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://github.com/bmkramer"
@@ -97,10 +105,6 @@ enableEmoji = true
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/MsPhelps"
-  [[params.social]]
-      icon      = "orcid" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "http://orcid.org/0000-0002-5965-6560"
  # [[params.social]]
  #    icon      = "rss" # icon name without the 'fa-'
  #    icon_pack = "fas"
@@ -115,9 +119,9 @@ enableEmoji = true
   # Configure header 
   #[[menu.header]]
   #  name = "About"
-  #  title = "About Blogophonic"
+  #  title = "About"
   #  url = "/about/"
-  #  weight = 1
+  # weight = 1
   #[[menu.header]]
   #  name = "Blog"
   #  title = "Blog"
