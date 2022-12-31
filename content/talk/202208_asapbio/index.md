@@ -15,7 +15,7 @@ links:
   icon_pack: fab
   name: slides
   url: https://docs.google.com/presentation/d/1LIIeUg7rua-_W7F9NGeeL7NF3cTeM5MuBVcEQnBCV38
-- icon: github
+- icon: pen-nib
   icon_pack: fab
   name: ASAPBio blogpost
   url: https://asapbio.org/how-to-promote-equity-in-the-visibility-curation-and-evaluation-of-preprints
