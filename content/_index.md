@@ -6,7 +6,7 @@ description: After 15 years at Utrecht University Library, I am taking on an exc
 image_left: false
 images:
 - img/SesameOpen_logo.png
-show_action_link: false
+show_action_link: true
 show_social_links: true
 subtitle: Bianca Kramer, PhD
 text_align_left: true
