@@ -5,6 +5,8 @@ categories:
 date: "2022-06-28"
 date_end: "2022-06-28"
 draft: false
+event:
+event_url:
 excerpt: Farewell workshop for Utrecht University colleagues 
 featured: true
 layout: single

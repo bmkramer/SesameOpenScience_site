@@ -17,6 +17,7 @@ links:
   url: https://docs.google.com/presentation/d/1LIIeUg7rua-_W7F9NGeeL7NF3cTeM5MuBVcEQnBCV38
 location: Konstancin, Poland
 show_post_time: false
+subtitle:
 title: Open abstracts in SSH – current state and challenges
 ---
 
