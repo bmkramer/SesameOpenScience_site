@@ -6,24 +6,24 @@ date: "2022-08-25"
 date_end: "2022-08-25"
 draft: false
 event:  ASAPbio Community Call August 2022 – Promoting equity in visibility, curation and evaluation of preprints
-event_url: https://global.rstudio.com
-excerpt: Here is a talk I gave on making awesome personal websites using Hugo, blogdown,
-  GitHub, and Netlify.
+event_url: https://asapbio.org/how-to-promote-equity-in-the-visibility-curation-and-evaluation-of-preprints
+excerpt: Presentation on preprint discoverability for ASAPbio Community Call, August 2022.
 featured: true
 layout: single
 links:
-- icon: door-open
-  icon_pack: fas
-  name: website
-  url: https://bakeoff.netlify.com/
+- icon: google-drive
+  icon_pack: fab
+  name: slides
+  url: https://docs.google.com/presentation/d/1LIIeUg7rua-_W7F9NGeeL7NF3cTeM5MuBVcEQnBCV38
 - icon: github
   icon_pack: fab
-  name: code
-  url: https://github.com/apreshill/bakeoff
+  name: ASAPBio blogpost
+  url: https://asapbio.org/how-to-promote-equity-in-the-visibility-curation-and-evaluation-of-preprints
 location: online
 show_post_time: false
 subtitle: coverage, indexing and implications for engagement
 title: Preprint discoverability
 ---
 
-I'm really excited to give this talk! Stay tuned for video and slides.
+
+With thanks to Jeroen Bosman for analysis of newspaper coverage of COVID19 preprints! 
