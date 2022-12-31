@@ -16,7 +16,7 @@ links:
   name: slides
   url: https://docs.google.com/presentation/d/1LIIeUg7rua-_W7F9NGeeL7NF3cTeM5MuBVcEQnBCV38
 - icon: pen-nib
-  icon_pack: fab
+  icon_pack: fas
   name: ASAPBio blogpost
   url: https://asapbio.org/how-to-promote-equity-in-the-visibility-curation-and-evaluation-of-preprints
 location: online
