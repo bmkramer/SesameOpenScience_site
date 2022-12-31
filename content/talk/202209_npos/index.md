@@ -22,7 +22,7 @@ links:
 location: Amsterdam, The Netherlands
 show_post_time: false
 subtitle: 
-title: New Developments in Preprinting and Preprint Review
+title: New developments in preprinting and preprint review
 ---
 
 The workshop introduced participants to preprinting and preprint peer review. Participants were invited to discuss the opportunities offered by these new approaches to scholarly publishing and peer review, and to reflect on different ways in which these new approaches may complement the traditional journal publishing system.
