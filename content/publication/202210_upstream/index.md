@@ -5,7 +5,7 @@ categories:
 date: "2022-10-25"
 date_end: 
 draft: false
-event:  FORCE11 Upstream blog
+event:  
 event_url: 
 excerpt: Blogpost reporting on workshop on preprints and preprint peer review at NPOS Open Science Festival 2022
 featured: true
@@ -15,7 +15,7 @@ links:
   icon_pack: fas
   name: FORCE11 Upstream blogpost
   url: https://upstream.force11.org/preprints-and-open-preprint-review-a-workshop/
-location: 
+location: FORCE11 Upstream blog 
 show_author_byline: true
 show_post_time: false
 subtitle: 

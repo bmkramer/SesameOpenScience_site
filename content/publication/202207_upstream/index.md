@@ -5,7 +5,7 @@ categories:
 date: "2022-07-19"
 date_end: 
 draft: false
-event:  FORCE11 Upstream blog
+event:  
 event_url: 
 excerpt: Blogpost in the series "Keeping Tabs on Open Research"
 featured: true
@@ -15,7 +15,7 @@ links:
   icon_pack: fas
   name: FORCE11 Upstream blogpost
   url: https://upstream.force11.org/bianca-kramer-is-keeping-tabs-on-open-research/
-location: 
+location: FORCE11 Upstream blog
 show_author_byline: true
 show_post_time: false
 subtitle: 
