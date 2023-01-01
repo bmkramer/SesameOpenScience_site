@@ -7,7 +7,7 @@ date_end:
 draft: false
 event:  
 event_url: 
-excerpt: In this paper we looked at 5,004 publications reported by researchers to be the result of funding by a specific funding agency: the Dutch Research Council NWO. We observe interesting differences between publishers in the coverage and completeness of funding metadata in Crossref compared to proprietary databases, highlighting the potential to increase the quality of open metadata on funding.
+excerpt: "In this paper we looked at 5,004 publications reported by researchers to be the result of funding by a specific funding agency: the Dutch Research Council NWO. We observe interesting differences between publishers in the coverage and completeness of funding metadata in Crossref compared to proprietary databases, highlighting the potential to increase the quality of open metadata on funding."
 featured: true
 layout: single
 links:
