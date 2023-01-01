@@ -13,7 +13,7 @@ cascade:
     text_link_label: View recent publications
     text_link_url: /talk/
 description: |
-  Selection of publications on open science, open metadata and open infrastructure.
+  Selection of publications (incl. articles and blog posts) on open science, open metadata and open infrastructure.
 layout: list
 show_author_byline: false
 show_button_links: true
