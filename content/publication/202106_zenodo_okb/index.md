@@ -13,7 +13,7 @@ layout: single
 links:
 - icon: zenodo
   icon_pack: ai
-  name: report (Zenodo)
+  name: report
   url:  https://doi.org/10.5281/zenodo.4893803
 #links:
 #- icon: doi

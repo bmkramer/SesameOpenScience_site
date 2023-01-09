@@ -13,7 +13,7 @@ layout: single
 links:
 - icon: pen-nib
   icon_pack: fas
-  name: FORCE11 Upstream blogpost
+  name: blogpost
   url: https://upstream.force11.org/bianca-kramer-is-keeping-tabs-on-open-research/
 location: FORCE11 Upstream blog
 show_author_byline: true

@@ -13,7 +13,7 @@ layout: single
 links:
 - icon: pen-nib
   icon_pack: fas
-  name: FORCE11 Upstream blogpost
+  name: blogpost
   url: https://upstream.force11.org/preprints-and-open-preprint-review-a-workshop/
 location: FORCE11 Upstream blog 
 show_author_byline: true

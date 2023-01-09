@@ -13,7 +13,7 @@ layout: single
 links:
 - icon: pen-nib
   icon_pack: fas
-  name: eLife interview
+  name: interview
   url: https://elifesciences.org/interviews/a1f3cbc6/bianca-kramer
 location: eLife (interview)
 show_author_byline: true

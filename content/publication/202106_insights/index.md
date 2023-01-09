@@ -13,7 +13,7 @@ layout: single
 links:
 - icon: doi
   icon_pack: ai
-  name: journal article (UKSG Insights)
+  name: journal article
   url:  http://doi.org/10.1629/uksg.545
 #links:
 #- icon: doi

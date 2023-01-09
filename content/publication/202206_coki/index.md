@@ -13,7 +13,7 @@ layout: single
 links:
 - icon: pen-nib
   icon_pack: fas
-  name: COKI blogpost
+  name: blogpost
   url: https://openknowledge.community/language-diversity/
 location: COKI website (Analysis, News)
 show_author_byline: true

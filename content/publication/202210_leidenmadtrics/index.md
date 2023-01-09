@@ -13,7 +13,7 @@ layout: single
 links:
 - icon: pen-nib
   icon_pack: fas
-  name: Leiden Madtrics blogpost
+  name: blogpost
   url: https://www.leidenmadtrics.nl/articles/q-a-about-wileys-decision-to-open-its-abstracts
 location: Leiden Madtrics blog
 show_author_byline: true

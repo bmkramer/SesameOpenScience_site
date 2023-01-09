@@ -13,7 +13,7 @@ layout: single
 links:
 - icon: doi
   icon_pack: ai
-  name: journal article (QSS)
+  name: journal article
   url: https://doi.org/10.1162/qss_a_00210
 #links:
 #- icon: doi
@@ -22,7 +22,7 @@ links:
 #  url: https://doi.org/10.31222/osf.io/gj4hq
 - icon: zenodo
   icon_pack: ai
-  name: dataset (Zenodo)
+  name: dataset
   url: https://doi.org/10.5281/zenodo.6795855 
 location: Quantitative Science Studies
 show_author_byline: true

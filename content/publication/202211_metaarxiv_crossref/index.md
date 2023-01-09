@@ -13,7 +13,7 @@ layout: single
 links:
 - icon: doi
   icon_pack: ai
-  name: preprint (MetaArxiv)
+  name: preprint
   url: https://doi.org/10.31222/osf.io/qzusj
 location: MetaArxiv
 show_author_byline: true
