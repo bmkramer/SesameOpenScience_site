@@ -11,7 +11,7 @@ cascade:
   sidebar:
     show_sidebar_adunit: false
     text_link_label: View recent publications
-    text_link_url: /talk/
+    text_link_url: /publication/
 description: |
   Selection of publications (incl. articles and blog posts) on open science, open metadata and open infrastructure.
 layout: list
@@ -22,10 +22,10 @@ show_post_thumbnail: true
 show_post_time: false
 sidebar:
   author: Bianca Kramer, Sesame Open Science
-  description: "List of talks, workshops, and \nother events with a date and time"
+  description: "Selection of publications (incl. articles and blog posts) on open science, open metadata and open infrastructure."
   show_sidebar_adunit: false
   text_link_label: Subscribe via RSS
-  text_link_url: /talk/index.xml
+  text_link_url: /publication/index.xml
   title: Publications on Open
 title: Publications on Open
 ---
