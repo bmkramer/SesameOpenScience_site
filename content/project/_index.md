@@ -8,9 +8,9 @@ cascade:
     show_sidebar_adunit: false
     text_link_label: Projects
     text_link_url: /project/
-description: Projects on open science, open metadata and open infrastructure.
+description: Selection of projects on open science, open metadata and open infrastructure.
 layout: list-grid
-show_author_byline: true
+show_author_byline: false
 show_button_links: false
 show_post_date: false
 show_post_thumbnail: true
@@ -22,7 +22,7 @@ sidebar:
   text_link_label: ""
   text_link_url: ""
   title: A Sidebar for Your Projects
-title: A Project Portfolio To Grow
+title: Projects
 ---
 
 ** No content for the project index. This file provides front matter for the blog including the layout and boolean options. **
