@@ -11,6 +11,10 @@ links:
   icon_pack: fas
   name: I4OA website
   url: https://i4oa.org/
+- icon: github
+  icon_pack: fab
+  name: repository "I4OA monthly statistics""
+  url: https://github.com/bmkramer/I4OA
 - icon: pen-nib
   icon_pack: fas
   name: blogpost "Why openly available abstracts are important"
