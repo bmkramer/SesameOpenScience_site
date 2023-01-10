@@ -31,6 +31,7 @@ title: COVID preprints
 
 ---
 
-*Role: contributor (COVID preprints) and personal project (links to published journal articles)*  
+*Role: contributor together with Nicholas Fraser (ZBW) (COVID preprints)*  
+*Role: personal project (links to published journal articles)*  
 *Time period: May 2020 - ongoing*
 
