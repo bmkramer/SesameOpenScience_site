@@ -117,9 +117,6 @@ enableEmoji = true
   series = "series"
   tag = "tags"
   
-[permalinks]
-  thoughts = "/blog/:filename/"  
-
 [menu]
   # Configure header 
   [[menu.header]]
