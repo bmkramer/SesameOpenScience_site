@@ -19,11 +19,11 @@ show_button_links: false
 show_post_date: true
 show_post_thumbnail: true
 sidebar:
-  author: Bianca Kramer
+  author: 
   description: "This is a fully featured blog that supports categories,\ntags, series,
     and pagination. Even this sidebar offers \na ton of customizations.\n\nCheck out
     the _index.md file in the /blog folder \nto edit this content. \n"
-  show_sidebar_adunit: true
+  show_sidebar_adunit: false
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
   title: A Sidebar for Your Thoughts
