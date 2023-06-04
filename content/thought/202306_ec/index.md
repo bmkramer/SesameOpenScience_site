@@ -1,10 +1,9 @@
 ---
 author: Bianca Kramer
 categories:
-- 
 date: "2021-01-28"
 draft: false
-excerpt: 
+excerpt: On May 23, 2023, the Council of the European Union approved a set of conclusions on 'High-quality, transparent, open, trustworthy and equitable scholarly publishing'. In this post, I summarize some of my thoughts on these conclusions.
 layout: single
 subtitle:
 title: Comments on EC Council Conclusions on scholarly publishing
