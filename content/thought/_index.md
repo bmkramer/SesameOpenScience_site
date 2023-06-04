@@ -12,18 +12,15 @@ cascade:
     text_link_url: /thought/
     show_post_date: false
   type: blog
-description: "This is a fully featured blog that supports categories, \ntags, series,
-  and pagination.\n"
+description: "Selection of thoughts on open science, open metadata and open infrastructure."
 layout: list-sidebar
-show_author_byline: true
+show_author_byline: false
 show_button_links: false
 show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: 
-  description: "This is a fully featured blog that supports categories,\ntags, series,
-    and pagination. Even this sidebar offers \na ton of customizations.\n\nCheck out
-    the _index.md file in the /blog folder \nto edit this content. \n"
+  description: "Selection of thoughts on open science, open metadata and open infrastructure"
   show_sidebar_adunit: false
   text_link_label:
   text_link_url:
