@@ -4,12 +4,13 @@ author: Bianca Kramer
 cascade:
   author: Bianca Kramer
   show_author_byline: true
-  show_comments: true
+  show_comments: false
   show_post_date: true
   sidebar:
     show_sidebar_adunit: false
     text_link_label: View recent posts
     text_link_url: /thought/
+    show_post_date: false
   type: blog
 description: "This is a fully featured blog that supports categories, \ntags, series,
   and pagination.\n"
