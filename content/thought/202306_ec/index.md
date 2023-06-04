@@ -1,101 +1,36 @@
 ---
-author: Alison Hill & Eric Anderson
+author: Bianca Kramer
 categories:
-- Theme Features
+- 
 date: "2021-01-28"
 draft: false
-excerpt: This theme offers built-in Font Awesome icons for organizing your collection
-  of social accounts and their links. Use icons to help visitors find you wherever
-  you want to be found, and learn how to show or hide them in your site's header,
-  footer, homepage, about page, and contact form.
+excerpt: 
 layout: single
-subtitle: Social icons may appear on several pages throughout your site. Learn how
-  to set them up, and control where they show up.
-title: Set up your social
+subtitle:
+title: Comments on EC Council Conclusions on scholarly publishing
 ---
 
-There are five places where you can choose to show social icons. Here is the tl;dr:
+![featured image](featured_202306_ec.png)
 
-+ site header (set in `config.toml`), 
-+ site footer (set in `config.toml`), 
-+ [homepage](/) (set in `content/_index.md`),
-+ [about page](/about) in the sidebar (set in `content/about/sidebar/index.md`), and
-+ [contact page](/contact) (set in `content/form/contact.md`). 
+*On May 23, 2023, the Council of the European Union approved a set of conclusions on* ***'High-quality, transparent, open, trustworthy and equitable scholarly publishing'*** *(see [pdf](https://data.consilium.europa.eu/doc/document/ST-9616-2023-INIT/en/pdf)).*  
+*Below are some of my thoughts on these conclusions.*
+ 
 
-Read on to learn how to set up your social icons, and how to show/hide them.
+I think these Council Conclusions are very welcome and important, as they align with, and in turn can support, a number of important current developments in how open access is perceived and implemented. One of these is the growing awareness, also among research institutions and funders, of the inequality and unsustainability of APC-driven open access publishing, especially by commercial or otherwise revenue-driven publishers. Another is a growing emphasis on important qualitative aspects of open access, in particular immediacy and open licensing. 
 
-## Configure social 
+In this sense, the Council Conclusions, together with for example the UNESCO Open Science Recommendations and the Action Plan for Diamond Open Access, to name but two, can help shift focus to other models of publishing. One thing I would like to emphasize is that while developing new publishing infrastructures (for example at national or even European level) is in itself a worthwhile avenue to pursue, many examples also already exist of non-profit publishing solutions that deserve support and recognition.
 
-Wherever you end up wanting to show your social icons, you'll need to start by setting up the links in your site `config.toml` file. Open that up and scroll down to the `[[params.social]]` section. The start of it looks like this:
+ As an aside, an important point in the Council Conclusions is that "costs should not be covered by individual authors or readers" also means  "authors can publish their work without funding/institutional eligibility criteria". This is especially interesting in light of the endorsement of Open Research Europe, which at least currently does not meet this criterium. If the Council Conclusions can be read as an encouragement to broaden the Open Research Europe model in that sense, this would be a very positive development in my opinion.  
 
-```toml
-[params]
-  <!--snip snip-->
-  
-  # Social icons may appear on your site header, footer, and other pages
-  # Add as many icons as you like below
-  # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
-  # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
-  # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
-  [[params.social]]
-      icon      = "github" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
-  [[params.social]] <!--lather, rinse, repeat-->
-```
+The Council Conclusions are also very explicit in their concern for increasing costs and their call for transparent pricing commensurate with publication services. This can support other initiatives in this area (like cOAlition S Price Transparency Framework) and a more general reconsideration on how public money is spent. One remark (which I often make in this context) is that to be truly informative, such price transparency needs to include transparency on profit or surplus. 
 
-For each link, you'll need to start a new portion that begins with `[[params.social]]`. Then, pick your `icon` and `icon_pack` from the [Font Awesome](https://fontawesome.com/) free icon library:
+Two areas where I would have liked the Council Conclusions to go further is, first, emphasizing the importance of secondary publishing rights - as this is something that can be taken up by member states as a legislative approach (as it has been in a number of European countries) to enable open sharing of research publications, in particular immediate sharing. Most existing legislation does not go that far yet, and I feel the Council Conclusions could have been stronger in pushing this forward.
 
-+ Icon pack "fab" includes [brand icons](https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+Secondly, in the paragraph on monitoring and the "lack of data and trustworthy information on the state of scholarly publishing" (including bibliometric data), while mention is made of the need for such data to be FAIR, I would have liked to see a stronger stance on the importance of open metadata on scholarly publishing, to enable transparency and equitable access to such data. In my view, this is even more important than attempting to ' reduce the fragmentation of monitoring initiatives' - as different entities will have different needs and priorities in monitoring, and open availability of good quality metadata can enable such diversity while still being comparable and transparent. 
 
-+ Icon pack "fas" includes [solid icons](https://fontawesome.com/icons?d=gallery&s=solid&m=free)
+As a final observation, the Council Conclusions rightly put much emphasis on the importance of quality, transparency and integrity in scholarly publishing, and also mention the need for a change in research culture "that recognises diverse research activities with the overarching goal to maximise high quality and impact of research", also referring to the activities of the Coalition for Advancing Research Assessment
+(CoARA). In my opinion, these two aspects are related and together could  be one of the keys to the question of costs and pricing - if a change in research culture would reduce the pressure to publish in so-called "high-impact" journals for the sake of prestige, and instead focus on methodological quality, openness aspects and reaching the audiences for which the research is most relevant (including societal partners), this would create a more level playing field where "paying for prestige" could be replaced by paying for actual quality, without selectivity for selectivity's sake. 
 
-+ Icon pack "far" includes [regular icons](https://fontawesome.com/icons?d=gallery&s=regular&m=free)
+While the Council Conclusions do not go that far, I am hopeful that the recommendations made can help support a transition into that direction.   
 
-Finally, add the `url` that you would like users to go to when they click on that icon. All external links (i.e., those that start with `http`) will open in a new tab (that is, `target="_blank"`); relative links to pages within the site will open in the same window.
 
-Now you should be all set to show/hide your social icons. Each of these will pull the social icons and urls from the settings you just created in your site configuration file.
-
-## Show social in site header and footer
-
-Let's start with the header and footer, as those are site-wide. Open up your site `config.toml` file again and scroll down to the `[params]` section (it is actually :up: from where you configured these icons):
-
-```toml
-[params]
-  <!--snip snip-->
-  
-  # show/hide social icons in site header & footer
-  # configure social icons and links below in [[params.social]]
-  socialInHeader = false
-  socialInFooter = true
-```
-
-That was easy!
-
-## Show social in homepage
-
-Open up `content/_index.md`. That file's YAML controls what you see on the homepage. Set `show_social_links` like so:
-
-```yaml
-show_social_links: true # specify social accounts in site config
-```
-
-If you set this to `true` to show the icons on the homepage, your social icons in the footer will not show up even when you set `socialInFooter = true`, so as not to litter your site with too many icons.
-
-## Show social in about page sidebar
-
-Open up `content/about/sidebar/index.md`. That file's YAML controls what you see in the sidebar on the about page. Set `show_social_links` like so:
-
-```yaml
-show_social_links: true # specify social accounts in site config
-```
-
-## Show social in contact page
-
-You may use the YAML for your contact page (located in `content/form/contact.md`):
-
-```yaml
----
-show_social_links: true # specify social accounts in site config
----
-```
