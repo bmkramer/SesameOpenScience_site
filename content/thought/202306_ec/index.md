@@ -32,5 +32,3 @@ As a final observation, the Council Conclusions rightly put much emphasis on the
 (CoARA). In my opinion, these two aspects are related and together could  be one of the keys to the question of costs and pricing - if a change in research culture would reduce the pressure to publish in so-called "high-impact" journals for the sake of prestige, and instead focus on methodological quality, openness aspects and reaching the audiences for which the research is most relevant (including societal partners), this would create a more level playing field where "paying for prestige" could be replaced by paying for actual quality, without selectivity for selectivity's sake. 
 
 While the Council Conclusions do not go that far, I am hopeful that the recommendations made can help support a transition into that direction.   
-
-
