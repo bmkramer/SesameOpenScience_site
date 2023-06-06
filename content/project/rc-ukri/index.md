@@ -10,12 +10,16 @@ layout: single
 links:
 - icon: pen-nib
   icon_pack: fas
-  name: project updates "Developing an M&E framework for UKRI OA policy"
-  url: https://www.research-consulting.com/developing-a-monitoring-and-evaluation-framework-for-the-ukri-open-access-policy/
+  name: 'project update (May 2023) "Monitoring and evaluating UKRI’s Open Access policy: Recommendations for implementation"'
+  url: https://www.research-consulting.com/monitoring-and-evaluating-ukris-open-access-policy-recommendations-for-implementation/
 - icon: pen-nib
   icon_pack: fas
-  name: blogpost "Five principles for monitoring and evaluation"'
-  url: https://github.com/apreshill/bakeoff
+  name: 'project update (Nov 2022) "Five principles for monitoring and evaluation: The case of UKRI’s Open Access policy"'
+  url: https://www.research-consulting.com/five-principles-for-monitoring-and-evaluation-the-case-of-ukris-open-access-policy/
+- icon: pen-nib
+  icon_pack: fas
+  name: 'project update (July 2022) "Developing an M&E framework for UKRI OA policy"'
+  url: https://www.research-consulting.com/developing-a-monitoring-and-evaluation-framework-for-the-ukri-open-access-policy/
 subtitle: Developing an M&E Framework for UKRI's Open Access policy
 title: UKRI / Research Consulting
 ---
