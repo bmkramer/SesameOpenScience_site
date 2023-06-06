@@ -20,7 +20,7 @@ links:
   name: conference paper (ISSI2021)
   url: https://github.com/nicholasmfraser/covid19_preprints
 
-subtitle: Changing research workflows
+subtitle: Collecting data on COVID-19 related preprints
 tags:
 title: COVID preprints
 ---
