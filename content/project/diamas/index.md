@@ -4,10 +4,14 @@ categories:
 - open science
 date: "2023-01-01"
 draft: false
-excerpt: For the European DIAMAS project, I am working with Utrecht University on mapping the European landscape of Insitutional Publishing Service Providers (IPSPs).
+excerpt: For the European DIAMAS project, I am working with Utrecht University on mapping the European landscape of Institutional Publishing Service Providers.
 featured: true
 layout: single
 links:
+- icon: zenodo
+  icon_pack: ai
+  name: 'Infographic "The institutional publishing ecosystem, publishing and service providers: scope and concepts for DIAMAS"'
+  url: https://doi.org/10.5281/zenodo.7378067
 - icon: link
   icon_pack: fas
   name: DIAMAS website
