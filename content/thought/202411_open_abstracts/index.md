@@ -10,7 +10,7 @@ title: More open abstracts?
 
 ---
 
-*Abstracts are increasingly important with the rise of  large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts.* 
+*Abstracts are increasingly important given the rise of  large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts.* 
 
 ### The case for open abstracts
 Launched in 2020, the [Initiative for Open Abstracts (I4OA)](https://i4oa.org/) advocates and promotes the unrestricted availability of abstracts of scholarly output, particularly journal articles and book chapters, in trusted repositories where they are open and machine-accessible. This has gained increased relevance with the rise of  large language models (LLM) and generative AI. Access to high-quality textual content for training purposes is highly sought after, with the risk of further commodification by publishers and by developers of generative AI models and tools.
