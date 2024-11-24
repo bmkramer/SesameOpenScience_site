@@ -103,10 +103,10 @@ enableEmoji = true
       icon      = "mastodon" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://akademienl.social/@MsPhelps"    
-  [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/MsPhelps"
+  #  [[params.social]]
+  #   icon      = "twitter" # icon name without the 'fa-'
+  #   icon_pack = "fab"
+  #   url       = "https://twitter.com/MsPhelps"
  # [[params.social]]
  #    icon      = "rss" # icon name without the 'fa-'
  #    icon_pack = "fas"
