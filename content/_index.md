@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /SesameOpenScience_site/about
 action_type: text
-description: After 15 years at Utrecht University Library, I am taking on an exciting new challenge. I am looking forward to contributing to projects on open science, open metadata and open infrastructure - as advisor, analyst and workshop facilitator.<br><br> You can contact me at <bianca@sesameopenscience.org>
+description: After 15 years at Utrecht University Library, in 2022 I took on an exciting new challenge as independent advisor, research analyst and facilitator at Sesame Open Science - contributing to projects on open science, open metadata and open infrastructure.<br><br> You can contact me at <bianca@sesameopenscience.org>
 image_left: false
 images:
 - img/SesameOpen_logo.png
