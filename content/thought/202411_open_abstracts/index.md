@@ -3,12 +3,15 @@ author: Bianca Kramer
 categories:
 date: "2024-11-24"
 draft: false
-excerpt: On May 23, 2023, the Council of the European Union approved a set of conclusions on 'High-quality, transparent, open, trustworthy and equitable scholarly publishing'. In this post, I summarize some of my thoughts on these conclusions.
+excerpt: Abstracts are increasingly important given the rise of  large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts. 
 layout: single
 subtitle: Comparing abstract coverage in Crossref and OpenAlex
 title: More open abstracts?
 
 ---
+
+*Abstracts are increasingly important with the rise of  large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts.* 
+
 ### The case for open abstracts
 Launched in 2020, the [Initiative for Open Abstracts (I4OA)](https://i4oa.org/) advocates and promotes the unrestricted availability of abstracts of scholarly output, particularly journal articles and book chapters, in trusted repositories where they are open and machine-accessible. This has gained increased relevance with the rise of  large language models (LLM) and generative AI. Access to high-quality textual content for training purposes is highly sought after, with the risk of further commodification by publishers and by developers of generative AI models and tools.
 
@@ -29,7 +32,7 @@ Since the launch of I4OA, we have been tracking the openness of abstracts for al
 For this set of publishers, we compared the proportion of journal articles with abstracts available in Crossref and OpenAlex[^2] in October 2024 for publication years 2022-2024 (Figure 1). Only journal articles with Crossref DOI were included.
 
 ![featured image](featured_202411_open_abstracts.png)
-_Figure 1: Proportion of journal articles (2022-2024) from selected publishers that have open abstracts in OpenAlex (dark grey dots) and Crossref (orange and blue dots for publishers supporting and not (yet) supporting I4OA, respectively). Publishers are ordered by ascending proportion of open abstracts  in Crossref and descending number of DOIs._  
+_Figure 1. Proportion of journal articles (2022-2024) from selected publishers that have open abstracts in OpenAlex (dark grey dots) and Crossref (orange and blue dots for publishers supporting and not (yet) supporting I4OA, respectively). Publishers are ordered by ascending proportion of open abstracts  in Crossref and descending number of DOIs._  
 
 These data show that for most publishers with less than 90% open abstracts in Crossref, OpenAlex has additional abstracts, obtained from additional sources (including through web scraping). This includes many of the larger publishers that do not (yet) deposit abstracts to Crossref at all, like Elsevier, IEEE, ACS and Taylor & Francis. Overall, the proportion of journal articles from 2022-2024 with Crossref DOIs for which abstracts are available in OpenAlex is 83%, vs 52% with abstracts available in Crossref. Apart from demonstrating OpenAlex as a valuable source of machine-readable abstracts for research articles, this also points to the sizeable potential for improving abstract coverage in Crossref for many publishers, including those that do already provide abstracts for part of their journal content.
 
