@@ -27,7 +27,7 @@ While abstracts in Crossref are deposited by publishers themselves, OpenAlex col
 
 #### Comparing open abstracts in OpenAlex and Crossref
 
-Since the launch of I4OA, we have been tracking the openness of abstracts for all Crossref members over time (for data and code see this GitHub repository). For a subset of 40+, mostly larger, publishers, the proportion of current journal articles that have abstracts deposited in Crossref is shown in a chart on the I4OA website, which is updated quarterly.
+Since the launch of I4OA, we have been tracking the openness of abstracts for all Crossref members over time (for data and code see this [GitHub repository](https://github.com/bmkramer/I4OA)). For a subset of 40+, mostly larger, publishers, the proportion of current journal articles that have abstracts deposited in Crossref is shown in a [chart on the I4OA website](https://i4oa.org/#:~:text=are%20shown%20in-,orange,-.), which is updated quarterly.
 
 For this set of publishers, we compared the proportion of journal articles with abstracts available in Crossref and OpenAlex[^2] in October 2024 for publication years 2022-2024 (Figure 1). Only journal articles with Crossref DOI were included.
 
