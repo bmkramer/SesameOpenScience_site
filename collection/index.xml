@@ -11,4 +11,100 @@
  &lt;/svg>&lt;/a>
 &lt;/h2>
 &lt;p>Sign up for a free RStudio Cloud account at 
-&lt;a href="https://rstudio.cloud/" target="_blank" rel="noopener">https://rstudio.cloud/&lt;/a> before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember). I want you to be able to work from your own laptop in this workshop, but Cloud is an important back-up plan should you run into troubles.&lt;/p></description></item></channel></rss>
+&lt;a href="https://rstudio.cloud/" target="_blank" rel="noopener">https://rstudio.cloud/&lt;/a> before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember). I want you to be able to work from your own laptop in this workshop, but Cloud is an important back-up plan should you run into troubles.&lt;/p>
+
+
+
+
+&lt;h2 id="set-up-github">Set up GitHub
+ &lt;a href="#set-up-github">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>We will be using GitHub in this workshop for version control and publishing. Sign up for a free GitHub.com account at 
+&lt;a href="https://github.com/join" target="_blank" rel="noopener">https://github.com/join&lt;/a> if you don&amp;rsquo;t already have one. Also:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Complete these 
+&lt;a href="https://happygitwithr.com/install-intro.html" target="_blank" rel="noopener">installation instructions&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Test your connection between GitHub and RStudio following 
+&lt;a href="https://happygitwithr.com/connect-intro.html" target="_blank" rel="noopener">these steps&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>NOTE:&lt;/strong> We &lt;em>strongly recommend&lt;/em> that if you are not already a fluent GitHub user you choose 
+&lt;a href="https://happygitwithr.com/credential-caching.html" target="_blank" rel="noopener">HTTPS over SSH&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;/ul>
+
+
+
+
+&lt;h2 id="brush-up-on-markdown">Brush up on markdown
+ &lt;a href="#brush-up-on-markdown">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Please complete this 
+&lt;a href="https://commonmark.org/help/tutorial/" target="_blank" rel="noopener">10-minute interactive tutorial on Markdown&lt;/a>.&lt;/p>
+
+
+
+
+&lt;h2 id="installations">Installations
+ &lt;a href="#installations">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Please bring a laptop that has the following installed:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>A recent version of R (&amp;gt;=3.6.0), which is available for free at 
+&lt;a href="https://cloud.r-project.org/" target="_blank" rel="noopener">https://cloud.r-project.org/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A recent version of RStudio Desktop (&amp;gt;=1.4), available for free (
+&lt;a href="https://www.rstudio.com/products/rstudio/download/#download" target="_blank" rel="noopener">RStudio Desktop Open Source License&lt;/a>). Read up on the latest version 
+&lt;a href="https://blog.rstudio.com/2021/01/19/announcing-rstudio-1-4/" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The R packages we will use, which you can install by connecting to the internet, opening RStudio, and running at the command line:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#900;font-weight:bold">install.packages&lt;/span>(&lt;span style="color:#900;font-weight:bold">c&lt;/span>(&lt;span style="color:#d14">&amp;#34;usethis&amp;#34;&lt;/span>, &lt;span style="color:#d14">&amp;#34;remotes&amp;#34;&lt;/span>, &lt;span style="color:#d14">&amp;#34;distill&amp;#34;&lt;/span>, 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d14">&amp;#34;postcards&amp;#34;&lt;/span>, &lt;span style="color:#d14">&amp;#34;blogdown&amp;#34;&lt;/span>))
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You&amp;rsquo;ll also need to install the development version of the &lt;code>rmarkdown&lt;/code> package:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> remotes&lt;span style="color:#000;font-weight:bold">::&lt;/span>&lt;span style="color:#900;font-weight:bold">install_github&lt;/span>(&lt;span style="color:#d14">&amp;#34;rmarkdown&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+
+
+
+
+&lt;h2 id="install-hugo">Install Hugo
+ &lt;a href="#install-hugo">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>To use blogdown, please install Hugo:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> blogdown&lt;span style="color:#000;font-weight:bold">::&lt;/span>&lt;span style="color:#900;font-weight:bold">install_hugo&lt;/span>()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And ensure your current version is at least as high as:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#900;font-weight:bold">hugo_version&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[1] ‘&lt;span style="color:#099">0.79.0&lt;/span>’
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+
+
+
+&lt;h2 id="check-pandoc">Check pandoc
+ &lt;a href="#check-pandoc">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>The RStudio IDE bundles an updated version of pandoc- if you did install v1.4 of the IDE, you should be all set!&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> rmarkdown&lt;span style="color:#000;font-weight:bold">::&lt;/span>&lt;span style="color:#900;font-weight:bold">pandoc_version&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[1] ‘&lt;span style="color:#099">2.11.3&lt;/span>’
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

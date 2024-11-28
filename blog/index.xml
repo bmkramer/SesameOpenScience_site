@@ -13,7 +13,141 @@ three options meets your needs.&lt;/p>
 &lt;/h2>
 &lt;p>Hugo Apéro includes 8 built-in color themes that work &amp;ldquo;out of the box.&amp;rdquo;
 This means you can use a color theme to quickly customize the look of your site
-without needing to write any CSS. You can select the color theme in your &lt;code>config.toml&lt;/code> file. Scroll down to find:&lt;/p></description></item><item><title>Style your site typography</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/fonts/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/fonts/</guid><description>&lt;p>As with 
+without needing to write any CSS. You can select the color theme in your &lt;code>config.toml&lt;/code> file. Scroll down to find:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Type one of the options like &lt;code>&amp;quot;peach&amp;quot;&lt;/code> inside the quotation marks. If you have a Hugo server started (i.e., by using &lt;code>blogdown::serve_site()&lt;/code>), when you save the &lt;code>config.toml&lt;/code> file, your site preview will immediately and automatically update with your new color theme. For example, let&amp;rsquo;s choose &lt;code>&amp;quot;peach&amp;quot;&lt;/code>!&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;peach&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You should see:&lt;/p>
+&lt;p>&lt;img src="peach.png" alt="Switching to the peach color theme">&lt;/p>
+&lt;p>If you select a theme that isn&amp;rsquo;t one of the available options (like &lt;code>&amp;quot;pecan&amp;quot;&lt;/code>),
+you should see an error message print to your viewer pane in the RStudio IDE:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>Selected theme &lt;span style="color:#d14">&amp;#39;pecan&amp;#39;&lt;/span> is not one of the options.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>All of the color themes were designed to meet 
+&lt;a href="https://webaim.org/articles/contrast/" target="_blank" rel="noopener">WCAG 2.0 level AA requirements&lt;/a> for contrast ratios.&lt;/p>
+
+
+
+
+&lt;h2 id="use-tachyons-named-colors">Use Tachyons named colors
+ &lt;a href="#use-tachyons-named-colors">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>This theme uses 
+&lt;a href="https://tachyons.io" target="_blank" rel="noopener">Tachyons&lt;/a>, a design system that allows you
+to design gorgeous interfaces in the browser with little effort.&lt;/p>
+&lt;p>&lt;img src="tachyons-logo-script.png" alt="Tachyons Logo Script">&lt;/p>
+&lt;p>We&amp;rsquo;ve leveraged the 
+&lt;a href="https://tachyons.io/docs/themes/skins/" target="_blank" rel="noopener">accessible color
+combinations&lt;/a> included with Tachyons to
+offer an easy way for you to setup your site using your favorite colors. Here are the steps:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Create an &lt;code>assets/&lt;/code> folder in the root of your website project (don&amp;rsquo;t add it to your &lt;code>themes/&lt;/code> directory!).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create a &lt;code>.scss&lt;/code> file in the new &lt;code>assets/&lt;/code> folder.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Copy the code below for a full set of color parameters giving you control over the theme color scheme. For an option like &lt;code>siteBgColor&lt;/code>, for example, you can type one of the predefined color names from Tachyons and save the file. Use only color names as shown in the &amp;ldquo;Color Palette&amp;rdquo; section of 
+&lt;a href="https://tachyons.io/docs/themes/skins/" target="_blank" rel="noopener">https://tachyons.io/docs/themes/skins/&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">// basic color options: use only color names as shown in the
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">// &amp;#34;Color Palette&amp;#34; section of https://tachyons.io/docs/themes/skins/
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">&lt;/span>&lt;span style="color:#008080">$siteBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-white&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;light-gray&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$textColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;dark-gray&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;mid-gray&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headlineColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;dark-pink&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headingColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-black&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$bodyLinkColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;blue&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$navLinkColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-black&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarLinkColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-black&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$footerTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;silver&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-white&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;black&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;white&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;blue&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$borderColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;moon-gray&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Two last steps- back in your &lt;code>config.toml&lt;/code> file:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Leave the theme blank (so &lt;code>theme = &amp;quot;&amp;quot;&lt;/code> with empty quotes) in your &lt;code>config.toml&lt;/code> file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add the name of your theme file (minus the &lt;code>.scss&lt;/code> extension) that you added to &lt;code>assets/&lt;/code> as the &lt;code>custom_theme&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Your final &lt;code>config.toml&lt;/code> would look something like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># or, leave theme empty &amp;amp; make your own palette&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># see docs at https://hugo-apero.netlify.app/blog/color-themes/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># the custom scss file must be in the assets/ folder&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># add the filename name here, without extension&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># to use hex colors instead of named tachyons colors, include &amp;#34;hex&amp;#34; in filename&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> custom_theme = &lt;span style="color:#d14">&amp;#34;named-colors&amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+
+
+
+&lt;h2 id="bring-your-own-hex-codes">Bring your own hex codes
+ &lt;a href="#bring-your-own-hex-codes">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Let&amp;rsquo;s say you have a style guide to follow and &lt;code>washed-blue&lt;/code> just won&amp;rsquo;t cut the
+mustard. There is a bypass of these
+predefined colors built in, you just need to do &lt;em>one very special extra step&lt;/em>. Follow the steps above for using named Tachyons colors, but then, add &lt;code>hex&lt;/code> anywhere in the filename for your custom &lt;code>.scss&lt;/code> (for example, you may name this file &lt;code>hex-colors.scss&lt;/code>). If you include &lt;code>hex&lt;/code> in the filename, you get to assign your own HEX codes, like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">// set custom hex colors
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">&lt;/span>&lt;span style="color:#008080">$siteBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#e3e3da&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#dbdbd2&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$textColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#666260&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#666260&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headlineColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#103742&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headingColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#103742&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$bodyLinkColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$navLinkColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarLinkColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$footerTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#918f8d&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#f7f7f4&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#f9f9f8&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#103742&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$borderColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4beb9&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After adding the name of your theme file (minus the &lt;code>.scss&lt;/code> extension) that you added to &lt;code>assets/&lt;/code> as the &lt;code>custom_theme&lt;/code>, your final &lt;code>config.toml&lt;/code> would look something like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># or, leave theme empty &amp;amp; make your own palette&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># see docs at https://hugo-apero.netlify.app/blog/color-themes/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># the custom scss file must be in the assets/ folder&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># add the filename name here, without extension&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># to use hex colors instead of named tachyons colors, include &amp;#34;hex&amp;#34; in filename&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> custom_theme = &lt;span style="color:#d14">&amp;#34;hex-colors&amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Style your site typography</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/fonts/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/fonts/</guid><description>&lt;p>As with 
 &lt;a href="../color-themes">color themes&lt;/a>, you can completely customize your site&amp;rsquo;s fonts within minutes of creating a new site. How you do it depends on how much control and customization you need.&lt;/p>
 
 
@@ -26,7 +160,192 @@ without needing to write any CSS. You can select the color theme in your &lt;cod
  &lt;/svg>&lt;/a>
 &lt;/h2>
 &lt;p>Hugo Apéro includes 6 embedded fonts that work &amp;ldquo;out of the box.&amp;rdquo; We selected 3 serif and 3 sans-serif options that we thought looked good with this theme, in our humble opinions. All embedded fonts include 
-&lt;a href="https://www.marksimonson.com/notebook/view/FakevsTrueItalics" target="_blank" rel="noopener">real italics&lt;/a> so you may &lt;em>emphasize&lt;/em> to your &lt;em>heart&amp;rsquo;s&lt;/em> content &amp;#x2764;&amp;#xfe0f;! How to choose?&lt;/p></description></item><item><title>An evergreen post</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</guid><description>&lt;h2 id="rendering-mathematical-equations">Rendering mathematical equations
+&lt;a href="https://www.marksimonson.com/notebook/view/FakevsTrueItalics" target="_blank" rel="noopener">real italics&lt;/a> so you may &lt;em>emphasize&lt;/em> to your &lt;em>heart&amp;rsquo;s&lt;/em> content &amp;#x2764;&amp;#xfe0f;! How to choose?&lt;/p>
+&lt;p>You may choose fonts for headings and body text in your site&amp;rsquo;s &lt;code>config.toml&lt;/code> file. Scroll down to find:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use an embedded font-family&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># if you import your own fonts, name them here too&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customtextFontFamily = &lt;span style="color:#d14">&amp;#34;Commissioner&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customheadingFontFamily = &lt;span style="color:#d14">&amp;#34;Fraunces&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here are the links to each font so you can see them in action:&lt;/p>
+&lt;h6 class="ttu tracked pv3 bt">Embedded font options&lt;/h6>
+ &lt;table class="collapse ba bw1 b--moon-gray mv4 w-100">
+ &lt;thead>
+ &lt;tr>
+ &lt;th class="f6 fw6 tl ttu pa3">Serif options&lt;/th>
+ &lt;th class="f6 fw6 tl ttu pa3">Sans-serif options&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">&lt;a href="https://fraunces.undercase.xyz/">Fraunces&lt;/a>&lt;/td>
+ &lt;td class="pa3">&lt;a href="https://github.com/kosbarts/Commissioner">Commissioner&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">&lt;a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond&lt;/a>&lt;/td>
+ &lt;td class="pa3">&lt;a href="https://fonts.google.com/specimen/Alegreya+Sans">Alegreya Sans&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">&lt;a href="https://fonts.google.com/specimen/Bitter">Bitter&lt;/a>&lt;/td>
+ &lt;td class="pa3">&lt;a href="https://fontsarena.com/metropolis-by-chris-simpson/">Metropolis&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+ &lt;/table>
+
+
+
+
+&lt;h2 id="use-attractive-system-fonts">Use attractive system fonts
+ &lt;a href="#use-attractive-system-fonts">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Alternatively, you may want to use a system font, which you know will be rendered reliably across languages, operating systems, and browsers. Apéro uses 
+&lt;a href="https://tachyons.io" target="_blank" rel="noopener">Tachyons&lt;/a> to render beautiful system font stacks for your site, making it super simple to configure and blazing fast to load. The default choices are &lt;code>sans-serif&lt;/code> or &lt;code>serif&lt;/code>, and can be assigned to headings and body text, respectively. Additional options can be found in the 
+&lt;a href="https://tachyons.io/docs/typography/font-family/" target="_blank" rel="noopener">Tachyons Font Family Reference&lt;/a>. Why use system fonts?&lt;/p>
+&lt;blockquote>
+&lt;p>Relying on systems fonts greatly improves page performance and can also help your web application/site blend in with the user’s operating system. Readability is strongly linked to familiarity, so this helps create a more fluid reading experience, allowing your users to focus on your content.&lt;/p>
+&lt;p>— 
+&lt;a href="http://tachyons.io/docs/typography/font-family/" target="_blank" rel="noopener">Tachyons typography docs&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>Here is a step-by-step, using the &lt;code>config.toml&lt;/code> file:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Leave both &lt;code>customtextFontFamily&lt;/code> and &lt;code>customheadingFontFamily&lt;/code> blank (with empty quotes, or comment out the line entirely).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Just below those keys, select a &lt;code>textFontFamily&lt;/code> and &lt;code>headingFontFamily&lt;/code> from the options listed 
+&lt;a href="http://tachyons.io/docs/typography/font-family/" target="_blank" rel="noopener">here&lt;/a>. All values are lower case, and exclude the &lt;code>.&lt;/code> in front.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use an embedded font-family&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># if you import your own fonts, name them here too&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customtextFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customheadingFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># alternatively, leave empty and select basic font options: sans-serif or serif&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># for more http://tachyons.io/docs/typography/font-family/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> textFontFamily = &lt;span style="color:#d14">&amp;#34;sans-serif&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> headingFontFamily = &lt;span style="color:#d14">&amp;#34;serif&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>For example, you may choose:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span> textFontFamily = &lt;span style="color:#d14">&amp;#34;courier&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> headingFontFamily = &lt;span style="color:#d14">&amp;#34;baskerville&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And your site would look like:&lt;/p>
+&lt;p>&lt;img src="system-font.png" alt="">&lt;/p>
+
+
+
+
+&lt;h2 id="use-a-custom-font">Use a custom font
+ &lt;a href="#use-a-custom-font">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Alright alright alright. So you still want to use your own fonts. You&amp;rsquo;ll need to do a bit more work to get this working, but not too much. If you made it here, I&amp;rsquo;m going to hope that you know a bit more about 
+&lt;a href="https://www.tunetheweb.com/blog/should-you-self-host-google-fonts/" target="_blank" rel="noopener">self-hosting fonts&lt;/a>.&lt;/p>
+&lt;p>Here are the steps:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Create a &lt;code>static/fonts/&lt;/code> folder, and add the actual font files you&amp;rsquo;d like to embed to that folder. To download Google fonts, there is a 
+&lt;a href="https://google-webfonts-helper.herokuapp.com/fonts" target="_blank" rel="noopener">popular app&lt;/a> to help you. Select a font, then download the zip file containing the font files you&amp;rsquo;ll need to embed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create an &lt;code>assets/&lt;/code> folder in the root of your website project (don&amp;rsquo;t add it to your &lt;code>themes/&lt;/code> directory!).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create a file named &lt;code>custom.scss&lt;/code> in the new &lt;code>assets/&lt;/code> folder to define the 
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face" target="_blank" rel="noopener">&lt;code>@font-face&lt;/code> CSS rule&lt;/a> for each font/weight combination you downloaded. For example, here is a &lt;code>custom.scss&lt;/code> that imports the 
+&lt;a href="https://fonts.google.com/specimen/Nanum&amp;#43;Myeongjo" target="_blank" rel="noopener">Nanum Myeongjo font&lt;/a>. The 
+&lt;a href="https://google-webfonts-helper.herokuapp.com/fonts" target="_blank" rel="noopener">webfonts helper app&lt;/a> will help write your CSS for you (using &lt;code>../fonts/&lt;/code> to customize the folder prefix correctly by default), like this:&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">/* nanum-myeongjo-regular - latin */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">@font-face&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">font-family&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#39;Nanum Myeongjo&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">font-style&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#800080">normal&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">font-weight&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">400&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">src&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#900;font-weight:bold">local&lt;/span>(&lt;span style="color:#d14">&amp;#39;&amp;#39;&lt;/span>)&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d14">url(&amp;#39;../fonts/nanum-myeongjo-v15-latin-regular.woff2&amp;#39;)&lt;/span> &lt;span style="color:#900;font-weight:bold">format&lt;/span>(&lt;span style="color:#d14">&amp;#39;woff2&amp;#39;&lt;/span>)&lt;span style="color:#000;font-weight:bold">,&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d14">url(&amp;#39;../fonts/nanum-myeongjo-v15-latin-regular.woff&amp;#39;)&lt;/span> &lt;span style="color:#900;font-weight:bold">format&lt;/span>(&lt;span style="color:#d14">&amp;#39;woff&amp;#39;&lt;/span>); 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Your final step is to go back to your &lt;code>config.toml&lt;/code> file and add the &lt;code>font-family&lt;/code> values for the font(s) you want to use to the &lt;code>customtextFontFamily&lt;/code> and/or &lt;code>customheadingFontFamily&lt;/code> keys. You can combine custom fonts with system fonts too.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use an embedded font-family&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># if you import your own fonts, name them here too&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customtextFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customheadingFontFamily = &lt;span style="color:#d14">&amp;#34;Nanum Myeongjo&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># alternatively, leave empty and select basic font options: sans-serif or serif&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># for more http://tachyons.io/docs/typography/font-family/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> textFontFamily = &lt;span style="color:#d14">&amp;#34;sans-serif&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> headingFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here is what this could look like (thanks to workshop participant 
+&lt;a href="https://github.com/issactoast" target="_blank" rel="noopener">Issac Lee&lt;/a>!)&lt;/p>
+&lt;p>&lt;img src="isaac-font.png" alt="">&lt;/p>
+&lt;p>If you do all this, you have my consent to delete the theme&amp;rsquo;s &lt;code>static/fonts/&lt;/code> folder that holds all the custom embedded fonts so you aren&amp;rsquo;t carrying those unnecessary files around with your site (do not delete the &lt;code>static/webfonts/&lt;/code> folder- that holds the 
+&lt;a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome icons&lt;/a>!).&lt;/p>
+&lt;p>For example, let&amp;rsquo;s examine the 3 commits necessary to make 
+&lt;a href="https://google-webfonts-helper.herokuapp.com/fonts/hachi-maru-pop?subsets=latin" target="_blank" rel="noopener">this magic&lt;/a> happen:&lt;/p>
+
+
+
+
+&lt;h3 id="commit-1">Commit #1
+ &lt;a href="#commit-1">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>&lt;img src="font-static-files.png" alt="">&lt;/p>
+
+
+
+
+&lt;h3 id="commit-2">Commit #2
+ &lt;a href="#commit-2">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>&lt;img src="font-assets-css.png" alt="">&lt;/p>
+
+
+
+
+&lt;h3 id="commit-3">Commit #3
+ &lt;a href="#commit-3">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>&lt;img src="font-config.png" alt="">&lt;/p>
+
+
+
+
+&lt;h3 id="final-result">Final result
+ &lt;a href="#final-result">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>&lt;img src="hachi-font.png" alt="">&lt;/p></description></item><item><title>An evergreen post</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</guid><description>
+
+
+
+&lt;h2 id="rendering-mathematical-equations">Rendering mathematical equations
  &lt;a href="#rendering-mathematical-equations">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
@@ -45,7 +364,37 @@ But they work with &lt;code>katex&lt;/code> as well.&lt;/p>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
 &lt;/h3>
-&lt;p>In &lt;code>.Rmarkdown&lt;/code> documents, you can use either&lt;/p></description></item><item><title>CSS Grid Scaffold</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</link><pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</guid><description>&lt;h3 id="grid-is-the-very-first-css-module-created-specifically-to-solve-the-layout-problems-weve-all-been-hacking-our-way-around-for-as-long-as-weve-been-making-websites">“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.”
+&lt;p>In &lt;code>.Rmarkdown&lt;/code> documents, you can use either&lt;/p>
+&lt;pre tabindex="0">&lt;code>$a \ne 0$
+&lt;/code>&lt;/pre>&lt;p>to get inline math: &lt;code>\(a \ne 0\)&lt;/code>.
+There is no conflict with using dollar symbols regularly, because &lt;code>knitr&lt;/code> automatically escapes freestanding dollar symbols.&lt;/p>
+&lt;p>And you can use&lt;/p>
+&lt;pre tabindex="0">&lt;code>$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+&lt;/code>&lt;/pre>&lt;p>to get a math paragraph:&lt;/p>
+&lt;p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$&lt;/p>
+
+
+
+
+&lt;h3 id="md">md
+ &lt;a href="#md">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>In &lt;code>.md&lt;/code> documents, you can &lt;strong>not&lt;/strong> use the single dollar syntax.
+The double dollar syntax still gives you a math paragraph.&lt;/p>
+&lt;pre tabindex="0">&lt;code>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+&lt;/code>&lt;/pre>&lt;p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$&lt;/p>
+&lt;p>In order to get inline equations, use:&lt;/p>
+&lt;pre tabindex="0">&lt;code>`\(a \ne 0\)`
+or
+\\(a \ne 0\\)
+&lt;/code>&lt;/pre>&lt;p>to get: &lt;code>\(a \ne 0\)&lt;/code>.&lt;/p></description></item><item><title>CSS Grid Scaffold</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</link><pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</guid><description>
+
+
+
+&lt;h3 id="grid-is-the-very-first-css-module-created-specifically-to-solve-the-layout-problems-weve-all-been-hacking-our-way-around-for-as-long-as-weve-been-making-websites">“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.”
  &lt;a href="#grid-is-the-very-first-css-module-created-specifically-to-solve-the-layout-problems-weve-all-been-hacking-our-way-around-for-as-long-as-weve-been-making-websites">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
@@ -64,7 +413,70 @@ But they work with &lt;code>katex&lt;/code> as well.&lt;/p>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
 &lt;/h2>
-&lt;p>Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid &lt;code>TABLE&lt;/code>.&lt;/p></description></item><item><title>Built-in Contact Form</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/built-in-contact-form/</link><pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/built-in-contact-form/</guid><description>&lt;p>&lt;img src="formspree-logo.png" alt="Formspree Logo">&lt;/p>
+&lt;p>Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid &lt;code>TABLE&lt;/code>.&lt;/p>
+&lt;p>Well, technology sure has come a long way since slicing up images to match the table-based layout that was just created in Dreamweaver. You&amp;rsquo;d be surprised (or maybe you wouldn&amp;rsquo;t) how challenging the standard header, content, sidebar, footer layout could be to actually get right.&lt;/p>
+&lt;figure>&lt;img src="https://bmkramer.github.io/SesameOpenScience_site/SesameOpenScience_site/blog/css-grid-scaffold/css-grid-cover.png"
+ alt="Traditional right sidebar layout">&lt;figcaption>
+ &lt;p>A visual example of the traditional right sidebar layout&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;hr>
+
+
+
+
+&lt;h3 id="dfn-titleermahgerd-is-a-humorous-version-of-the-phrase-oh-my-god-written-as-though-pronounced-with-a-heavy-influence-of-extra-rs-its-meant-to-imitate-the-sound-of-someone-speaking-through-a-retainerermahgerddfn">&lt;dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD&lt;/dfn>
+ &lt;a href="#dfn-titleermahgerd-is-a-humorous-version-of-the-phrase-oh-my-god-written-as-though-pronounced-with-a-heavy-influence-of-extra-rs-its-meant-to-imitate-the-sound-of-someone-speaking-through-a-retainerermahgerddfn">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>A proper grid is what we always wanted, no &amp;hellip; &lt;em>needed&lt;/em> to build websites with a solid, unbreakable structure. And that&amp;rsquo;s why I used it in this theme. I call this feature a &amp;ldquo;scaffold&amp;rdquo; because none of the &lt;em>content&lt;/em> is laid out on this grid. Only the main &lt;em>structure&lt;/em>: consisting of the &lt;code>header&lt;/code>, &lt;code>footer&lt;/code>, &lt;code>main&lt;/code>, &lt;code>aside&lt;/code>, and &lt;code>footer&lt;/code>. As you can tell by this quote from the 
+&lt;a href="https://www.w3.org/TR/css-grid-1/" target="_blank" rel="noopener">W3C&lt;/a> on the candidate recommendation itself, Grid is the perfect tool for the job:&lt;/p>
+&lt;blockquote>
+
+
+
+
+&lt;h5 id="css-grid-layout-module">CSS Grid Layout Module
+ &lt;a href="#css-grid-layout-module">&lt;/a>
+&lt;/h5>
+&lt;p>This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.&lt;/p>
+&lt;p>— &lt;em>W3C&lt;/em>&lt;/p>
+&lt;/blockquote>
+
+
+
+
+&lt;h2 id="a-happy-ending">A happy ending
+ &lt;a href="#a-happy-ending">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>.&lt;span style="color:#458;font-weight:bold">grid-container&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">display&lt;/span>: &lt;span style="color:#000;font-weight:bold">grid&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">grid-template-columns&lt;/span>: &lt;span style="color:#900;font-weight:bold">repeat&lt;/span>(&lt;span style="color:#099">6&lt;/span>, &lt;span style="color:#099">1&lt;/span>fr);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">grid-template-rows&lt;/span>: &lt;span style="color:#900;font-weight:bold">repeat&lt;/span>(&lt;span style="color:#099">3&lt;/span>, &lt;span style="color:#000;font-weight:bold">auto&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+
+
+
+&lt;h4 id="what-an-amazing-time-to-be-a-web-developer-anyway-i-hope-you-enjoy-this-feature-that-youll-probably-never-notice-or-even-see-maybe-thats-the-best-part-of-a-good-user-interface--the-hidden-stuff-that-just-works">What an amazing time to be a web developer. Anyway, I hope you enjoy this &amp;ldquo;feature&amp;rdquo; that you&amp;rsquo;ll probably never notice or even see. Maybe that&amp;rsquo;s the best part of a good user interface – the hidden stuff that just works.
+ &lt;a href="#what-an-amazing-time-to-be-a-web-developer-anyway-i-hope-you-enjoy-this-feature-that-youll-probably-never-notice-or-even-see-maybe-thats-the-best-part-of-a-good-user-interface--the-hidden-stuff-that-just-works">&lt;/a>
+&lt;/h4>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>The original article cited here is now updated and maintained by the staff over at CSS-Tricks. Bookmark their version if you want to dive in and learn about CSS Grid: 
+&lt;a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener">A Complete Guide to Grid&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Built-in Contact Form</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/built-in-contact-form/</link><pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/built-in-contact-form/</guid><description>&lt;p>&lt;img src="formspree-logo.png" alt="Formspree Logo">&lt;/p>
 
 
 
@@ -88,4 +500,31 @@ But they work with &lt;code>katex&lt;/code> as well.&lt;/p>
  &lt;/svg>&lt;/a>
 &lt;/h3>
 &lt;p>This theme has a &lt;strong>form-to-email&lt;/strong> feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
-(&lt;code>/content/forms/contact.md&lt;/code>). Of course, the example shown below (&lt;code>your@email.here&lt;/code>) must not be used. Please use your actual email address.&lt;/p></description></item></channel></rss>
+(&lt;code>/content/forms/contact.md&lt;/code>). Of course, the example shown below (&lt;code>your@email.here&lt;/code>) must not be used. Please use your actual email address.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># please replace with a valid Formspree form id or email address&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>formspree_form_id&lt;span style="color:#a61717;background-color:#e3d2d2">:&lt;/span> your&lt;span style="color:#a61717;background-color:#e3d2d2">@&lt;/span>email.here
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Update that file and you&amp;rsquo;re ready to begin receiving submissions. Just submit
+the active form for the first time, and complete the email address verification
+step with Formspree, and your contact form is live. The next time someone
+fills it out, the submission will land in your inbox.&lt;/p>
+
+
+
+
+&lt;h3 id="multiple-layouts">Multiple Layouts
+ &lt;a href="#multiple-layouts">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>The files included with the theme have a contact page ready for copy/paste, or
+you can type &lt;code>hugo new forms/contact.md&lt;/code> and you&amp;rsquo;re off to the races. There are two
+layouts for &lt;code>forms&lt;/code> – &lt;code>split-right&lt;/code>, and &lt;code>split-left&lt;/code> – you guessed it, one puts
+the form on the right and the other on the left. You just fill out the front
+matter, and the rest is automatic.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># layout options: split-right or split-left&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>layout&lt;span style="color:#a61717;background-color:#e3d2d2">:&lt;/span> split-right
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="built-in-contact-form-screenshot.png" alt="Contact Form Split Right Layout Screenshot">&lt;/p>
+&lt;p>Both layouts display the page title and description opposite the form, and you
+can also choose to show your social icon links if you have those configured in
+the &lt;code>config.toml&lt;/code> file.&lt;/p></description></item></channel></rss>

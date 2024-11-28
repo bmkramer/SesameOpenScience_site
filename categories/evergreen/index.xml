@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Evergreen on Sesame Open Science</title><link>https://bmkramer.github.io/SesameOpenScience_site/categories/evergreen/</link><description>Recent content in Evergreen on Sesame Open Science</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bmkramer.github.io/SesameOpenScience_site/categories/evergreen/index.xml" rel="self" type="application/rss+xml"/><item><title>An evergreen post</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</guid><description>&lt;h2 id="rendering-mathematical-equations">Rendering mathematical equations
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Evergreen on Sesame Open Science</title><link>https://bmkramer.github.io/SesameOpenScience_site/categories/evergreen/</link><description>Recent content in Evergreen on Sesame Open Science</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bmkramer.github.io/SesameOpenScience_site/categories/evergreen/index.xml" rel="self" type="application/rss+xml"/><item><title>An evergreen post</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</guid><description>
+
+
+
+&lt;h2 id="rendering-mathematical-equations">Rendering mathematical equations
  &lt;a href="#rendering-mathematical-equations">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
@@ -17,4 +21,30 @@ But they work with &lt;code>katex&lt;/code> as well.&lt;/p>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
 &lt;/h3>
-&lt;p>In &lt;code>.Rmarkdown&lt;/code> documents, you can use either&lt;/p></description></item></channel></rss>
+&lt;p>In &lt;code>.Rmarkdown&lt;/code> documents, you can use either&lt;/p>
+&lt;pre tabindex="0">&lt;code>$a \ne 0$
+&lt;/code>&lt;/pre>&lt;p>to get inline math: &lt;code>\(a \ne 0\)&lt;/code>.
+There is no conflict with using dollar symbols regularly, because &lt;code>knitr&lt;/code> automatically escapes freestanding dollar symbols.&lt;/p>
+&lt;p>And you can use&lt;/p>
+&lt;pre tabindex="0">&lt;code>$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+&lt;/code>&lt;/pre>&lt;p>to get a math paragraph:&lt;/p>
+&lt;p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$&lt;/p>
+
+
+
+
+&lt;h3 id="md">md
+ &lt;a href="#md">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>In &lt;code>.md&lt;/code> documents, you can &lt;strong>not&lt;/strong> use the single dollar syntax.
+The double dollar syntax still gives you a math paragraph.&lt;/p>
+&lt;pre tabindex="0">&lt;code>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+&lt;/code>&lt;/pre>&lt;p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$&lt;/p>
+&lt;p>In order to get inline equations, use:&lt;/p>
+&lt;pre tabindex="0">&lt;code>`\(a \ne 0\)`
+or
+\\(a \ne 0\\)
+&lt;/code>&lt;/pre>&lt;p>to get: &lt;code>\(a \ne 0\)&lt;/code>.&lt;/p></description></item></channel></rss>

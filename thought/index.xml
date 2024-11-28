@@ -10,8 +10,128 @@
  &lt;/svg>&lt;/a>
 &lt;/h3>
 &lt;p>Launched in 2020, the 
-&lt;a href="https://i4oa.org/" target="_blank" rel="noopener">Initiative for Open Abstracts (I4OA)&lt;/a> advocates and promotes the unrestricted availability of abstracts of scholarly output, particularly journal articles and book chapters, in trusted repositories where they are open and machine-accessible. This has gained increased relevance with the rise of large language models (LLM) and generative AI. Access to high-quality textual content for training purposes is highly sought after, with the risk of further commodification by publishers and by developers of generative AI models and tools.&lt;/p></description></item><item><title>Comments on EC Council Conclusions on scholarly publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</link><pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</guid><description>&lt;p>&lt;img src="featured_202306_ec.png" alt="featured image">&lt;/p>
+&lt;a href="https://i4oa.org/" target="_blank" rel="noopener">Initiative for Open Abstracts (I4OA)&lt;/a> advocates and promotes the unrestricted availability of abstracts of scholarly output, particularly journal articles and book chapters, in trusted repositories where they are open and machine-accessible. This has gained increased relevance with the rise of large language models (LLM) and generative AI. Access to high-quality textual content for training purposes is highly sought after, with the risk of further commodification by publishers and by developers of generative AI models and tools.&lt;/p>
+&lt;p>As part of a broader movement towards open research information, including the 
+&lt;a href="https://barcelona-declaration.org" target="_blank" rel="noopener">Barcelona Declaration on Open Research Information&lt;/a>, I4OA calls on all scholarly publishers to open the abstracts of their published works and, where possible, to submit them to Crossref. In October 2024, the proportion of current journal articles&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> published by Crossref members with open abstracts had reached 52%, up from 21% when I4OA was launched in September 2020. This is thanks to a 
+&lt;a href="https://www.crossref.org/blog/i4oa-hall-of-fame-2023-edition/" target="_blank" rel="noopener">growing number of publishers&lt;/a> who deposit abstracts to Crossref, often for close to 100% of their journal articles.&lt;/p>
+&lt;p>However, there are still large gaps in the availability of abstracts in Crossref. To some extent, these gaps are known (e.g. where publishers do not submit any abstracts at all), but to some extent they are also hidden, since not all journal content necessarily has abstracts (think editorials, letters to the editor, book reviews etc). Depending on the discipline and type of journal(s) in its portfolio, a proportion of 70% open abstracts for a given publisher may in practice mean full coverage, or may indicate there are additional abstracts that are not (yet) openly available.&lt;/p>
+
+
+
+
+&lt;h4 id="openalex-as-an-additional-source-of-open-abstracts">OpenAlex as an additional source of open abstracts
+ &lt;a href="#openalex-as-an-additional-source-of-open-abstracts">&lt;/a>
+&lt;/h4>
+&lt;p>
+&lt;a href="https://openalex.org/" target="_blank" rel="noopener">OpenAlex&lt;/a> is another source where abstracts are brought together in an openly available and machine-readable format. This provides the opportunity to estimate the value of OpenAlex in providing additional coverage of abstracts compared to Crossref. In addition, it can give an indication of the lower bound of the proportion of journal content from any given publisher that can be expected to have abstracts (and that publishers thus can be expected to be able to provide to Crossref).&lt;/p>
+&lt;p>While abstracts in Crossref are deposited by publishers themselves, OpenAlex collects abstracts from 
+&lt;a href="https://help.openalex.org/how-it-works/entities-overview" target="_blank" rel="noopener">external sources&lt;/a>. These include Crossref, but also other structured sources like PubMed, and content obtained by web crawling, including from publisher landing pages (
+&lt;a href="https://doi.org/10.48550/arXiv.2205.01833" target="_blank" rel="noopener">Priem et al., 2022&lt;/a>). In addition, OpenAlex has inherited content previously collected by Microsoft Academic Graph in similar ways prior to its cessation in December 2021. Each abstract is included in OpenAlex as an “
+&lt;a href="https://docs.openalex.org/api-entities/works/work-object#abstract_inverted_index" target="_blank" rel="noopener">inverted index&lt;/a>”, encoding information about the abstract&amp;rsquo;s words and their positions within the text. OpenAlex content is made available under a 
+&lt;a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 license&lt;/a>, allowing unrestricted use and distribution.&lt;/p>
+
+
+
+
+&lt;h4 id="comparing-open-abstracts-in-openalex-and-crossref">Comparing open abstracts in OpenAlex and Crossref
+ &lt;a href="#comparing-open-abstracts-in-openalex-and-crossref">&lt;/a>
+&lt;/h4>
+&lt;p>Since the launch of I4OA, we have been tracking the openness of abstracts for all Crossref members over time (for data and code see this 
+&lt;a href="https://github.com/bmkramer/I4OA" target="_blank" rel="noopener">GitHub repository&lt;/a>). For a subset of 40+, mostly larger, publishers, the proportion of current journal articles that have abstracts deposited in Crossref is shown in a 
+&lt;a href="https://i4oa.org/#:~:text=are%20shown%20in-,orange,-." target="_blank" rel="noopener">chart on the I4OA website&lt;/a>, which is updated quarterly.&lt;/p>
+&lt;p>For this set of publishers, we compared the proportion of journal articles with abstracts available in Crossref and OpenAlex&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> in October 2024 for publication years 2022-2024 (Figure 1). Only journal articles with Crossref DOI were included.&lt;/p>
+&lt;p>&lt;img src="featured_202411_open_abstracts.png" alt="featured image">
+&lt;em>Figure 1. Proportion of journal articles (2022-2024) from selected publishers that have open abstracts in OpenAlex (dark grey dots) and Crossref (orange and blue dots for publishers supporting and not (yet) supporting I4OA, respectively). Publishers are ordered by ascending proportion of open abstracts in Crossref and descending number of DOIs.&lt;/em>&lt;/p>
+&lt;p>These data show that for most publishers with less than 90% open abstracts in Crossref, OpenAlex has additional abstracts, obtained from additional sources (including through web scraping). This includes many of the larger publishers that do not (yet) deposit abstracts to Crossref at all, like Elsevier, IEEE, ACS and Taylor &amp;amp; Francis. Overall, the proportion of journal articles from 2022-2024 with Crossref DOIs for which abstracts are available in OpenAlex is 83%, vs 52% with abstracts available in Crossref. Apart from demonstrating OpenAlex as a valuable source of machine-readable abstracts for research articles, this also points to the sizeable potential for improving abstract coverage in Crossref for many publishers, including those that do already provide abstracts for part of their journal content.&lt;/p>
+
+
+
+
+&lt;h4 id="publishers-with-limited-abstract-coverage-in-openalex">Publishers with limited abstract coverage in OpenAlex
+ &lt;a href="#publishers-with-limited-abstract-coverage-in-openalex">&lt;/a>
+&lt;/h4>
+&lt;p>There are some publishers for which the proportion of abstracts available in OpenAlex is more limited. A general reason for limited abstract coverage in OpenAlex could be the disciplinary effect mentioned above - i.e. less journal content that has abstracts in the first place.&lt;/p>
+&lt;p>This might be a factor especially for publishers that operate predominantly in the humanities, like Brill, OpenEdition and CAIRN (a publishing platform in the humanities and social sciences representing a number of individual publishers). Another example is the American Psychological Association (APA), where the relatively low proportion of open abstracts can likely be explained by the inclusion of DOIs for supplementary materials, most of which do not have abstracts.&lt;/p>
+&lt;p>In cases where the proportion of abstracts in OpenAlex is essentially the same as in Crossref, this could represent the maximal potential (i.e. the remaining content does not have abstracts at all), or, alternatively, it could mean OpenAlex only takes data from Crossref, and does not also crawl the publisher domain itself.&lt;/p>
+
+
+
+
+&lt;h4 id="takedown-of-abstracts-by-springer-nature-and-elsevier">Takedown of abstracts by Springer Nature and Elsevier
+ &lt;a href="#takedown-of-abstracts-by-springer-nature-and-elsevier">&lt;/a>
+&lt;/h4>
+&lt;p>In November 2022, OpenAlex took the step to remove abstracts for Springer Nature’s non-open access content (see 
+&lt;a href="https://github.com/ourresearch/openalex-guts/commit/697b7ecad0c377d6381fd7d3b8608e9b917c76ac#diff-9b971b24d1a1af9cbe2c01f368a6408f0d1f69df0f7a0f1f23bc652d7c4f0abaR851" target="_blank" rel="noopener">GitHub commit&lt;/a>). Springer Nature similarly supplies abstracts to Crossref only for its open access content (
+&lt;a href="https://doi.org/10.31222/osf.io/smxe5" target="_blank" rel="noopener">van Eck and Waltman, 2024&lt;/a>). OpenAlex still has more abstracts for Springer Nature than Crossref (48% vs 34%). This can be explained by two observations:&lt;/p>
+&lt;ul>
+&lt;li>Springer Nature only makes abstracts from articles with a CC BY license available in Crossref (so excluding CC BY-NC, CC BY-NC-ND and other licenses)&lt;/li>
+&lt;li>green open access articles (where an open access version of the article is available in a repository) continue to have abstracts included in OpenAlex.&lt;/li>
+&lt;/ul>
+&lt;p>Now, two years later (in November 2024) Elsevier seems to have taken similar steps to have abstracts from closed articles removed from OpenAlex (see 
+&lt;a href="https://github.com/ourresearch/openalex-guts/commit/b85b3bc77cf9c0f3bd162426a2ba0dacdc951065" target="_blank" rel="noopener">GitHub commit&lt;/a>). The effect of this step is already visible in the OpenAlex web UI and API, and is expected to affect the data snapshot from November 2024 forward. With previous abstract coverage for Elsevier at 82% in OpenAlex, this will result in the loss of approximately 1,1M abstracts for 
+&lt;a href="https://openalex.org/works?page=1&amp;amp;filter=primary_location.source.publisher_lineage%3Ap4310320990,open_access.is_oa%3Afalse,type%3Atypes%2Farticle,primary_location.source.type%3Asource-types%2Fjournal,publication_year%3A2022-2024" target="_blank" rel="noopener">current closed journal articles&lt;/a>, and up to 11.5M abstracts for 
+&lt;a href="https://openalex.org/works?page=1&amp;amp;filter=primary_location.source.publisher_lineage%3Ap4310320990,open_access.is_oa%3Afalse,type%3Atypes%2Farticle,primary_location.source.type%3Asource-types%2Fjournal" target="_blank" rel="noopener">closed journal articles of all years&lt;/a>.&lt;/p>
+
+
+
+
+&lt;h4 id="discussion-and-conclusions">Discussion and conclusions
+ &lt;a href="#discussion-and-conclusions">&lt;/a>
+&lt;/h4>
+&lt;p>It is encouraging to see considerable abstract coverage in both Crossref and OpenAlex, as it increases the corpus of machine-readable abstracts which are publicly available for use. The fact that OpenAlex in many cases manages to capture more abstracts than are available in Crossref, even for publishers who do provide abstracts for some of their articles to Crossref, points to a gap that publishers themselves can close if they so choose.&lt;/p>
+&lt;p>Regarding the use of scholarly material, including abstracts, for the development of LLM and generative AI applications, this still poses many questions (see e.g. 
+&lt;a href="https://doi.org/10.54900/zg929-e9595" target="_blank" rel="noopener">Pooley 2024&lt;/a>). These include:&lt;/p>
+&lt;ul>
+&lt;li>the legality of using licensed or unlicensed copyrighted material, both for training and for producing new texts, and the question whether such new texts can be considered derivatives;&lt;/li>
+&lt;li>the implications of various Creative Commons licenses in this context (i.e. can CC-BY licensed material be used in bulk without individual attribution?);&lt;/li>
+&lt;li>the role of fair use (in the US) and sui generis database rights (in the European Union), respectively, to enable and/or restrict use of scholarly material;&lt;/li>
+&lt;li>the desirability of the use of scholarly material in commercial generative AI tools (including these developed and used by publishers), as well as the desirability of commercial publishers licensing scholarly material to developers of generative AI models and tools, as an additional revenue stream;&lt;/li>
+&lt;li>the public benefit of using high-quality textual information in the development of generative AI applications.&lt;/li>
+&lt;/ul>
+&lt;p>In these discussions, abstracts hold a somewhat special position as they are treated both as metadata (generally not subject to copyright) and as part of creative works (which are subject to copyright).&lt;/p>
+&lt;p>After Springer Nature, Elsevier is now the second publisher that has taken steps to have abstracts removed from OpenAlex. Coupled with announcements earlier this year of Elsevier 
+&lt;a href="https://www.elsevier.com/products/scopus/scopus-ai" target="_blank" rel="noopener">announcing their own AI tool&lt;/a> which makes ample use of abstracts, as well as 
+&lt;a href="https://www.sspnet.org/community/news/cactus-and-elsevier-join-hands-to-bring-19m-elsevier-research-abstracts-to-researchers-mobile-devices/?utm_campaign=coschedule&amp;amp;utm_source=twitter&amp;amp;utm_medium=ScholarlyPub&amp;amp;utm_content=Cactus%20and%20Elsevier%20Join%20Hands%20to%20Bring%2019M%2B%20Elsevier%20Research%20Abstracts%20to%20Researchers%27%20Mobile%20Devices" target="_blank" rel="noopener">selling the right to use and display abstracts from its own journals to a third party tool developer&lt;/a>, this makes clear that abstracts are in growing danger of being treated as a commodity, rather than as open research information.&lt;/p>
+&lt;p>Open abstracts, either in Crossref or in OpenAlex (where they are made available with a CC0 public domain dedication, but are subject to takedown), provide a welcome antidote to this development. Not only does this make abstracts publicly available for use and re-use, it also serves as an opportunity for the scholarly community to discuss how open we want abstracts to be and how to achieve that.&lt;/p>
+
+
+
+
+&lt;h4 id="code-and-data-availability">Code and data availability
+ &lt;a href="#code-and-data-availability">&lt;/a>
+&lt;/h4>
+&lt;ul>
+&lt;li>Code: 
+&lt;a href="https://github.com/bmkramer/more_open_abstracts" target="_blank" rel="noopener">https://github.com/bmkramer/more_open_abstracts&lt;/a>&lt;/li>
+&lt;li>Aggregated data: 
+&lt;a href="https://doi.org/10.5281/zenodo.11580550" target="_blank" rel="noopener">https://doi.org/10.5281/zenodo.11580550&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>The analysis underlying this work was performed using Curtin Open Knowledge Initiative (COKI) infrastructure, which is documented on GitHub: 
+&lt;a href="https://github.com/The-Academic-Observatory" target="_blank" rel="noopener">https://github.com/The-Academic-Observatory&lt;/a>. It uses data snapshots of Crossref and OpenAlex ingested into a Google Big Query environment where they can be queried via SQL.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>For the purpose of registration and analysis, Crossref defines “current” as the current calendar year and the previous two calendar years.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>The results reported here only represent the absence/presence of any text in the abstract field in OpenAlex and Crossref. This does not, in itself, say anything about the quality and completeness of the abstract in either database. Previously, concerns have been raised about the 
+&lt;a href="https://www.leidenmadtrics.nl/articles/why-openly-available-abstracts-are-important-overview-of-the-current-state-of-affairs#:~:text=abstracts%20suffer%20from%20some%20quality%20problems" target="_blank" rel="noopener">quality of abstracts in Microsoft Academic&lt;/a>, and it would be interesting to do a follow-up investigation into the quality of abstracts collected by OpenAlex (e.g. abstracts for articles published from 2022 onwards).&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Comments on EC Council Conclusions on scholarly publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</link><pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</guid><description>&lt;p>&lt;img src="featured_202306_ec.png" alt="featured image">&lt;/p>
 &lt;p>&lt;em>On May 23, 2023, the Council of the European Union approved a set of conclusions on&lt;/em> &lt;em>&lt;strong>&amp;lsquo;High-quality, transparent, open, trustworthy and equitable scholarly publishing&amp;rsquo;&lt;/strong>&lt;/em> &lt;em>(see 
 &lt;a href="https://data.consilium.europa.eu/doc/document/ST-9616-2023-INIT/en/pdf" target="_blank" rel="noopener">pdf&lt;/a>).&lt;/em>&lt;br>
 &lt;em>Below are some of my thoughts on these conclusions.&lt;/em>&lt;/p>
-&lt;p>I think these Council Conclusions are very welcome and important, as they align with, and in turn can support, a number of important current developments in how open access is perceived and implemented. One of these is the growing awareness, also among research institutions and funders, of the inequality and unsustainability of APC-driven open access publishing, especially by commercial or otherwise revenue-driven publishers. Another is a growing emphasis on important qualitative aspects of open access, in particular immediacy and open licensing.&lt;/p></description></item></channel></rss>
+&lt;p>I think these Council Conclusions are very welcome and important, as they align with, and in turn can support, a number of important current developments in how open access is perceived and implemented. One of these is the growing awareness, also among research institutions and funders, of the inequality and unsustainability of APC-driven open access publishing, especially by commercial or otherwise revenue-driven publishers. Another is a growing emphasis on important qualitative aspects of open access, in particular immediacy and open licensing.&lt;/p>
+&lt;p>In this sense, the Council Conclusions, together with for example the 
+&lt;a href="https://en.unesco.org/science-sustainable-future/open-science/recommendation" target="_blank" rel="noopener">UNESCO Open Science Recommendations&lt;/a> and the 
+&lt;a href="https://www.scienceeurope.org/our-resources/action-plan-for-diamond-open-access/" target="_blank" rel="noopener">Action Plan for Diamond Open Access&lt;/a>, to name but two, can help shift focus to other models of publishing. One thing I would like to emphasize is that while developing new publishing infrastructures (for example at national or even European level) is in itself a worthwhile avenue to pursue, many examples also already exist of non-profit publishing solutions that deserve support and recognition.&lt;/p>
+&lt;p>As an aside, an important point in the Council Conclusions is that &amp;ldquo;costs should not be covered by individual authors or readers&amp;rdquo; also means &amp;ldquo;authors can publish their work without funding/institutional eligibility criteria&amp;rdquo;. This is especially interesting in light of the endorsement of Open Research Europe, which at least currently does not meet this criterium. If the Council Conclusions can be read as an encouragement to broaden the Open Research Europe model in that sense, this would be a very positive development in my opinion.&lt;/p>
+&lt;p>The Council Conclusions are also very explicit in their concern for increasing costs and their call for transparent pricing commensurate with publication services. This can support other initiatives in this area (like cOAlition S Price Transparency Framework) and a more general reconsideration on how public money is spent. One remark (which I often make in this context) is that to be truly informative, such price transparency needs to include transparency on profit or surplus.&lt;/p>
+&lt;p>Two areas where I would have liked the Council Conclusions to go further is, first, emphasizing the importance of secondary publishing rights - as this is something that can be taken up by member states as a legislative approach (as it has been in a number of European countries) to enable open sharing of research publications, in particular immediate sharing. Most existing legislation does not go that far yet, and I feel the Council Conclusions could have been stronger in pushing this forward.&lt;/p>
+&lt;p>Secondly, in the paragraph on monitoring and the &amp;ldquo;lack of data and trustworthy information on the state of scholarly publishing&amp;rdquo; (including bibliometric data), while mention is made of the need for such data to be FAIR, I would have liked to see a stronger stance on the importance of open metadata on scholarly publishing, to enable transparency and equitable access to such data. In my view, this is even more important than attempting to &amp;rsquo; reduce the fragmentation of monitoring initiatives&amp;rsquo; - as different entities will have different needs and priorities in monitoring, and open availability of good quality metadata can enable such diversity while still being comparable and transparent.&lt;/p>
+&lt;p>As a final observation, the Council Conclusions rightly put much emphasis on the importance of quality, transparency and integrity in scholarly publishing, and also mention the need for a change in research culture &amp;ldquo;that recognises diverse research activities with the overarching goal to maximise high quality and impact of research&amp;rdquo;, also referring to the activities of the 
+&lt;a href="https://coara.eu/" target="_blank" rel="noopener">Coalition for Advancing Research Assessment
+(CoARA)&lt;/a>. In my opinion, these two aspects are related and together could be one of the keys to the question of costs and pricing - if a change in research culture would reduce the pressure to publish in so-called &amp;ldquo;high-impact&amp;rdquo; journals for the sake of prestige, and instead focus on methodological quality, openness aspects and reaching the audiences for which the research is most relevant (including societal partners), this would create a more level playing field where &amp;ldquo;paying for prestige&amp;rdquo; could be replaced by paying for actual quality, without selectivity for selectivity&amp;rsquo;s sake.&lt;/p>
+&lt;p>While the Council Conclusions do not go that far, I am hopeful that the recommendations made can help support a transition into that direction.&lt;/p></description></item></channel></rss>

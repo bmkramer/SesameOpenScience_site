@@ -11,7 +11,103 @@
  &lt;/svg>&lt;/a>
 &lt;/h2>
 &lt;p>Sign up for a free RStudio Cloud account at 
-&lt;a href="https://rstudio.cloud/" target="_blank" rel="noopener">https://rstudio.cloud/&lt;/a> before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember). I want you to be able to work from your own laptop in this workshop, but Cloud is an important back-up plan should you run into troubles.&lt;/p></description></item><item><title>More open abstracts?</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</link><pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</guid><description>&lt;p>&lt;em>Abstracts are increasingly important given the rise of large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts.&lt;/em>&lt;/p>
+&lt;a href="https://rstudio.cloud/" target="_blank" rel="noopener">https://rstudio.cloud/&lt;/a> before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember). I want you to be able to work from your own laptop in this workshop, but Cloud is an important back-up plan should you run into troubles.&lt;/p>
+
+
+
+
+&lt;h2 id="set-up-github">Set up GitHub
+ &lt;a href="#set-up-github">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>We will be using GitHub in this workshop for version control and publishing. Sign up for a free GitHub.com account at 
+&lt;a href="https://github.com/join" target="_blank" rel="noopener">https://github.com/join&lt;/a> if you don&amp;rsquo;t already have one. Also:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Complete these 
+&lt;a href="https://happygitwithr.com/install-intro.html" target="_blank" rel="noopener">installation instructions&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Test your connection between GitHub and RStudio following 
+&lt;a href="https://happygitwithr.com/connect-intro.html" target="_blank" rel="noopener">these steps&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>NOTE:&lt;/strong> We &lt;em>strongly recommend&lt;/em> that if you are not already a fluent GitHub user you choose 
+&lt;a href="https://happygitwithr.com/credential-caching.html" target="_blank" rel="noopener">HTTPS over SSH&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;/ul>
+
+
+
+
+&lt;h2 id="brush-up-on-markdown">Brush up on markdown
+ &lt;a href="#brush-up-on-markdown">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Please complete this 
+&lt;a href="https://commonmark.org/help/tutorial/" target="_blank" rel="noopener">10-minute interactive tutorial on Markdown&lt;/a>.&lt;/p>
+
+
+
+
+&lt;h2 id="installations">Installations
+ &lt;a href="#installations">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Please bring a laptop that has the following installed:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>A recent version of R (&amp;gt;=3.6.0), which is available for free at 
+&lt;a href="https://cloud.r-project.org/" target="_blank" rel="noopener">https://cloud.r-project.org/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A recent version of RStudio Desktop (&amp;gt;=1.4), available for free (
+&lt;a href="https://www.rstudio.com/products/rstudio/download/#download" target="_blank" rel="noopener">RStudio Desktop Open Source License&lt;/a>). Read up on the latest version 
+&lt;a href="https://blog.rstudio.com/2021/01/19/announcing-rstudio-1-4/" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The R packages we will use, which you can install by connecting to the internet, opening RStudio, and running at the command line:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#900;font-weight:bold">install.packages&lt;/span>(&lt;span style="color:#900;font-weight:bold">c&lt;/span>(&lt;span style="color:#d14">&amp;#34;usethis&amp;#34;&lt;/span>, &lt;span style="color:#d14">&amp;#34;remotes&amp;#34;&lt;/span>, &lt;span style="color:#d14">&amp;#34;distill&amp;#34;&lt;/span>, 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d14">&amp;#34;postcards&amp;#34;&lt;/span>, &lt;span style="color:#d14">&amp;#34;blogdown&amp;#34;&lt;/span>))
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You&amp;rsquo;ll also need to install the development version of the &lt;code>rmarkdown&lt;/code> package:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> remotes&lt;span style="color:#000;font-weight:bold">::&lt;/span>&lt;span style="color:#900;font-weight:bold">install_github&lt;/span>(&lt;span style="color:#d14">&amp;#34;rmarkdown&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ul>
+
+
+
+
+&lt;h2 id="install-hugo">Install Hugo
+ &lt;a href="#install-hugo">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>To use blogdown, please install Hugo:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> blogdown&lt;span style="color:#000;font-weight:bold">::&lt;/span>&lt;span style="color:#900;font-weight:bold">install_hugo&lt;/span>()
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And ensure your current version is at least as high as:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#900;font-weight:bold">hugo_version&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[1] ‘&lt;span style="color:#099">0.79.0&lt;/span>’
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+
+
+
+&lt;h2 id="check-pandoc">Check pandoc
+ &lt;a href="#check-pandoc">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>The RStudio IDE bundles an updated version of pandoc- if you did install v1.4 of the IDE, you should be all set!&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> rmarkdown&lt;span style="color:#000;font-weight:bold">::&lt;/span>&lt;span style="color:#900;font-weight:bold">pandoc_version&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[1] ‘&lt;span style="color:#099">2.11.3&lt;/span>’
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>More open abstracts?</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</link><pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</guid><description>&lt;p>&lt;em>Abstracts are increasingly important given the rise of large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts.&lt;/em>&lt;/p>
 
 
 
@@ -23,11 +119,135 @@
  &lt;/svg>&lt;/a>
 &lt;/h3>
 &lt;p>Launched in 2020, the 
-&lt;a href="https://i4oa.org/" target="_blank" rel="noopener">Initiative for Open Abstracts (I4OA)&lt;/a> advocates and promotes the unrestricted availability of abstracts of scholarly output, particularly journal articles and book chapters, in trusted repositories where they are open and machine-accessible. This has gained increased relevance with the rise of large language models (LLM) and generative AI. Access to high-quality textual content for training purposes is highly sought after, with the risk of further commodification by publishers and by developers of generative AI models and tools.&lt;/p></description></item><item><title>Comments on EC Council Conclusions on scholarly publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</link><pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</guid><description>&lt;p>&lt;img src="featured_202306_ec.png" alt="featured image">&lt;/p>
+&lt;a href="https://i4oa.org/" target="_blank" rel="noopener">Initiative for Open Abstracts (I4OA)&lt;/a> advocates and promotes the unrestricted availability of abstracts of scholarly output, particularly journal articles and book chapters, in trusted repositories where they are open and machine-accessible. This has gained increased relevance with the rise of large language models (LLM) and generative AI. Access to high-quality textual content for training purposes is highly sought after, with the risk of further commodification by publishers and by developers of generative AI models and tools.&lt;/p>
+&lt;p>As part of a broader movement towards open research information, including the 
+&lt;a href="https://barcelona-declaration.org" target="_blank" rel="noopener">Barcelona Declaration on Open Research Information&lt;/a>, I4OA calls on all scholarly publishers to open the abstracts of their published works and, where possible, to submit them to Crossref. In October 2024, the proportion of current journal articles&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> published by Crossref members with open abstracts had reached 52%, up from 21% when I4OA was launched in September 2020. This is thanks to a 
+&lt;a href="https://www.crossref.org/blog/i4oa-hall-of-fame-2023-edition/" target="_blank" rel="noopener">growing number of publishers&lt;/a> who deposit abstracts to Crossref, often for close to 100% of their journal articles.&lt;/p>
+&lt;p>However, there are still large gaps in the availability of abstracts in Crossref. To some extent, these gaps are known (e.g. where publishers do not submit any abstracts at all), but to some extent they are also hidden, since not all journal content necessarily has abstracts (think editorials, letters to the editor, book reviews etc). Depending on the discipline and type of journal(s) in its portfolio, a proportion of 70% open abstracts for a given publisher may in practice mean full coverage, or may indicate there are additional abstracts that are not (yet) openly available.&lt;/p>
+
+
+
+
+&lt;h4 id="openalex-as-an-additional-source-of-open-abstracts">OpenAlex as an additional source of open abstracts
+ &lt;a href="#openalex-as-an-additional-source-of-open-abstracts">&lt;/a>
+&lt;/h4>
+&lt;p>
+&lt;a href="https://openalex.org/" target="_blank" rel="noopener">OpenAlex&lt;/a> is another source where abstracts are brought together in an openly available and machine-readable format. This provides the opportunity to estimate the value of OpenAlex in providing additional coverage of abstracts compared to Crossref. In addition, it can give an indication of the lower bound of the proportion of journal content from any given publisher that can be expected to have abstracts (and that publishers thus can be expected to be able to provide to Crossref).&lt;/p>
+&lt;p>While abstracts in Crossref are deposited by publishers themselves, OpenAlex collects abstracts from 
+&lt;a href="https://help.openalex.org/how-it-works/entities-overview" target="_blank" rel="noopener">external sources&lt;/a>. These include Crossref, but also other structured sources like PubMed, and content obtained by web crawling, including from publisher landing pages (
+&lt;a href="https://doi.org/10.48550/arXiv.2205.01833" target="_blank" rel="noopener">Priem et al., 2022&lt;/a>). In addition, OpenAlex has inherited content previously collected by Microsoft Academic Graph in similar ways prior to its cessation in December 2021. Each abstract is included in OpenAlex as an “
+&lt;a href="https://docs.openalex.org/api-entities/works/work-object#abstract_inverted_index" target="_blank" rel="noopener">inverted index&lt;/a>”, encoding information about the abstract&amp;rsquo;s words and their positions within the text. OpenAlex content is made available under a 
+&lt;a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 license&lt;/a>, allowing unrestricted use and distribution.&lt;/p>
+
+
+
+
+&lt;h4 id="comparing-open-abstracts-in-openalex-and-crossref">Comparing open abstracts in OpenAlex and Crossref
+ &lt;a href="#comparing-open-abstracts-in-openalex-and-crossref">&lt;/a>
+&lt;/h4>
+&lt;p>Since the launch of I4OA, we have been tracking the openness of abstracts for all Crossref members over time (for data and code see this 
+&lt;a href="https://github.com/bmkramer/I4OA" target="_blank" rel="noopener">GitHub repository&lt;/a>). For a subset of 40+, mostly larger, publishers, the proportion of current journal articles that have abstracts deposited in Crossref is shown in a 
+&lt;a href="https://i4oa.org/#:~:text=are%20shown%20in-,orange,-." target="_blank" rel="noopener">chart on the I4OA website&lt;/a>, which is updated quarterly.&lt;/p>
+&lt;p>For this set of publishers, we compared the proportion of journal articles with abstracts available in Crossref and OpenAlex&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> in October 2024 for publication years 2022-2024 (Figure 1). Only journal articles with Crossref DOI were included.&lt;/p>
+&lt;p>&lt;img src="featured_202411_open_abstracts.png" alt="featured image">
+&lt;em>Figure 1. Proportion of journal articles (2022-2024) from selected publishers that have open abstracts in OpenAlex (dark grey dots) and Crossref (orange and blue dots for publishers supporting and not (yet) supporting I4OA, respectively). Publishers are ordered by ascending proportion of open abstracts in Crossref and descending number of DOIs.&lt;/em>&lt;/p>
+&lt;p>These data show that for most publishers with less than 90% open abstracts in Crossref, OpenAlex has additional abstracts, obtained from additional sources (including through web scraping). This includes many of the larger publishers that do not (yet) deposit abstracts to Crossref at all, like Elsevier, IEEE, ACS and Taylor &amp;amp; Francis. Overall, the proportion of journal articles from 2022-2024 with Crossref DOIs for which abstracts are available in OpenAlex is 83%, vs 52% with abstracts available in Crossref. Apart from demonstrating OpenAlex as a valuable source of machine-readable abstracts for research articles, this also points to the sizeable potential for improving abstract coverage in Crossref for many publishers, including those that do already provide abstracts for part of their journal content.&lt;/p>
+
+
+
+
+&lt;h4 id="publishers-with-limited-abstract-coverage-in-openalex">Publishers with limited abstract coverage in OpenAlex
+ &lt;a href="#publishers-with-limited-abstract-coverage-in-openalex">&lt;/a>
+&lt;/h4>
+&lt;p>There are some publishers for which the proportion of abstracts available in OpenAlex is more limited. A general reason for limited abstract coverage in OpenAlex could be the disciplinary effect mentioned above - i.e. less journal content that has abstracts in the first place.&lt;/p>
+&lt;p>This might be a factor especially for publishers that operate predominantly in the humanities, like Brill, OpenEdition and CAIRN (a publishing platform in the humanities and social sciences representing a number of individual publishers). Another example is the American Psychological Association (APA), where the relatively low proportion of open abstracts can likely be explained by the inclusion of DOIs for supplementary materials, most of which do not have abstracts.&lt;/p>
+&lt;p>In cases where the proportion of abstracts in OpenAlex is essentially the same as in Crossref, this could represent the maximal potential (i.e. the remaining content does not have abstracts at all), or, alternatively, it could mean OpenAlex only takes data from Crossref, and does not also crawl the publisher domain itself.&lt;/p>
+
+
+
+
+&lt;h4 id="takedown-of-abstracts-by-springer-nature-and-elsevier">Takedown of abstracts by Springer Nature and Elsevier
+ &lt;a href="#takedown-of-abstracts-by-springer-nature-and-elsevier">&lt;/a>
+&lt;/h4>
+&lt;p>In November 2022, OpenAlex took the step to remove abstracts for Springer Nature’s non-open access content (see 
+&lt;a href="https://github.com/ourresearch/openalex-guts/commit/697b7ecad0c377d6381fd7d3b8608e9b917c76ac#diff-9b971b24d1a1af9cbe2c01f368a6408f0d1f69df0f7a0f1f23bc652d7c4f0abaR851" target="_blank" rel="noopener">GitHub commit&lt;/a>). Springer Nature similarly supplies abstracts to Crossref only for its open access content (
+&lt;a href="https://doi.org/10.31222/osf.io/smxe5" target="_blank" rel="noopener">van Eck and Waltman, 2024&lt;/a>). OpenAlex still has more abstracts for Springer Nature than Crossref (48% vs 34%). This can be explained by two observations:&lt;/p>
+&lt;ul>
+&lt;li>Springer Nature only makes abstracts from articles with a CC BY license available in Crossref (so excluding CC BY-NC, CC BY-NC-ND and other licenses)&lt;/li>
+&lt;li>green open access articles (where an open access version of the article is available in a repository) continue to have abstracts included in OpenAlex.&lt;/li>
+&lt;/ul>
+&lt;p>Now, two years later (in November 2024) Elsevier seems to have taken similar steps to have abstracts from closed articles removed from OpenAlex (see 
+&lt;a href="https://github.com/ourresearch/openalex-guts/commit/b85b3bc77cf9c0f3bd162426a2ba0dacdc951065" target="_blank" rel="noopener">GitHub commit&lt;/a>). The effect of this step is already visible in the OpenAlex web UI and API, and is expected to affect the data snapshot from November 2024 forward. With previous abstract coverage for Elsevier at 82% in OpenAlex, this will result in the loss of approximately 1,1M abstracts for 
+&lt;a href="https://openalex.org/works?page=1&amp;amp;filter=primary_location.source.publisher_lineage%3Ap4310320990,open_access.is_oa%3Afalse,type%3Atypes%2Farticle,primary_location.source.type%3Asource-types%2Fjournal,publication_year%3A2022-2024" target="_blank" rel="noopener">current closed journal articles&lt;/a>, and up to 11.5M abstracts for 
+&lt;a href="https://openalex.org/works?page=1&amp;amp;filter=primary_location.source.publisher_lineage%3Ap4310320990,open_access.is_oa%3Afalse,type%3Atypes%2Farticle,primary_location.source.type%3Asource-types%2Fjournal" target="_blank" rel="noopener">closed journal articles of all years&lt;/a>.&lt;/p>
+
+
+
+
+&lt;h4 id="discussion-and-conclusions">Discussion and conclusions
+ &lt;a href="#discussion-and-conclusions">&lt;/a>
+&lt;/h4>
+&lt;p>It is encouraging to see considerable abstract coverage in both Crossref and OpenAlex, as it increases the corpus of machine-readable abstracts which are publicly available for use. The fact that OpenAlex in many cases manages to capture more abstracts than are available in Crossref, even for publishers who do provide abstracts for some of their articles to Crossref, points to a gap that publishers themselves can close if they so choose.&lt;/p>
+&lt;p>Regarding the use of scholarly material, including abstracts, for the development of LLM and generative AI applications, this still poses many questions (see e.g. 
+&lt;a href="https://doi.org/10.54900/zg929-e9595" target="_blank" rel="noopener">Pooley 2024&lt;/a>). These include:&lt;/p>
+&lt;ul>
+&lt;li>the legality of using licensed or unlicensed copyrighted material, both for training and for producing new texts, and the question whether such new texts can be considered derivatives;&lt;/li>
+&lt;li>the implications of various Creative Commons licenses in this context (i.e. can CC-BY licensed material be used in bulk without individual attribution?);&lt;/li>
+&lt;li>the role of fair use (in the US) and sui generis database rights (in the European Union), respectively, to enable and/or restrict use of scholarly material;&lt;/li>
+&lt;li>the desirability of the use of scholarly material in commercial generative AI tools (including these developed and used by publishers), as well as the desirability of commercial publishers licensing scholarly material to developers of generative AI models and tools, as an additional revenue stream;&lt;/li>
+&lt;li>the public benefit of using high-quality textual information in the development of generative AI applications.&lt;/li>
+&lt;/ul>
+&lt;p>In these discussions, abstracts hold a somewhat special position as they are treated both as metadata (generally not subject to copyright) and as part of creative works (which are subject to copyright).&lt;/p>
+&lt;p>After Springer Nature, Elsevier is now the second publisher that has taken steps to have abstracts removed from OpenAlex. Coupled with announcements earlier this year of Elsevier 
+&lt;a href="https://www.elsevier.com/products/scopus/scopus-ai" target="_blank" rel="noopener">announcing their own AI tool&lt;/a> which makes ample use of abstracts, as well as 
+&lt;a href="https://www.sspnet.org/community/news/cactus-and-elsevier-join-hands-to-bring-19m-elsevier-research-abstracts-to-researchers-mobile-devices/?utm_campaign=coschedule&amp;amp;utm_source=twitter&amp;amp;utm_medium=ScholarlyPub&amp;amp;utm_content=Cactus%20and%20Elsevier%20Join%20Hands%20to%20Bring%2019M%2B%20Elsevier%20Research%20Abstracts%20to%20Researchers%27%20Mobile%20Devices" target="_blank" rel="noopener">selling the right to use and display abstracts from its own journals to a third party tool developer&lt;/a>, this makes clear that abstracts are in growing danger of being treated as a commodity, rather than as open research information.&lt;/p>
+&lt;p>Open abstracts, either in Crossref or in OpenAlex (where they are made available with a CC0 public domain dedication, but are subject to takedown), provide a welcome antidote to this development. Not only does this make abstracts publicly available for use and re-use, it also serves as an opportunity for the scholarly community to discuss how open we want abstracts to be and how to achieve that.&lt;/p>
+
+
+
+
+&lt;h4 id="code-and-data-availability">Code and data availability
+ &lt;a href="#code-and-data-availability">&lt;/a>
+&lt;/h4>
+&lt;ul>
+&lt;li>Code: 
+&lt;a href="https://github.com/bmkramer/more_open_abstracts" target="_blank" rel="noopener">https://github.com/bmkramer/more_open_abstracts&lt;/a>&lt;/li>
+&lt;li>Aggregated data: 
+&lt;a href="https://doi.org/10.5281/zenodo.11580550" target="_blank" rel="noopener">https://doi.org/10.5281/zenodo.11580550&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>The analysis underlying this work was performed using Curtin Open Knowledge Initiative (COKI) infrastructure, which is documented on GitHub: 
+&lt;a href="https://github.com/The-Academic-Observatory" target="_blank" rel="noopener">https://github.com/The-Academic-Observatory&lt;/a>. It uses data snapshots of Crossref and OpenAlex ingested into a Google Big Query environment where they can be queried via SQL.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>For the purpose of registration and analysis, Crossref defines “current” as the current calendar year and the previous two calendar years.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>The results reported here only represent the absence/presence of any text in the abstract field in OpenAlex and Crossref. This does not, in itself, say anything about the quality and completeness of the abstract in either database. Previously, concerns have been raised about the 
+&lt;a href="https://www.leidenmadtrics.nl/articles/why-openly-available-abstracts-are-important-overview-of-the-current-state-of-affairs#:~:text=abstracts%20suffer%20from%20some%20quality%20problems" target="_blank" rel="noopener">quality of abstracts in Microsoft Academic&lt;/a>, and it would be interesting to do a follow-up investigation into the quality of abstracts collected by OpenAlex (e.g. abstracts for articles published from 2022 onwards).&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Comments on EC Council Conclusions on scholarly publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</link><pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</guid><description>&lt;p>&lt;img src="featured_202306_ec.png" alt="featured image">&lt;/p>
 &lt;p>&lt;em>On May 23, 2023, the Council of the European Union approved a set of conclusions on&lt;/em> &lt;em>&lt;strong>&amp;lsquo;High-quality, transparent, open, trustworthy and equitable scholarly publishing&amp;rsquo;&lt;/strong>&lt;/em> &lt;em>(see 
 &lt;a href="https://data.consilium.europa.eu/doc/document/ST-9616-2023-INIT/en/pdf" target="_blank" rel="noopener">pdf&lt;/a>).&lt;/em>&lt;br>
 &lt;em>Below are some of my thoughts on these conclusions.&lt;/em>&lt;/p>
-&lt;p>I think these Council Conclusions are very welcome and important, as they align with, and in turn can support, a number of important current developments in how open access is perceived and implemented. One of these is the growing awareness, also among research institutions and funders, of the inequality and unsustainability of APC-driven open access publishing, especially by commercial or otherwise revenue-driven publishers. Another is a growing emphasis on important qualitative aspects of open access, in particular immediacy and open licensing.&lt;/p></description></item><item><title>Developments in peer review</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202304_oscd/</link><pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202304_oscd/</guid><description/></item><item><title>Research infrastructure as a social norm</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202301_ape/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202301_ape/</guid><description/></item><item><title>DIAMAS</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/diamas/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/diamas/</guid><description>&lt;h4 id="in-the-transition-towards-open-access-institutional-publishing-is-challenged-by-fragmentation-and-varying-service-quality-visibilityand-sustainability">&amp;ldquo;In the transition towards Open Access, institutional publishing is challenged by fragmentation and varying service quality, visibility,and sustainability.&amp;rdquo;
+&lt;p>I think these Council Conclusions are very welcome and important, as they align with, and in turn can support, a number of important current developments in how open access is perceived and implemented. One of these is the growing awareness, also among research institutions and funders, of the inequality and unsustainability of APC-driven open access publishing, especially by commercial or otherwise revenue-driven publishers. Another is a growing emphasis on important qualitative aspects of open access, in particular immediacy and open licensing.&lt;/p>
+&lt;p>In this sense, the Council Conclusions, together with for example the 
+&lt;a href="https://en.unesco.org/science-sustainable-future/open-science/recommendation" target="_blank" rel="noopener">UNESCO Open Science Recommendations&lt;/a> and the 
+&lt;a href="https://www.scienceeurope.org/our-resources/action-plan-for-diamond-open-access/" target="_blank" rel="noopener">Action Plan for Diamond Open Access&lt;/a>, to name but two, can help shift focus to other models of publishing. One thing I would like to emphasize is that while developing new publishing infrastructures (for example at national or even European level) is in itself a worthwhile avenue to pursue, many examples also already exist of non-profit publishing solutions that deserve support and recognition.&lt;/p>
+&lt;p>As an aside, an important point in the Council Conclusions is that &amp;ldquo;costs should not be covered by individual authors or readers&amp;rdquo; also means &amp;ldquo;authors can publish their work without funding/institutional eligibility criteria&amp;rdquo;. This is especially interesting in light of the endorsement of Open Research Europe, which at least currently does not meet this criterium. If the Council Conclusions can be read as an encouragement to broaden the Open Research Europe model in that sense, this would be a very positive development in my opinion.&lt;/p>
+&lt;p>The Council Conclusions are also very explicit in their concern for increasing costs and their call for transparent pricing commensurate with publication services. This can support other initiatives in this area (like cOAlition S Price Transparency Framework) and a more general reconsideration on how public money is spent. One remark (which I often make in this context) is that to be truly informative, such price transparency needs to include transparency on profit or surplus.&lt;/p>
+&lt;p>Two areas where I would have liked the Council Conclusions to go further is, first, emphasizing the importance of secondary publishing rights - as this is something that can be taken up by member states as a legislative approach (as it has been in a number of European countries) to enable open sharing of research publications, in particular immediate sharing. Most existing legislation does not go that far yet, and I feel the Council Conclusions could have been stronger in pushing this forward.&lt;/p>
+&lt;p>Secondly, in the paragraph on monitoring and the &amp;ldquo;lack of data and trustworthy information on the state of scholarly publishing&amp;rdquo; (including bibliometric data), while mention is made of the need for such data to be FAIR, I would have liked to see a stronger stance on the importance of open metadata on scholarly publishing, to enable transparency and equitable access to such data. In my view, this is even more important than attempting to &amp;rsquo; reduce the fragmentation of monitoring initiatives&amp;rsquo; - as different entities will have different needs and priorities in monitoring, and open availability of good quality metadata can enable such diversity while still being comparable and transparent.&lt;/p>
+&lt;p>As a final observation, the Council Conclusions rightly put much emphasis on the importance of quality, transparency and integrity in scholarly publishing, and also mention the need for a change in research culture &amp;ldquo;that recognises diverse research activities with the overarching goal to maximise high quality and impact of research&amp;rdquo;, also referring to the activities of the 
+&lt;a href="https://coara.eu/" target="_blank" rel="noopener">Coalition for Advancing Research Assessment
+(CoARA)&lt;/a>. In my opinion, these two aspects are related and together could be one of the keys to the question of costs and pricing - if a change in research culture would reduce the pressure to publish in so-called &amp;ldquo;high-impact&amp;rdquo; journals for the sake of prestige, and instead focus on methodological quality, openness aspects and reaching the audiences for which the research is most relevant (including societal partners), this would create a more level playing field where &amp;ldquo;paying for prestige&amp;rdquo; could be replaced by paying for actual quality, without selectivity for selectivity&amp;rsquo;s sake.&lt;/p>
+&lt;p>While the Council Conclusions do not go that far, I am hopeful that the recommendations made can help support a transition into that direction.&lt;/p></description></item><item><title>Developments in peer review</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202304_oscd/</link><pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202304_oscd/</guid><description/></item><item><title>Research infrastructure as a social norm</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202301_ape/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202301_ape/</guid><description/></item><item><title>DIAMAS</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/diamas/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/diamas/</guid><description>
+
+
+
+&lt;h4 id="in-the-transition-towards-open-access-institutional-publishing-is-challenged-by-fragmentation-and-varying-service-quality-visibilityand-sustainability">&amp;ldquo;In the transition towards Open Access, institutional publishing is challenged by fragmentation and varying service quality, visibility,and sustainability.&amp;rdquo;
  &lt;a href="#in-the-transition-towards-open-access-institutional-publishing-is-challenged-by-fragmentation-and-varying-service-quality-visibilityand-sustainability">&lt;/a>
 &lt;/h4>
 &lt;p>To address this issue, the Horizon Europe project DIAMAS will:&lt;/p>
@@ -37,29 +257,75 @@
 &lt;li>Formulate community-led, actionable recommendations and strategies for institutional leaders, funders/sponsors/donors, and policymakers.&lt;/li>
 &lt;/ul>
 &lt;p>— 
-&lt;a href="https://diamasproject.eu/" target="_blank" rel="noopener">DIAMAS website - Welcome to the DIAMAS project&lt;/a>&lt;/p></description></item><item><title>Crossref metadata for preprints: Discussions and recommendations</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202211_metaarxiv_crossref/</link><pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202211_metaarxiv_crossref/</guid><description>&lt;p>In 2016, Crossref launched a metadata schema for ‘posted content’ with the aim of better accommodating the metadata needs for preprints, working papers, theses, reports, and related outputs, which are not typically peer-reviewed. In 2021, Crossref formed an Advisory Group (AG) to discuss how the quality of metadata for preprints using this schema could be improved. The group focused on four topics: 1) preprints as an article type (rather than subtype of posted-content); 2) relationships to/from preprints; 3) versioning; and 4) withdrawal/removal of preprints. The recommendations that resulted from the group’s deliberations have been published previously. Here we provide further background to the recommendations and report more details of the discussions.&lt;/p></description></item><item><title>The availability and completeness of open funder metadata</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202211_qss/</link><pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202211_qss/</guid><description>&lt;p>Research funders spend considerable efforts collecting information on the outcomes of the research they fund. To help funders track publication output associated with their funding, Crossref initiated FundRef in 2013, enabling publishers to register funding information using persistent identifiers. However, it is hard to assess the coverage of funder metadata because it is unknown how many articles are the result of funded research and should therefore include funder metadata. In this paper we looked at 5,004 publications reported by researchers to be the result of funding by a specific funding agency: the Dutch Research Council NWO. Only 67% of these articles contain funding information in Crossref, with a subset acknowledging NWO as funder name and/or Funder IDs linked to NWO (53% and 45%, respectively). Web of Science (WoS), Scopus, and Dimensions are all able to infer additional funding information from funding statements in the full text of the articles. Funding information in Lens largely corresponds to that in Crossref, with some additional funding information likely taken from PubMed. We observe interesting differences between publishers in the coverage and completeness of funding metadata in Crossref compared to proprietary databases, highlighting the potential to increase the quality of open metadata on funding.&lt;/p></description></item><item><title>Preprints and open preprint review: a workshop on innovations in scholarly publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_upstream/</link><pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_upstream/</guid><description>&lt;p>Researchers, librarians, policy makers, and practitioners often complain about the scholarly publishing system, but the system also offers exciting opportunities to contribute to innovations in the way academic findings are disseminated and evaluated.
-At the Dutch Open Science Festival, which took place at the Vrije Universiteit Amsterdam on September 1st 2022, we organized one of the ‘community-led’ workshops to discuss some of these developments, focusing on preprints and open preprint review. Participants discussed the opportunities offered by these innovations, and reflected on ways in which these innovations may complement, or perhaps even replace, traditional journal publishing practices.&lt;/p></description></item><item><title>Q&amp;A about Wiley's decision to open its abstracts</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_leidenmadtrics/</link><pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_leidenmadtrics/</guid><description>&lt;p>In this post Ludo Waltman and Bianca Kramer reflect on today’s announcement that Wiley is joining the Initiative for Open Abstracts (I4OA) and is going to make abstracts openly available through Crossref.&lt;/p></description></item><item><title>SCOSS</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/scoss/</link><pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/scoss/</guid><description>&lt;h4 id="scoss-supported-open-science-infrastructure-provides-the-scientific-and-scholarly-community-with-resources-and-services-to-access-share-and-assess-research-scoss-is-a-pragmatic-approach-to-investing-in-open-infrastructure-one-that-allows-stakeholder-institutions-to-participate-in-the-direct-and-immediate-funding-of-essential-infrastructure-it-is-not-the-only-pathway-or-means-to-invest-in-open-infrastructure">“SCOSS-supported open science infrastructure provides the scientific and scholarly community with resources and services to access, share, and assess research. SCOSS is a pragmatic approach to investing in open infrastructure; one that allows stakeholder institutions to participate in the direct and immediate funding of essential infrastructure. It is not the only pathway or means to invest in open infrastructure.”
+&lt;a href="https://diamasproject.eu/" target="_blank" rel="noopener">DIAMAS website - Welcome to the DIAMAS project&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>For DIAMAS, I am working with Utrecht University on mapping the European landscape of Insitutional Publishing Service Providers (IPSPs).&lt;/p>
+&lt;p>*Role: data analysis, report writing (subcontracted)
+&lt;em>Time period: 2023&lt;/em>&lt;/p>
+&lt;hr></description></item><item><title>Crossref metadata for preprints: Discussions and recommendations</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202211_metaarxiv_crossref/</link><pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202211_metaarxiv_crossref/</guid><description>&lt;p>In 2016, Crossref launched a metadata schema for ‘posted content’ with the aim of better accommodating the metadata needs for preprints, working papers, theses, reports, and related outputs, which are not typically peer-reviewed. In 2021, Crossref formed an Advisory Group (AG) to discuss how the quality of metadata for preprints using this schema could be improved. The group focused on four topics: 1) preprints as an article type (rather than subtype of posted-content); 2) relationships to/from preprints; 3) versioning; and 4) withdrawal/removal of preprints. The recommendations that resulted from the group’s deliberations have been published previously. Here we provide further background to the recommendations and report more details of the discussions.&lt;/p></description></item><item><title>The availability and completeness of open funder metadata</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202211_qss/</link><pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202211_qss/</guid><description>&lt;p>Research funders spend considerable efforts collecting information on the outcomes of the research they fund. To help funders track publication output associated with their funding, Crossref initiated FundRef in 2013, enabling publishers to register funding information using persistent identifiers. However, it is hard to assess the coverage of funder metadata because it is unknown how many articles are the result of funded research and should therefore include funder metadata. In this paper we looked at 5,004 publications reported by researchers to be the result of funding by a specific funding agency: the Dutch Research Council NWO. Only 67% of these articles contain funding information in Crossref, with a subset acknowledging NWO as funder name and/or Funder IDs linked to NWO (53% and 45%, respectively). Web of Science (WoS), Scopus, and Dimensions are all able to infer additional funding information from funding statements in the full text of the articles. Funding information in Lens largely corresponds to that in Crossref, with some additional funding information likely taken from PubMed. We observe interesting differences between publishers in the coverage and completeness of funding metadata in Crossref compared to proprietary databases, highlighting the potential to increase the quality of open metadata on funding.&lt;/p>
+&lt;p>Note: A preprint of this article was posted on MetaArXiv: 
+&lt;a href="https://doi.org/10.31222/osf.io/gj4hq" target="_blank" rel="noopener">https://doi.org/10.31222/osf.io/gj4hq&lt;/a>&lt;/p></description></item><item><title>Preprints and open preprint review: a workshop on innovations in scholarly publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_upstream/</link><pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_upstream/</guid><description>&lt;p>Researchers, librarians, policy makers, and practitioners often complain about the scholarly publishing system, but the system also offers exciting opportunities to contribute to innovations in the way academic findings are disseminated and evaluated.
+At the Dutch Open Science Festival, which took place at the Vrije Universiteit Amsterdam on September 1st 2022, we organized one of the ‘community-led’ workshops to discuss some of these developments, focusing on preprints and open preprint review. Participants discussed the opportunities offered by these innovations, and reflected on ways in which these innovations may complement, or perhaps even replace, traditional journal publishing practices.&lt;/p></description></item><item><title>Q&amp;A about Wiley's decision to open its abstracts</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_leidenmadtrics/</link><pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_leidenmadtrics/</guid><description>&lt;p>In this post Ludo Waltman and Bianca Kramer reflect on today’s announcement that Wiley is joining the Initiative for Open Abstracts (I4OA) and is going to make abstracts openly available through Crossref.&lt;/p></description></item><item><title>SCOSS</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/scoss/</link><pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/scoss/</guid><description>
+
+
+
+&lt;h4 id="scoss-supported-open-science-infrastructure-provides-the-scientific-and-scholarly-community-with-resources-and-services-to-access-share-and-assess-research-scoss-is-a-pragmatic-approach-to-investing-in-open-infrastructure-one-that-allows-stakeholder-institutions-to-participate-in-the-direct-and-immediate-funding-of-essential-infrastructure-it-is-not-the-only-pathway-or-means-to-invest-in-open-infrastructure">“SCOSS-supported open science infrastructure provides the scientific and scholarly community with resources and services to access, share, and assess research. SCOSS is a pragmatic approach to investing in open infrastructure; one that allows stakeholder institutions to participate in the direct and immediate funding of essential infrastructure. It is not the only pathway or means to invest in open infrastructure.”
  &lt;a href="#scoss-supported-open-science-infrastructure-provides-the-scientific-and-scholarly-community-with-resources-and-services-to-access-share-and-assess-research-scoss-is-a-pragmatic-approach-to-investing-in-open-infrastructure-one-that-allows-stakeholder-institutions-to-participate-in-the-direct-and-immediate-funding-of-essential-infrastructure-it-is-not-the-only-pathway-or-means-to-invest-in-open-infrastructure">&lt;/a>
 &lt;/h4>
 &lt;p>— 
 &lt;a href="https://scoss.org/what-is-scoss/" target="_blank" rel="noopener">SCOSS website - What is SCOSS&lt;/a>&lt;/p>
 &lt;hr>
-&lt;p>For SCOSS, I am working together with participating infrastructures to develop strategies for achieving their funding goals, as well as to contribute to the general strategy of SCOSS.&lt;/p></description></item><item><title>Measuring what matters - open to interpretation ?</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202210_lis/</link><pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202210_lis/</guid><description/></item><item><title>Talking Points: Bianca Kramer on publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_elife/</link><pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_elife/</guid><description>&lt;p>After spending 15 years as a librarian for the life sciences and medicine at Utrecht University, Bianca Kramer recently started her own consulting firm, Sesame Open Science, to provide advice and support for projects related to open science. Throughout her career Kramer has been a strong advocate for open science and innovations in scholarly communication. Here she discusses how academic publishing and the role of libraries and librarians have changed over recent decades, and what she hopes the publishing landscape will look like in ten years.&lt;/p></description></item><item><title>Open abstracts in SSH – current state and challenges</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202209_triple/</link><pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202209_triple/</guid><description/></item><item><title>New developments in preprinting and preprint review</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202209_npos/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202209_npos/</guid><description>&lt;p>The workshop introduced participants to preprinting and preprint peer review. Participants were invited to discuss the opportunities offered by these new approaches to scholarly publishing and peer review, and to reflect on different ways in which these new approaches may complement the traditional journal publishing system.&lt;/p>
+&lt;p>For SCOSS, I am working together with participating infrastructures to develop strategies for achieving their funding goals, as well as to contribute to the general strategy of SCOSS.&lt;/p>
+&lt;p>I see this an exciting opportunity in a research ecosystem where research organizations and funders increasingly recognize the importance of open scholarly infrastructure and face important choices in how to spend their budget.&lt;/p>
+&lt;p>&lt;em>Role: community strategy and support&lt;/em>&lt;br>
+&lt;em>Time period: October 2022 - December 2023&lt;/em>&lt;/p>
+&lt;hr></description></item><item><title>Measuring what matters - open to interpretation ?</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202210_lis/</link><pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202210_lis/</guid><description/></item><item><title>Talking Points: Bianca Kramer on publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_elife/</link><pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202210_elife/</guid><description>&lt;p>After spending 15 years as a librarian for the life sciences and medicine at Utrecht University, Bianca Kramer recently started her own consulting firm, Sesame Open Science, to provide advice and support for projects related to open science. Throughout her career Kramer has been a strong advocate for open science and innovations in scholarly communication. Here she discusses how academic publishing and the role of libraries and librarians have changed over recent decades, and what she hopes the publishing landscape will look like in ten years.&lt;/p></description></item><item><title>Open abstracts in SSH – current state and challenges</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202209_triple/</link><pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202209_triple/</guid><description/></item><item><title>New developments in preprinting and preprint review</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202209_npos/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202209_npos/</guid><description>&lt;p>The workshop introduced participants to preprinting and preprint peer review. Participants were invited to discuss the opportunities offered by these new approaches to scholarly publishing and peer review, and to reflect on different ways in which these new approaches may complement the traditional journal publishing system.&lt;/p>
 &lt;p>Workshop together with Jeroen Bosman (Utrecht University), Jeroen Sondervan (Utrecht University) and Ludo Waltman (CWTS)&lt;/p></description></item><item><title>Preprint discoverability</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202208_asapbio/</link><pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202208_asapbio/</guid><description>&lt;p>With thanks to Jeroen Bosman for analysis of newspaper coverage of COVID19 preprints!&lt;/p></description></item><item><title>Bianca Kramer is Keeping Tabs on Open Research</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202207_upstream/</link><pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202207_upstream/</guid><description>&lt;p>Being encouraged to keep “open tabs”, has been an interesting experience - turning something that’s usually guilt-inducing (“I really should be reading this…!”) into something that at least feels productive (“Oh, I could use this for the Upstream blog!”).
-In the end, did I actually read more because I kept conscious track of all those open tabs? Or less, because I bookmarked the links for this blog and then neglected to read the actual content? I’ll leave that an open question&amp;hellip; Either way, this post lists some of the things that caught my eye over the last month or two.&lt;/p></description></item><item><title>UKRI / Research Consulting</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/rc-ukri/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/rc-ukri/</guid><description>&lt;h4 id="a-new-study-commissioned-by-uk-research-and-innovation-ukri-to-develop-a-monitoring-and-evaluation-me-framework-for-their-open-access-policy-this-framework-will-seek-to-enable-ukri-and-the-broader-sector-to-assess-progress-towards-open-access-levels-of-compliance-with-the-ukri-policy-and-its-overall-effectiveness-the-me-framework-will-also-aim-to-establish-how-open-access-publication-trends-affect-academic-practices-and-society-where-possible">&amp;ldquo;A new study commissioned by UK Research and Innovation (UKRI) to develop a monitoring and evaluation (M&amp;amp;E) framework for their Open Access policy. This framework will seek to enable UKRI and the broader sector to assess progress towards Open Access, levels of compliance with the UKRI policy and its overall effectiveness. The M&amp;amp;E framework will also aim to establish how Open Access publication trends affect academic practices and society, where possible.&amp;rdquo;
+In the end, did I actually read more because I kept conscious track of all those open tabs? Or less, because I bookmarked the links for this blog and then neglected to read the actual content? I’ll leave that an open question&amp;hellip; Either way, this post lists some of the things that caught my eye over the last month or two.&lt;/p></description></item><item><title>UKRI / Research Consulting</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/rc-ukri/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/rc-ukri/</guid><description>
+
+
+
+&lt;h4 id="a-new-study-commissioned-by-uk-research-and-innovation-ukri-to-develop-a-monitoring-and-evaluation-me-framework-for-their-open-access-policy-this-framework-will-seek-to-enable-ukri-and-the-broader-sector-to-assess-progress-towards-open-access-levels-of-compliance-with-the-ukri-policy-and-its-overall-effectiveness-the-me-framework-will-also-aim-to-establish-how-open-access-publication-trends-affect-academic-practices-and-society-where-possible">&amp;ldquo;A new study commissioned by UK Research and Innovation (UKRI) to develop a monitoring and evaluation (M&amp;amp;E) framework for their Open Access policy. This framework will seek to enable UKRI and the broader sector to assess progress towards Open Access, levels of compliance with the UKRI policy and its overall effectiveness. The M&amp;amp;E framework will also aim to establish how Open Access publication trends affect academic practices and society, where possible.&amp;rdquo;
  &lt;a href="#a-new-study-commissioned-by-uk-research-and-innovation-ukri-to-develop-a-monitoring-and-evaluation-me-framework-for-their-open-access-policy-this-framework-will-seek-to-enable-ukri-and-the-broader-sector-to-assess-progress-towards-open-access-levels-of-compliance-with-the-ukri-policy-and-its-overall-effectiveness-the-me-framework-will-also-aim-to-establish-how-open-access-publication-trends-affect-academic-practices-and-society-where-possible">&lt;/a>
 &lt;/h4>
 &lt;p>— 
-&lt;a href="https://www.research-consulting.com/developing-a-monitoring-and-evaluation-framework-for-the-ukri-open-access-policy/" target="_blank" rel="noopener">Research Consulting website - Developing a monitoring and evaluation framework for the UKRI Open Access policy &lt;/a>&lt;/p></description></item><item><title>Open science - where from? where to?</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202206_uu/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202206_uu/</guid><description>&lt;p>Workshop together with Jeroen Bosman (Utrecht University Library)&lt;/p></description></item><item><title>Language Diversity in Scholarly Publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202206_coki/</link><pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202206_coki/</guid><description>&lt;p>There is a lot of lip service paid to the idea of diversity in scholarly publishing and often diversity of language is used as an example. But while the groups that work actively in languages other than English have been making this point consistently and forcefully, it has had limited traction in the scholarly anglophone literature, some nice counterexamples notwithstanding.
-To address this gap, we have mapped the 122 million objects in Crossref up to the end of May 2022 to languages (based on titles and abstracts, where available) and done an initial analysis. The results are a mix of the expected and surprising.&lt;/p></description></item><item><title>COKI Open metadata report</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/coki_open_metadata_report/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/coki_open_metadata_report/</guid><description>&lt;h4 id="open-automated-workflow-to-compare-coverage-and-quality-of-open-metadata-sources">Open, automated workflow to compare coverage and quality of (open) metadata sources.
+&lt;a href="https://www.research-consulting.com/developing-a-monitoring-and-evaluation-framework-for-the-ukri-open-access-policy/" target="_blank" rel="noopener">Research Consulting website - Developing a monitoring and evaluation framework for the UKRI Open Access policy &lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>I am working as associate to Research Consulting on this project, which will be identifying a series of potential M&amp;amp;E questions, approaches to answer them, their feasibility and expected resource intensity. We anticipate that the M&amp;amp;E framework will employ a mix of quantitative and qualitative measures, to account for the diversity of practices and stakeholders across the research landscape. We will also be considering information sources and datasets that can yield useful insights while minimising reporting burdens, with a preference for open data sources.&lt;/p>
+&lt;p>&lt;em>Role: research associate (subcontracted)&lt;/em>&lt;br>
+&lt;em>Time period: July 2022 - May 2023&lt;/em>&lt;/p></description></item><item><title>Open science - where from? where to?</title><link>https://bmkramer.github.io/SesameOpenScience_site/talk/202206_uu/</link><pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/talk/202206_uu/</guid><description>&lt;p>Workshop together with Jeroen Bosman (Utrecht University Library)&lt;/p></description></item><item><title>Language Diversity in Scholarly Publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202206_coki/</link><pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202206_coki/</guid><description>&lt;p>There is a lot of lip service paid to the idea of diversity in scholarly publishing and often diversity of language is used as an example. But while the groups that work actively in languages other than English have been making this point consistently and forcefully, it has had limited traction in the scholarly anglophone literature, some nice counterexamples notwithstanding.
+To address this gap, we have mapped the 122 million objects in Crossref up to the end of May 2022 to languages (based on titles and abstracts, where available) and done an initial analysis. The results are a mix of the expected and surprising.&lt;/p></description></item><item><title>COKI Open metadata report</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/coki_open_metadata_report/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/coki_open_metadata_report/</guid><description>
+
+
+
+&lt;h4 id="open-automated-workflow-to-compare-coverage-and-quality-of-open-metadata-sources">Open, automated workflow to compare coverage and quality of (open) metadata sources.
  &lt;a href="#open-automated-workflow-to-compare-coverage-and-quality-of-open-metadata-sources">&lt;/a>
 &lt;/h4>
 &lt;hr>
 &lt;p>In this project, we assess and compare the value added by OpenAlex to Crossref metadata, both in coverage of publications and other research output (with and without DOIs) as well as in coverage of metadata (including identifiers) for authors, institutions, publication venues and disciplines.&lt;/p>
-&lt;p>We are working to extend the project to provide an automated workflow to compare any two (open) metadata sources.&lt;/p></description></item><item><title>Advancing open access in the Netherlands after 2020: from quantity to quality</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202106_insights/</link><pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202106_insights/</guid><description>&lt;p>The purpose of this article is to explore options to further open access in the Netherlands from 2021. Its premise is that there is a need to look at the qualitative aspects of open access, alongside quantitative ones. The article first takes stock of progress that has been made. Next, we suggest broadening the agenda by involving more types of actors and other scholarly formats (like books, chapters, proceedings, preprints and textbooks). At the same time we suggest deepening the open access agenda by including several open access dimensions: immediacy, diamond open access, open metadata, open peer review and open licences. To facilitate discussion, a framework is proposed that allows specifying these actions by the a) aspects of open access they address (what is made open access, how, when and where it is made open access, and copyright and rights retention), b) the actors that play a role (government, research institutions, funders) and c) the various levels at which these actions can be taken: state as goal, set as policy, legalize and promote, recognize and reward, finance, support with infrastructure. A template is provided to ease the use of the framework.&lt;/p></description></item><item><title>An Open Knowledge Base for the Netherlands: Report of a Community Workshop</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202106_zenodo_okb/</link><pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202106_zenodo_okb/</guid><description>&lt;p>The concept of developing a national Open Knowledge Base for the Netherlands (NL-OKB) has been proposed in response to the strategic needs of the research community in the Netherlands. In parallel with the work of the 
+&lt;p>We are working to extend the project to provide an automated workflow to compare any two (open) metadata sources.&lt;/p>
+&lt;p>&lt;em>Role: collaboration with Cameron Neylon (Curtin University)&lt;/em>&lt;br>
+&lt;em>Time period: March 2022 - ongoing&lt;/em>&lt;/p></description></item><item><title>Advancing open access in the Netherlands after 2020: from quantity to quality</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202106_insights/</link><pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202106_insights/</guid><description>&lt;p>The purpose of this article is to explore options to further open access in the Netherlands from 2021. Its premise is that there is a need to look at the qualitative aspects of open access, alongside quantitative ones. The article first takes stock of progress that has been made. Next, we suggest broadening the agenda by involving more types of actors and other scholarly formats (like books, chapters, proceedings, preprints and textbooks). At the same time we suggest deepening the open access agenda by including several open access dimensions: immediacy, diamond open access, open metadata, open peer review and open licences. To facilitate discussion, a framework is proposed that allows specifying these actions by the a) aspects of open access they address (what is made open access, how, when and where it is made open access, and copyright and rights retention), b) the actors that play a role (government, research institutions, funders) and c) the various levels at which these actions can be taken: state as goal, set as policy, legalize and promote, recognize and reward, finance, support with infrastructure. A template is provided to ease the use of the framework.&lt;/p>
+&lt;p>Note: A preprint of this article was posted on Zenodo: 
+&lt;a href="https://doi.org/10.5281/zenodo.4455790" target="_blank" rel="noopener">https://doi.org/10.5281/zenodo.4455790&lt;/a>&lt;/p></description></item><item><title>An Open Knowledge Base for the Netherlands: Report of a Community Workshop</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202106_zenodo_okb/</link><pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202106_zenodo_okb/</guid><description>&lt;p>The concept of developing a national Open Knowledge Base for the Netherlands (NL-OKB) has been proposed in response to the strategic needs of the research community in the Netherlands. In parallel with the work of the 
 &lt;a href="https://www.vsnu.nl/files/documenten/Domeinen/Onderzoek/Open%20access/Engelstalige%20samenvatting%20opdracht%20werkgroep.pdf" target="_blank" rel="noopener">Dutch Taskforce on Responsible Management of Research Information and Data&lt;/a> addressing these opportunities and the preparation of a 
-&lt;a href="https://www.dialogic.nl/en/projects/haalbaarheidsstudie-open-knowledge-base/" target="_blank" rel="noopener">feasibility study by Dialogic&lt;/a>, interested stakeholders were convened with the goal of identifying expert and user-community interests in and need for an NL-OKB.&lt;/p></description></item><item><title>OA Diamond Journals Study</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202103_zenodo_oadjs/</link><pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202103_zenodo_oadjs/</guid><description>&lt;p>From June 2020 to February 2021, a consortium of 10 organisations undertook a large-scale study on open access journals across the world that are free for readers and authors, usually referred to as “OA diamond journals”. This study was commissioned by cOAlition S in order to gain a better understanding of the OA diamond landscape.&lt;/p>
-&lt;p>The study undertook a statistical analysis of several bibliographic databases, surveyed 1,619 journals, collected 7,019 free text submissions and other data from 94 questions, and organised three focus groups with 11 journals and 10 interviews with hosting platforms. It collected 163 references in the academic literature, and inventoried 1048 journals not listed in DOAJ.&lt;/p></description></item><item><title>Style your site colors</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/color-themes/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/color-themes/</guid><description>&lt;p>You can totally customize your site&amp;rsquo;s theme colors within minutes of
+&lt;a href="https://www.dialogic.nl/en/projects/haalbaarheidsstudie-open-knowledge-base/" target="_blank" rel="noopener">feasibility study by Dialogic&lt;/a>, interested stakeholders were convened with the goal of identifying expert and user-community interests in and need for an NL-OKB.&lt;/p>
+&lt;p>The goal in convening a workshop was:&lt;/p>
+&lt;ol>
+&lt;li>To gather evidence on the feasibility of an NL-OKB&lt;/li>
+&lt;li>To test the community interest and appetite for developing an NL-OKB&lt;/li>
+&lt;li>To identify a practical pathway forward towards startup and implementation of an NL-OKB&lt;/li>
+&lt;/ol>
+&lt;p>Over two days, 19-20 November 2020, 35 participants representing national and international organisations met in a virtual workshop. This included representatives of VSNU, NWO, NFU, SURF, DANS, CWTS and a range of Netherlands institutions alongside international stakeholders such as Crossref, ORCID, OpenAIRE, DataCite, SPARC North America, Jisc, UKRI and others.&lt;/p>
+&lt;p>There was strong support for an NL-OKB amongst the assembled group. The group as a whole was strongly in favour of the development of an NL-OKB run on behalf of and controlled by the academic community. Of those present, virtually all indicated they had a direct stake and interest in supporting the development of an NL-OKB. International participants were also keen to see efforts in the Netherlands succeed as an exemplar to be drawn upon. The assembled group reached a series of consensus conclusions, that taken together provide the beginnings of a roadmap for further development.&lt;/p></description></item><item><title>OA Diamond Journals Study</title><link>https://bmkramer.github.io/SesameOpenScience_site/publication/202103_zenodo_oadjs/</link><pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/publication/202103_zenodo_oadjs/</guid><description>&lt;p>From June 2020 to February 2021, a consortium of 10 organisations undertook a large-scale study on open access journals across the world that are free for readers and authors, usually referred to as “OA diamond journals”. This study was commissioned by cOAlition S in order to gain a better understanding of the OA diamond landscape.&lt;/p>
+&lt;p>The study undertook a statistical analysis of several bibliographic databases, surveyed 1,619 journals, collected 7,019 free text submissions and other data from 94 questions, and organised three focus groups with 11 journals and 10 interviews with hosting platforms. It collected 163 references in the academic literature, and inventoried 1048 journals not listed in DOAJ.&lt;/p>
+&lt;p>Findings:&lt;/p>
+&lt;ul>
+&lt;li>A wide archipelago of relatively small journals serving diverse communities&lt;/li>
+&lt;li>OA diamond journals are on the road to full compliance with Plan S&lt;/li>
+&lt;li>A mix of scientific strengths and operational challenges&lt;/li>
+&lt;li>An economy that largely depends on volunteers, universities and government&lt;/li>
+&lt;/ul></description></item><item><title>Style your site colors</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/color-themes/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/color-themes/</guid><description>&lt;p>You can totally customize your site&amp;rsquo;s theme colors within minutes of
 creating a new site. Read on to find out how, and decide which of the
 three options meets your needs.&lt;/p>
 
@@ -74,7 +340,141 @@ three options meets your needs.&lt;/p>
 &lt;/h2>
 &lt;p>Hugo Apéro includes 8 built-in color themes that work &amp;ldquo;out of the box.&amp;rdquo;
 This means you can use a color theme to quickly customize the look of your site
-without needing to write any CSS. You can select the color theme in your &lt;code>config.toml&lt;/code> file. Scroll down to find:&lt;/p></description></item><item><title>Style your site typography</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/fonts/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/fonts/</guid><description>&lt;p>As with 
+without needing to write any CSS. You can select the color theme in your &lt;code>config.toml&lt;/code> file. Scroll down to find:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Type one of the options like &lt;code>&amp;quot;peach&amp;quot;&lt;/code> inside the quotation marks. If you have a Hugo server started (i.e., by using &lt;code>blogdown::serve_site()&lt;/code>), when you save the &lt;code>config.toml&lt;/code> file, your site preview will immediately and automatically update with your new color theme. For example, let&amp;rsquo;s choose &lt;code>&amp;quot;peach&amp;quot;&lt;/code>!&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;peach&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You should see:&lt;/p>
+&lt;p>&lt;img src="peach.png" alt="Switching to the peach color theme">&lt;/p>
+&lt;p>If you select a theme that isn&amp;rsquo;t one of the available options (like &lt;code>&amp;quot;pecan&amp;quot;&lt;/code>),
+you should see an error message print to your viewer pane in the RStudio IDE:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>Selected theme &lt;span style="color:#d14">&amp;#39;pecan&amp;#39;&lt;/span> is not one of the options.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>All of the color themes were designed to meet 
+&lt;a href="https://webaim.org/articles/contrast/" target="_blank" rel="noopener">WCAG 2.0 level AA requirements&lt;/a> for contrast ratios.&lt;/p>
+
+
+
+
+&lt;h2 id="use-tachyons-named-colors">Use Tachyons named colors
+ &lt;a href="#use-tachyons-named-colors">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>This theme uses 
+&lt;a href="https://tachyons.io" target="_blank" rel="noopener">Tachyons&lt;/a>, a design system that allows you
+to design gorgeous interfaces in the browser with little effort.&lt;/p>
+&lt;p>&lt;img src="tachyons-logo-script.png" alt="Tachyons Logo Script">&lt;/p>
+&lt;p>We&amp;rsquo;ve leveraged the 
+&lt;a href="https://tachyons.io/docs/themes/skins/" target="_blank" rel="noopener">accessible color
+combinations&lt;/a> included with Tachyons to
+offer an easy way for you to setup your site using your favorite colors. Here are the steps:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Create an &lt;code>assets/&lt;/code> folder in the root of your website project (don&amp;rsquo;t add it to your &lt;code>themes/&lt;/code> directory!).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create a &lt;code>.scss&lt;/code> file in the new &lt;code>assets/&lt;/code> folder.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Copy the code below for a full set of color parameters giving you control over the theme color scheme. For an option like &lt;code>siteBgColor&lt;/code>, for example, you can type one of the predefined color names from Tachyons and save the file. Use only color names as shown in the &amp;ldquo;Color Palette&amp;rdquo; section of 
+&lt;a href="https://tachyons.io/docs/themes/skins/" target="_blank" rel="noopener">https://tachyons.io/docs/themes/skins/&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">// basic color options: use only color names as shown in the
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">// &amp;#34;Color Palette&amp;#34; section of https://tachyons.io/docs/themes/skins/
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">&lt;/span>&lt;span style="color:#008080">$siteBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-white&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;light-gray&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$textColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;dark-gray&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;mid-gray&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headlineColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;dark-pink&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headingColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-black&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$bodyLinkColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;blue&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$navLinkColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-black&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarLinkColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-black&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$footerTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;silver&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-white&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;black&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;white&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;blue&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$borderColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;moon-gray&amp;#34;&lt;/span> ;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Two last steps- back in your &lt;code>config.toml&lt;/code> file:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Leave the theme blank (so &lt;code>theme = &amp;quot;&amp;quot;&lt;/code> with empty quotes) in your &lt;code>config.toml&lt;/code> file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add the name of your theme file (minus the &lt;code>.scss&lt;/code> extension) that you added to &lt;code>assets/&lt;/code> as the &lt;code>custom_theme&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Your final &lt;code>config.toml&lt;/code> would look something like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># or, leave theme empty &amp;amp; make your own palette&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># see docs at https://hugo-apero.netlify.app/blog/color-themes/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># the custom scss file must be in the assets/ folder&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># add the filename name here, without extension&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># to use hex colors instead of named tachyons colors, include &amp;#34;hex&amp;#34; in filename&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> custom_theme = &lt;span style="color:#d14">&amp;#34;named-colors&amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+
+
+
+&lt;h2 id="bring-your-own-hex-codes">Bring your own hex codes
+ &lt;a href="#bring-your-own-hex-codes">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Let&amp;rsquo;s say you have a style guide to follow and &lt;code>washed-blue&lt;/code> just won&amp;rsquo;t cut the
+mustard. There is a bypass of these
+predefined colors built in, you just need to do &lt;em>one very special extra step&lt;/em>. Follow the steps above for using named Tachyons colors, but then, add &lt;code>hex&lt;/code> anywhere in the filename for your custom &lt;code>.scss&lt;/code> (for example, you may name this file &lt;code>hex-colors.scss&lt;/code>). If you include &lt;code>hex&lt;/code> in the filename, you get to assign your own HEX codes, like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">// set custom hex colors
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">&lt;/span>&lt;span style="color:#008080">$siteBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#e3e3da&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#dbdbd2&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$textColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#666260&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#666260&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headlineColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#103742&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headingColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#103742&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$bodyLinkColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$navLinkColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarLinkColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$footerTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#918f8d&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#f7f7f4&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#f9f9f8&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#103742&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$borderColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4beb9&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After adding the name of your theme file (minus the &lt;code>.scss&lt;/code> extension) that you added to &lt;code>assets/&lt;/code> as the &lt;code>custom_theme&lt;/code>, your final &lt;code>config.toml&lt;/code> would look something like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># or, leave theme empty &amp;amp; make your own palette&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># see docs at https://hugo-apero.netlify.app/blog/color-themes/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># the custom scss file must be in the assets/ folder&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># add the filename name here, without extension&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># to use hex colors instead of named tachyons colors, include &amp;#34;hex&amp;#34; in filename&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> custom_theme = &lt;span style="color:#d14">&amp;#34;hex-colors&amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Style your site typography</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/fonts/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/fonts/</guid><description>&lt;p>As with 
 &lt;a href="../color-themes">color themes&lt;/a>, you can completely customize your site&amp;rsquo;s fonts within minutes of creating a new site. How you do it depends on how much control and customization you need.&lt;/p>
 
 
@@ -87,7 +487,192 @@ without needing to write any CSS. You can select the color theme in your &lt;cod
  &lt;/svg>&lt;/a>
 &lt;/h2>
 &lt;p>Hugo Apéro includes 6 embedded fonts that work &amp;ldquo;out of the box.&amp;rdquo; We selected 3 serif and 3 sans-serif options that we thought looked good with this theme, in our humble opinions. All embedded fonts include 
-&lt;a href="https://www.marksimonson.com/notebook/view/FakevsTrueItalics" target="_blank" rel="noopener">real italics&lt;/a> so you may &lt;em>emphasize&lt;/em> to your &lt;em>heart&amp;rsquo;s&lt;/em> content &amp;#x2764;&amp;#xfe0f;! How to choose?&lt;/p></description></item><item><title>An evergreen post</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</guid><description>&lt;h2 id="rendering-mathematical-equations">Rendering mathematical equations
+&lt;a href="https://www.marksimonson.com/notebook/view/FakevsTrueItalics" target="_blank" rel="noopener">real italics&lt;/a> so you may &lt;em>emphasize&lt;/em> to your &lt;em>heart&amp;rsquo;s&lt;/em> content &amp;#x2764;&amp;#xfe0f;! How to choose?&lt;/p>
+&lt;p>You may choose fonts for headings and body text in your site&amp;rsquo;s &lt;code>config.toml&lt;/code> file. Scroll down to find:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use an embedded font-family&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># if you import your own fonts, name them here too&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customtextFontFamily = &lt;span style="color:#d14">&amp;#34;Commissioner&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customheadingFontFamily = &lt;span style="color:#d14">&amp;#34;Fraunces&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here are the links to each font so you can see them in action:&lt;/p>
+&lt;h6 class="ttu tracked pv3 bt">Embedded font options&lt;/h6>
+ &lt;table class="collapse ba bw1 b--moon-gray mv4 w-100">
+ &lt;thead>
+ &lt;tr>
+ &lt;th class="f6 fw6 tl ttu pa3">Serif options&lt;/th>
+ &lt;th class="f6 fw6 tl ttu pa3">Sans-serif options&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">&lt;a href="https://fraunces.undercase.xyz/">Fraunces&lt;/a>&lt;/td>
+ &lt;td class="pa3">&lt;a href="https://github.com/kosbarts/Commissioner">Commissioner&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">&lt;a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond&lt;/a>&lt;/td>
+ &lt;td class="pa3">&lt;a href="https://fonts.google.com/specimen/Alegreya+Sans">Alegreya Sans&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">&lt;a href="https://fonts.google.com/specimen/Bitter">Bitter&lt;/a>&lt;/td>
+ &lt;td class="pa3">&lt;a href="https://fontsarena.com/metropolis-by-chris-simpson/">Metropolis&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+ &lt;/table>
+
+
+
+
+&lt;h2 id="use-attractive-system-fonts">Use attractive system fonts
+ &lt;a href="#use-attractive-system-fonts">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Alternatively, you may want to use a system font, which you know will be rendered reliably across languages, operating systems, and browsers. Apéro uses 
+&lt;a href="https://tachyons.io" target="_blank" rel="noopener">Tachyons&lt;/a> to render beautiful system font stacks for your site, making it super simple to configure and blazing fast to load. The default choices are &lt;code>sans-serif&lt;/code> or &lt;code>serif&lt;/code>, and can be assigned to headings and body text, respectively. Additional options can be found in the 
+&lt;a href="https://tachyons.io/docs/typography/font-family/" target="_blank" rel="noopener">Tachyons Font Family Reference&lt;/a>. Why use system fonts?&lt;/p>
+&lt;blockquote>
+&lt;p>Relying on systems fonts greatly improves page performance and can also help your web application/site blend in with the user’s operating system. Readability is strongly linked to familiarity, so this helps create a more fluid reading experience, allowing your users to focus on your content.&lt;/p>
+&lt;p>— 
+&lt;a href="http://tachyons.io/docs/typography/font-family/" target="_blank" rel="noopener">Tachyons typography docs&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>Here is a step-by-step, using the &lt;code>config.toml&lt;/code> file:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Leave both &lt;code>customtextFontFamily&lt;/code> and &lt;code>customheadingFontFamily&lt;/code> blank (with empty quotes, or comment out the line entirely).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Just below those keys, select a &lt;code>textFontFamily&lt;/code> and &lt;code>headingFontFamily&lt;/code> from the options listed 
+&lt;a href="http://tachyons.io/docs/typography/font-family/" target="_blank" rel="noopener">here&lt;/a>. All values are lower case, and exclude the &lt;code>.&lt;/code> in front.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use an embedded font-family&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># if you import your own fonts, name them here too&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customtextFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customheadingFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># alternatively, leave empty and select basic font options: sans-serif or serif&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># for more http://tachyons.io/docs/typography/font-family/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> textFontFamily = &lt;span style="color:#d14">&amp;#34;sans-serif&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> headingFontFamily = &lt;span style="color:#d14">&amp;#34;serif&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>For example, you may choose:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span> textFontFamily = &lt;span style="color:#d14">&amp;#34;courier&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> headingFontFamily = &lt;span style="color:#d14">&amp;#34;baskerville&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And your site would look like:&lt;/p>
+&lt;p>&lt;img src="system-font.png" alt="">&lt;/p>
+
+
+
+
+&lt;h2 id="use-a-custom-font">Use a custom font
+ &lt;a href="#use-a-custom-font">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>Alright alright alright. So you still want to use your own fonts. You&amp;rsquo;ll need to do a bit more work to get this working, but not too much. If you made it here, I&amp;rsquo;m going to hope that you know a bit more about 
+&lt;a href="https://www.tunetheweb.com/blog/should-you-self-host-google-fonts/" target="_blank" rel="noopener">self-hosting fonts&lt;/a>.&lt;/p>
+&lt;p>Here are the steps:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Create a &lt;code>static/fonts/&lt;/code> folder, and add the actual font files you&amp;rsquo;d like to embed to that folder. To download Google fonts, there is a 
+&lt;a href="https://google-webfonts-helper.herokuapp.com/fonts" target="_blank" rel="noopener">popular app&lt;/a> to help you. Select a font, then download the zip file containing the font files you&amp;rsquo;ll need to embed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create an &lt;code>assets/&lt;/code> folder in the root of your website project (don&amp;rsquo;t add it to your &lt;code>themes/&lt;/code> directory!).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create a file named &lt;code>custom.scss&lt;/code> in the new &lt;code>assets/&lt;/code> folder to define the 
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face" target="_blank" rel="noopener">&lt;code>@font-face&lt;/code> CSS rule&lt;/a> for each font/weight combination you downloaded. For example, here is a &lt;code>custom.scss&lt;/code> that imports the 
+&lt;a href="https://fonts.google.com/specimen/Nanum&amp;#43;Myeongjo" target="_blank" rel="noopener">Nanum Myeongjo font&lt;/a>. The 
+&lt;a href="https://google-webfonts-helper.herokuapp.com/fonts" target="_blank" rel="noopener">webfonts helper app&lt;/a> will help write your CSS for you (using &lt;code>../fonts/&lt;/code> to customize the folder prefix correctly by default), like this:&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">/* nanum-myeongjo-regular - latin */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">@font-face&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">font-family&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#39;Nanum Myeongjo&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">font-style&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#800080">normal&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">font-weight&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">400&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">src&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#900;font-weight:bold">local&lt;/span>(&lt;span style="color:#d14">&amp;#39;&amp;#39;&lt;/span>)&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d14">url(&amp;#39;../fonts/nanum-myeongjo-v15-latin-regular.woff2&amp;#39;)&lt;/span> &lt;span style="color:#900;font-weight:bold">format&lt;/span>(&lt;span style="color:#d14">&amp;#39;woff2&amp;#39;&lt;/span>)&lt;span style="color:#000;font-weight:bold">,&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d14">url(&amp;#39;../fonts/nanum-myeongjo-v15-latin-regular.woff&amp;#39;)&lt;/span> &lt;span style="color:#900;font-weight:bold">format&lt;/span>(&lt;span style="color:#d14">&amp;#39;woff&amp;#39;&lt;/span>); 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Your final step is to go back to your &lt;code>config.toml&lt;/code> file and add the &lt;code>font-family&lt;/code> values for the font(s) you want to use to the &lt;code>customtextFontFamily&lt;/code> and/or &lt;code>customheadingFontFamily&lt;/code> keys. You can combine custom fonts with system fonts too.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use an embedded font-family&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># if you import your own fonts, name them here too&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customtextFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customheadingFontFamily = &lt;span style="color:#d14">&amp;#34;Nanum Myeongjo&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># alternatively, leave empty and select basic font options: sans-serif or serif&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># for more http://tachyons.io/docs/typography/font-family/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> textFontFamily = &lt;span style="color:#d14">&amp;#34;sans-serif&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> headingFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here is what this could look like (thanks to workshop participant 
+&lt;a href="https://github.com/issactoast" target="_blank" rel="noopener">Issac Lee&lt;/a>!)&lt;/p>
+&lt;p>&lt;img src="isaac-font.png" alt="">&lt;/p>
+&lt;p>If you do all this, you have my consent to delete the theme&amp;rsquo;s &lt;code>static/fonts/&lt;/code> folder that holds all the custom embedded fonts so you aren&amp;rsquo;t carrying those unnecessary files around with your site (do not delete the &lt;code>static/webfonts/&lt;/code> folder- that holds the 
+&lt;a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome icons&lt;/a>!).&lt;/p>
+&lt;p>For example, let&amp;rsquo;s examine the 3 commits necessary to make 
+&lt;a href="https://google-webfonts-helper.herokuapp.com/fonts/hachi-maru-pop?subsets=latin" target="_blank" rel="noopener">this magic&lt;/a> happen:&lt;/p>
+
+
+
+
+&lt;h3 id="commit-1">Commit #1
+ &lt;a href="#commit-1">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>&lt;img src="font-static-files.png" alt="">&lt;/p>
+
+
+
+
+&lt;h3 id="commit-2">Commit #2
+ &lt;a href="#commit-2">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>&lt;img src="font-assets-css.png" alt="">&lt;/p>
+
+
+
+
+&lt;h3 id="commit-3">Commit #3
+ &lt;a href="#commit-3">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>&lt;img src="font-config.png" alt="">&lt;/p>
+
+
+
+
+&lt;h3 id="final-result">Final result
+ &lt;a href="#final-result">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>&lt;img src="hachi-font.png" alt="">&lt;/p></description></item><item><title>An evergreen post</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/evergreen/</guid><description>
+
+
+
+&lt;h2 id="rendering-mathematical-equations">Rendering mathematical equations
  &lt;a href="#rendering-mathematical-equations">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
@@ -106,19 +691,59 @@ But they work with &lt;code>katex&lt;/code> as well.&lt;/p>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
 &lt;/h3>
-&lt;p>In &lt;code>.Rmarkdown&lt;/code> documents, you can use either&lt;/p></description></item><item><title>I4OA</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/i4oa/</link><pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/i4oa/</guid><description>&lt;h4 id="i4oa-calls-on-all-scholarly-publishers-to-open-the-abstracts-of-their-published-works-and-where-possible-to-submit-them-to-crossref">I4OA calls on all scholarly publishers to open the abstracts of their published works, and where possible to submit them to Crossref.
+&lt;p>In &lt;code>.Rmarkdown&lt;/code> documents, you can use either&lt;/p>
+&lt;pre tabindex="0">&lt;code>$a \ne 0$
+&lt;/code>&lt;/pre>&lt;p>to get inline math: &lt;code>\(a \ne 0\)&lt;/code>.
+There is no conflict with using dollar symbols regularly, because &lt;code>knitr&lt;/code> automatically escapes freestanding dollar symbols.&lt;/p>
+&lt;p>And you can use&lt;/p>
+&lt;pre tabindex="0">&lt;code>$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+&lt;/code>&lt;/pre>&lt;p>to get a math paragraph:&lt;/p>
+&lt;p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$&lt;/p>
+
+
+
+
+&lt;h3 id="md">md
+ &lt;a href="#md">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>In &lt;code>.md&lt;/code> documents, you can &lt;strong>not&lt;/strong> use the single dollar syntax.
+The double dollar syntax still gives you a math paragraph.&lt;/p>
+&lt;pre tabindex="0">&lt;code>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+&lt;/code>&lt;/pre>&lt;p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$&lt;/p>
+&lt;p>In order to get inline equations, use:&lt;/p>
+&lt;pre tabindex="0">&lt;code>`\(a \ne 0\)`
+or
+\\(a \ne 0\\)
+&lt;/code>&lt;/pre>&lt;p>to get: &lt;code>\(a \ne 0\)&lt;/code>.&lt;/p></description></item><item><title>I4OA</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/i4oa/</link><pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/i4oa/</guid><description>
+
+
+
+&lt;h4 id="i4oa-calls-on-all-scholarly-publishers-to-open-the-abstracts-of-their-published-works-and-where-possible-to-submit-them-to-crossref">I4OA calls on all scholarly publishers to open the abstracts of their published works, and where possible to submit them to Crossref.
  &lt;a href="#i4oa-calls-on-all-scholarly-publishers-to-open-the-abstracts-of-their-published-works-and-where-possible-to-submit-them-to-crossref">&lt;/a>
 &lt;/h4>
 &lt;p>— 
 &lt;a href="https://i4oa.org" target="_blank" rel="noopener">I4OA website&lt;/a>&lt;/p>
 &lt;hr>
-&lt;p>The Initiative for Open Abstracts (I4OA) is a collaboration between scholarly publishers, infrastructure organizations, librarians, researchers and other interested parties to advocate and promote the unrestricted availability of the abstracts of the world&amp;rsquo;s scholarly publications, particularly journal articles and book chapters, in trusted repositories where they are open and machine-accessible.&lt;/p></description></item><item><title>COVID preprints</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/covid_preprints/</link><pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/covid_preprints/</guid><description>&lt;h4 id="two-repositories-containing-code-and-data-on-covid-19-related-preprints-and-links-from-preprints-to-published-journal-articles-derived-from-open-metadata-and-visualization-of--their-distribution-over-time">Two repositories containing code and data on COVID-19 related preprints and links from preprints to published journal articles, derived from open metadata, and visualization of their distribution over time.
+&lt;p>The Initiative for Open Abstracts (I4OA) is a collaboration between scholarly publishers, infrastructure organizations, librarians, researchers and other interested parties to advocate and promote the unrestricted availability of the abstracts of the world&amp;rsquo;s scholarly publications, particularly journal articles and book chapters, in trusted repositories where they are open and machine-accessible.&lt;/p>
+&lt;p>&lt;em>Role: Founding member&lt;/em>&lt;br>
+&lt;em>Time period: October 2020 - ongoing&lt;/em>&lt;/p></description></item><item><title>COVID preprints</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/covid_preprints/</link><pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/covid_preprints/</guid><description>
+
+
+
+&lt;h4 id="two-repositories-containing-code-and-data-on-covid-19-related-preprints-and-links-from-preprints-to-published-journal-articles-derived-from-open-metadata-and-visualization-of--their-distribution-over-time">Two repositories containing code and data on COVID-19 related preprints and links from preprints to published journal articles, derived from open metadata, and visualization of their distribution over time.
  &lt;a href="#two-repositories-containing-code-and-data-on-covid-19-related-preprints-and-links-from-preprints-to-published-journal-articles-derived-from-open-metadata-and-visualization-of--their-distribution-over-time">&lt;/a>
 &lt;/h4>
 &lt;hr>
 &lt;p>&lt;em>Role: contributor together with Nicholas Fraser (ZBW) (COVID preprints)&lt;/em>&lt;br>
 &lt;em>Role: personal project (links to published journal articles)&lt;/em>&lt;br>
-&lt;em>Time period: May 2020 - ongoing&lt;/em>&lt;/p></description></item><item><title>CSS Grid Scaffold</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</link><pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</guid><description>&lt;h3 id="grid-is-the-very-first-css-module-created-specifically-to-solve-the-layout-problems-weve-all-been-hacking-our-way-around-for-as-long-as-weve-been-making-websites">“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.”
+&lt;em>Time period: May 2020 - ongoing&lt;/em>&lt;/p></description></item><item><title>CSS Grid Scaffold</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</link><pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</guid><description>
+
+
+
+&lt;h3 id="grid-is-the-very-first-css-module-created-specifically-to-solve-the-layout-problems-weve-all-been-hacking-our-way-around-for-as-long-as-weve-been-making-websites">“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.”
  &lt;a href="#grid-is-the-very-first-css-module-created-specifically-to-solve-the-layout-problems-weve-all-been-hacking-our-way-around-for-as-long-as-weve-been-making-websites">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
@@ -137,7 +762,70 @@ But they work with &lt;code>katex&lt;/code> as well.&lt;/p>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
 &lt;/h2>
-&lt;p>Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid &lt;code>TABLE&lt;/code>.&lt;/p></description></item><item><title>Built-in Contact Form</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/built-in-contact-form/</link><pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/built-in-contact-form/</guid><description>&lt;p>&lt;img src="formspree-logo.png" alt="Formspree Logo">&lt;/p>
+&lt;p>Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid &lt;code>TABLE&lt;/code>.&lt;/p>
+&lt;p>Well, technology sure has come a long way since slicing up images to match the table-based layout that was just created in Dreamweaver. You&amp;rsquo;d be surprised (or maybe you wouldn&amp;rsquo;t) how challenging the standard header, content, sidebar, footer layout could be to actually get right.&lt;/p>
+&lt;figure>&lt;img src="https://bmkramer.github.io/SesameOpenScience_site/SesameOpenScience_site/blog/css-grid-scaffold/css-grid-cover.png"
+ alt="Traditional right sidebar layout">&lt;figcaption>
+ &lt;p>A visual example of the traditional right sidebar layout&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;hr>
+
+
+
+
+&lt;h3 id="dfn-titleermahgerd-is-a-humorous-version-of-the-phrase-oh-my-god-written-as-though-pronounced-with-a-heavy-influence-of-extra-rs-its-meant-to-imitate-the-sound-of-someone-speaking-through-a-retainerermahgerddfn">&lt;dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD&lt;/dfn>
+ &lt;a href="#dfn-titleermahgerd-is-a-humorous-version-of-the-phrase-oh-my-god-written-as-though-pronounced-with-a-heavy-influence-of-extra-rs-its-meant-to-imitate-the-sound-of-someone-speaking-through-a-retainerermahgerddfn">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>A proper grid is what we always wanted, no &amp;hellip; &lt;em>needed&lt;/em> to build websites with a solid, unbreakable structure. And that&amp;rsquo;s why I used it in this theme. I call this feature a &amp;ldquo;scaffold&amp;rdquo; because none of the &lt;em>content&lt;/em> is laid out on this grid. Only the main &lt;em>structure&lt;/em>: consisting of the &lt;code>header&lt;/code>, &lt;code>footer&lt;/code>, &lt;code>main&lt;/code>, &lt;code>aside&lt;/code>, and &lt;code>footer&lt;/code>. As you can tell by this quote from the 
+&lt;a href="https://www.w3.org/TR/css-grid-1/" target="_blank" rel="noopener">W3C&lt;/a> on the candidate recommendation itself, Grid is the perfect tool for the job:&lt;/p>
+&lt;blockquote>
+
+
+
+
+&lt;h5 id="css-grid-layout-module">CSS Grid Layout Module
+ &lt;a href="#css-grid-layout-module">&lt;/a>
+&lt;/h5>
+&lt;p>This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.&lt;/p>
+&lt;p>— &lt;em>W3C&lt;/em>&lt;/p>
+&lt;/blockquote>
+
+
+
+
+&lt;h2 id="a-happy-ending">A happy ending
+ &lt;a href="#a-happy-ending">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;p>CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>.&lt;span style="color:#458;font-weight:bold">grid-container&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">display&lt;/span>: &lt;span style="color:#000;font-weight:bold">grid&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">grid-template-columns&lt;/span>: &lt;span style="color:#900;font-weight:bold">repeat&lt;/span>(&lt;span style="color:#099">6&lt;/span>, &lt;span style="color:#099">1&lt;/span>fr);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">grid-template-rows&lt;/span>: &lt;span style="color:#900;font-weight:bold">repeat&lt;/span>(&lt;span style="color:#099">3&lt;/span>, &lt;span style="color:#000;font-weight:bold">auto&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+
+
+
+&lt;h4 id="what-an-amazing-time-to-be-a-web-developer-anyway-i-hope-you-enjoy-this-feature-that-youll-probably-never-notice-or-even-see-maybe-thats-the-best-part-of-a-good-user-interface--the-hidden-stuff-that-just-works">What an amazing time to be a web developer. Anyway, I hope you enjoy this &amp;ldquo;feature&amp;rdquo; that you&amp;rsquo;ll probably never notice or even see. Maybe that&amp;rsquo;s the best part of a good user interface – the hidden stuff that just works.
+ &lt;a href="#what-an-amazing-time-to-be-a-web-developer-anyway-i-hope-you-enjoy-this-feature-that-youll-probably-never-notice-or-even-see-maybe-thats-the-best-part-of-a-good-user-interface--the-hidden-stuff-that-just-works">&lt;/a>
+&lt;/h4>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>The original article cited here is now updated and maintained by the staff over at CSS-Tricks. Bookmark their version if you want to dive in and learn about CSS Grid: 
+&lt;a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener">A Complete Guide to Grid&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Built-in Contact Form</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/built-in-contact-form/</link><pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/built-in-contact-form/</guid><description>&lt;p>&lt;img src="formspree-logo.png" alt="Formspree Logo">&lt;/p>
 
 
 
@@ -161,10 +849,38 @@ But they work with &lt;code>katex&lt;/code> as well.&lt;/p>
  &lt;/svg>&lt;/a>
 &lt;/h3>
 &lt;p>This theme has a &lt;strong>form-to-email&lt;/strong> feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
-(&lt;code>/content/forms/contact.md&lt;/code>). Of course, the example shown below (&lt;code>your@email.here&lt;/code>) must not be used. Please use your actual email address.&lt;/p></description></item><item><title>Contact</title><link>https://bmkramer.github.io/SesameOpenScience_site/contact/</link><pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/contact/</guid><description>&lt;p>** Contact page don&amp;rsquo;t contain a body, just the front matter above.
+(&lt;code>/content/forms/contact.md&lt;/code>). Of course, the example shown below (&lt;code>your@email.here&lt;/code>) must not be used. Please use your actual email address.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># please replace with a valid Formspree form id or email address&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>formspree_form_id&lt;span style="color:#a61717;background-color:#e3d2d2">:&lt;/span> your&lt;span style="color:#a61717;background-color:#e3d2d2">@&lt;/span>email.here
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Update that file and you&amp;rsquo;re ready to begin receiving submissions. Just submit
+the active form for the first time, and complete the email address verification
+step with Formspree, and your contact form is live. The next time someone
+fills it out, the submission will land in your inbox.&lt;/p>
+
+
+
+
+&lt;h3 id="multiple-layouts">Multiple Layouts
+ &lt;a href="#multiple-layouts">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h3>
+&lt;p>The files included with the theme have a contact page ready for copy/paste, or
+you can type &lt;code>hugo new forms/contact.md&lt;/code> and you&amp;rsquo;re off to the races. There are two
+layouts for &lt;code>forms&lt;/code> – &lt;code>split-right&lt;/code>, and &lt;code>split-left&lt;/code> – you guessed it, one puts
+the form on the right and the other on the left. You just fill out the front
+matter, and the rest is automatic.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># layout options: split-right or split-left&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>layout&lt;span style="color:#a61717;background-color:#e3d2d2">:&lt;/span> split-right
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="built-in-contact-form-screenshot.png" alt="Contact Form Split Right Layout Screenshot">&lt;/p>
+&lt;p>Both layouts display the page title and description opposite the form, and you
+can also choose to show your social icon links if you have those configured in
+the &lt;code>config.toml&lt;/code> file.&lt;/p></description></item><item><title>Contact</title><link>https://bmkramer.github.io/SesameOpenScience_site/contact/</link><pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/contact/</guid><description>&lt;p>** Contact page don&amp;rsquo;t contain a body, just the front matter above.
 See form.html in the layouts folder.&lt;/p>
 &lt;p>Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.
-**&lt;/p></description></item><item><title>Typography Styles &amp; Element Examples</title><link>https://bmkramer.github.io/SesameOpenScience_site/elements/</link><pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/elements/</guid><description>&lt;div class="flex-l">
+**&lt;/p></description></item><item><title>Typography Styles &amp; Element Examples</title><link>https://bmkramer.github.io/SesameOpenScience_site/elements/</link><pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/elements/</guid><description>
+&lt;div class="flex-l">
  &lt;div class="w-50-l pr4-l">
  &lt;h6 class="ttu tracked black-30 pv3 mt5 bt b--black-10">Font Sizes&lt;/h6>
  &lt;div class="w-100 overflow-x-auto">
@@ -197,11 +913,140 @@ See form.html in the layouts folder.&lt;/p>
  &lt;h1 class="f-headline measure-narrow lh-solid">Head&amp;shy;line&lt;/h1>
  &lt;h1 class="f-subheadline measure-narrow lh-solid">Sub&amp;shy;head&amp;shy;line&lt;/h1>
  &lt;h1 class="f2 f1-ns measure-narrow lh-title">Level 1 Heading&lt;/h1>
- &lt;p class="f4-ns measure lh-copy">One page to rule them all...well, not really. This page displays sample typography and page elements to illustrate their style. Things like headings and paragraphs showing the beautiful type scale, form elements, tabular data, and image layouts just to name a few.&lt;/p></description></item><item><title>101 Innovations in Scholarly Communication</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/101_innovations/</link><pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/101_innovations/</guid><description>&lt;h4 id="we-are-interested-in-the-way-information-is-created-shared-and-processed-in-academia-this-is-reflected-in-a-number-of-related-activities-aimed-at-charting-the-changing-scholarly-communication-landscape">We are interested in the way information is created, shared, and processed in academia. This is reflected in a number of related activities aimed at charting the changing scholarly communication landscape.
+ &lt;p class="f4-ns measure lh-copy">One page to rule them all...well, not really. This page displays sample typography and page elements to illustrate their style. Things like headings and paragraphs showing the beautiful type scale, form elements, tabular data, and image layouts just to name a few.&lt;/p>
+ &lt;h2 class="f2">Level 2 Heading&lt;/h2>
+ &lt;p class="measure lh-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla tortor mauris condimentum nibh.&lt;/p>
+ &lt;p class="measure lh-copy">&lt;a href="#">Maecenas faucibus mollis interdum&lt;/a>. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet.&lt;/p>
+ &lt;h3 class="f3">Level 3 Heading&lt;/h3>
+ &lt;p class="measure lh-copy">Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo.&lt;/p>
+ &lt;h4 class="f4">Level 4 Heading&lt;/h4>
+ &lt;p class="measure lh-copy">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.&lt;/p>
+ &lt;h6 class="ttu tracked black-30 pv3 mt5 bt b--black-10">More Type Samples&lt;/h6>
+ &lt;blockquote class="ml0 pl3 bl bw2 b--black-20">
+ &lt;p class="lh-copy measure">Discipline in typography is a prime virtue. Individuality must be secured by means that are rational. Distinction needs to be won by simplicity and restraint. It is equally true that these qualities need to be infused wiht a certain spirit and vitality, or they degenerate into dullness and mediocrity.&lt;/p>
+ &lt;cite class="f6 i">―Stanley Morison&lt;/cite>
+ &lt;/blockquote>
+ &lt;ul class="measure lh-title">
+ &lt;li>The first unordered list item&lt;/li>
+ &lt;li>The second unordered list item&lt;/li>
+ &lt;li>The third unordered list item&lt;/li>
+ &lt;li>The fourth unordered list item&lt;/li>
+ &lt;/ul>
+ &lt;ol class="measure lh-title">
+ &lt;li>The first ordered list item&lt;/li>
+ &lt;li>The second ordered list item&lt;/li>
+ &lt;li>The third ordered list item&lt;/li>
+ &lt;li>The fourth ordered list item&lt;/li>
+ &lt;/ol>
+ &lt;dl class="measure lh-title">
+ &lt;dt class="pl3 b mb2">Definition Term&lt;/dt>
+ &lt;dd>The first definition description&lt;/dd>
+ &lt;dd>The second definition description&lt;/dd>
+ &lt;dd>The third definition description&lt;/dd>
+ &lt;dd>The fourth definition description&lt;/dd>
+ &lt;/dl>
+ &lt;/div>
+ &lt;div class="w-50-l pl4-l">
+ &lt;h6 class="ttu tracked black-30 pv3 mt5 bt b--black-10">Sample Forms&lt;/h6>
+ &lt;form name="sample-submission" method="post" accept-charset="utf-8">
+ &lt;fieldset id="sample-inputs">
+ &lt;legend>Sample Form&lt;/legend>
+ &lt;label for="full-name">Full Name&lt;/label>
+ &lt;input type="text" name="name" id="full-name" placeholder="First and Last" required>
+ &lt;label for="email-address">Email address&lt;/label>
+ &lt;input type="email" name="_replyto" id="email-address" placeholder="your@email.here" required>
+ &lt;label for="email-purpose">Purpose&lt;/label>
+ &lt;select name="purpose" id="email-purpose">
+ &lt;option value="initial-contact" selected>Initial Contact&lt;/option>
+ &lt;option value="in-response">In Response&lt;/option>
+ &lt;option value="follow-up">Follow Up&lt;/option>
+ &lt;option value="check-in">Check In&lt;/option>
+ &lt;option value="opt-out">Opt Out&lt;/option>
+ &lt;/select>
+ &lt;label for="message">Message&lt;/label>
+ &lt;textarea rows="4" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required>&lt;/textarea>
+ &lt;/fieldset>
+ &lt;input type="submit" value="Button Label">
+ &lt;/form>
+ &lt;form action="sample-form-submit" method="get" accept-charset="utf-8">
+ &lt;div class="db dt-ns f5 w-100 mv4 mh0">
+ &lt;div class="db dtc-ns v-btm pr1-ns">
+ &lt;label for="full-name">Name&lt;/label>
+ &lt;input type="text" name="full-name" id="full-name" placeholder="First Last">
+ &lt;/div>
+ &lt;div class="db dtc-ns v-btm pr1-ns">
+ &lt;label for="email-address">Email&lt;/label>
+ &lt;input type="email" name="email-address" id="email-address" placeholder="your@email.here">
+ &lt;/div>
+ &lt;div class="db dtc-ns v-btm pr1-ns">
+ &lt;input type="submit" value="Join">
+ &lt;/div>
+ &lt;/div>
+ &lt;/form>
+ &lt;h6 class="ttu tracked black-30 pv3 mt5 bt b--black-10">Sample Table&lt;/h6>
+ &lt;table class="collapse ba bw1 b--moon-gray mv4 w-100">
+ &lt;thead>
+ &lt;tr>
+ &lt;th class="f6 fw6 tl ttu pa3">Name&lt;/th>
+ &lt;th class="f6 fw6 tl ttu pa3">Rating&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">The Big Lebowski&lt;/td>
+ &lt;td class="pa3">&amp;starf;&amp;starf;&amp;starf;&amp;starf;&amp;starf;&lt;/td>
+ &lt;/tr>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">Pulp Fiction&lt;/td>
+ &lt;td class="pa3">&amp;starf;&amp;starf;&amp;starf;&amp;starf;&amp;starf;&lt;/td>
+ &lt;/tr>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">Fargo&lt;/td>
+ &lt;td class="pa3">&amp;starf;&amp;starf;&amp;starf;&amp;starf;&amp;starf;&lt;/td>
+ &lt;/tr>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">Intersellar&lt;/td>
+ &lt;td class="pa3">&amp;starf;&amp;starf;&amp;starf;&amp;starf;&amp;star;&lt;/td>
+ &lt;/tr>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">Dumb &amp;amp; Dumber&lt;/td>
+ &lt;td class="pa3">&amp;starf;&amp;starf;&amp;starf;&amp;starf;&amp;star;&lt;/td>
+ &lt;/tr>
+ &lt;tr class="stripe-dark">
+ &lt;td class="pa3">The Big White&lt;/td>
+ &lt;td class="pa3">&amp;starf;&amp;starf;&amp;starf;&amp;starf;&amp;star;&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+ &lt;/table>
+ &lt;h6 class="ttu tracked black-30 pv3 mt5 bt b--black-10">Sample Highlight Shortcode&lt;/h6>
+ &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>.&lt;span style="color:#458;font-weight:bold">grid-container&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">display&lt;/span>: &lt;span style="color:#000;font-weight:bold">grid&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">grid-template-columns&lt;/span>: &lt;span style="color:#900;font-weight:bold">repeat&lt;/span>(&lt;span style="color:#099">3&lt;/span>, &lt;span style="color:#099">1&lt;/span>fr);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">grid-template-rows&lt;/span>: &lt;span style="color:#900;font-weight:bold">repeat&lt;/span>(&lt;span style="color:#099">3&lt;/span>, &lt;span style="color:#000;font-weight:bold">auto&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">grid-auto-flow&lt;/span>: dense;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">grid-gap&lt;/span>: &lt;span style="color:#099">0&lt;/span>&lt;span style="color:#458;font-weight:bold">px&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">margin&lt;/span>: &lt;span style="color:#099">0&lt;/span>&lt;span style="color:#458;font-weight:bold">px&lt;/span> &lt;span style="color:#000;font-weight:bold">auto&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">max-width&lt;/span>: &lt;span style="color:#099">1440&lt;/span>&lt;span style="color:#458;font-weight:bold">px&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;h6 class="ttu tracked black-30 pv3 mt5 bt b--black-10">Sample Figure Shortcode&lt;/h6>
+ &lt;figure>&lt;img src="https://via.placeholder.com/1024x768/DDD/EEE?text=4:3"
+ alt="A sample 4:3 ratio image">&lt;figcaption>
+ &lt;p>This is an image caption provided through a figure shortcode using figcaption.&lt;/p>
+ &lt;/figcaption>
+ &lt;/figure>
+
+ &lt;/div>
+&lt;/div></description></item><item><title>101 Innovations in Scholarly Communication</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/101_innovations/</link><pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/101_innovations/</guid><description>
+
+
+
+&lt;h4 id="we-are-interested-in-the-way-information-is-created-shared-and-processed-in-academia-this-is-reflected-in-a-number-of-related-activities-aimed-at-charting-the-changing-scholarly-communication-landscape">We are interested in the way information is created, shared, and processed in academia. This is reflected in a number of related activities aimed at charting the changing scholarly communication landscape.
  &lt;a href="#we-are-interested-in-the-way-information-is-created-shared-and-processed-in-academia-this-is-reflected-in-a-number-of-related-activities-aimed-at-charting-the-changing-scholarly-communication-landscape">&lt;/a>
 &lt;/h4>
 &lt;hr>
-&lt;p>We created an overview of current and expected developments and models to get a grip on the abundance and variety of research tools used across the research cycle. We are charting the creation and availability (supply side) and usage (demand side) of research tools. We continue to investigate why researchers use certain tools, to find out what tool usage patterns can tell us about the changes in scholarly communication, and, finally, to uncover the driving forces behind the creation and innovation of research tools and the (lack of) interoperability of these tools.&lt;/p></description></item><item><title>Contributors</title><link>https://bmkramer.github.io/SesameOpenScience_site/contributors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/contributors/</guid><description>&lt;p>Thank you to the people who have contributed both technical and creative skills:&lt;/p>
+&lt;p>We created an overview of current and expected developments and models to get a grip on the abundance and variety of research tools used across the research cycle. We are charting the creation and availability (supply side) and usage (demand side) of research tools. We continue to investigate why researchers use certain tools, to find out what tool usage patterns can tell us about the changes in scholarly communication, and, finally, to uncover the driving forces behind the creation and innovation of research tools and the (lack of) interoperability of these tools.&lt;/p>
+&lt;p>&lt;em>Role: project co-lead together with Jeroen Bosman (Utrecht University)&lt;/em>&lt;br>
+&lt;em>Time period: January 2015 - ongoing&lt;/em>&lt;/p></description></item><item><title>Contributors</title><link>https://bmkramer.github.io/SesameOpenScience_site/contributors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/contributors/</guid><description>&lt;p>Thank you to the people who have contributed both technical and creative skills:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>
