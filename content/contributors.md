@@ -1,4 +1,6 @@
 ---
+build:
+  list: never
 description: Thank you to all contributors!
 draft: false
 layout: standard
