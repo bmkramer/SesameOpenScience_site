@@ -33,4 +33,4 @@ title: UKRI / Research Consulting
 I am working as associate to Research Consulting on this project, which will be identifying a series of potential M&E questions, approaches to answer them, their feasibility and expected resource intensity. We anticipate that the M&E framework will employ a mix of quantitative and qualitative measures, to account for the diversity of practices and stakeholders across the research landscape. We will also be considering information sources and datasets that can yield useful insights while minimising reporting burdens, with a preference for open data sources.
 
 *Role: research associate (subcontracted)*  
-*Time period: July 2022 - May 2023*
+*Time period: July 2022 - Sept 2023, Okt 2023 - *
