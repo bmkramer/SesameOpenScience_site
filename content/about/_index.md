@@ -1,6 +1,6 @@
  ---
 cascade:
-  headless: true
+  headless: false
 description: |
   Sesame Open Science - projects, talks and posts 
 show_header: false
