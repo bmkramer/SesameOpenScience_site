@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>style on Sesame Open Science</title><link>https://bmkramer.github.io/SesameOpenScience_site/tags/style/</link><description>Recent content in style on Sesame Open Science</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bmkramer.github.io/SesameOpenScience_site/tags/style/index.xml" rel="self" type="application/rss+xml"/><item><title>Style your site colors</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/color-themes/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/color-themes/</guid><description>&lt;p>You can totally customize your site&amp;rsquo;s theme colors within minutes of
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Style on Sesame Open Science</title><link>https://bmkramer.github.io/SesameOpenScience_site/tags/style/</link><description>Recent content in Style on Sesame Open Science</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bmkramer.github.io/SesameOpenScience_site/tags/style/index.xml" rel="self" type="application/rss+xml"/><item><title>Style your site colors</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/color-themes/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/color-themes/</guid><description>&lt;p>You can totally customize your site&amp;rsquo;s theme colors within minutes of
 creating a new site. Read on to find out how, and decide which of the
 three options meets your needs.&lt;/p>
 
@@ -14,24 +14,24 @@ three options meets your needs.&lt;/p>
 &lt;p>Hugo Apéro includes 8 built-in color themes that work &amp;ldquo;out of the box.&amp;rdquo;
 This means you can use a color theme to quickly customize the look of your site
 without needing to write any CSS. You can select the color theme in your &lt;code>config.toml&lt;/code> file. Scroll down to find:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">[&lt;/span>&lt;span style="color:#1f2328">params&lt;/span>&lt;span style="color:#1f2328">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f6f8fa;background-color:#82071e">&amp;lt;!&lt;/span>&lt;span style="color:#1f2328">--snip&lt;/span> &lt;span style="color:#1f2328">snip--&lt;/span>&lt;span style="color:#f6f8fa;background-color:#82071e">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># poppy / sky / violet / water&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">theme&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Type one of the options like &lt;code>&amp;quot;peach&amp;quot;&lt;/code> inside the quotation marks. If you have a Hugo server started (i.e., by using &lt;code>blogdown::serve_site()&lt;/code>), when you save the &lt;code>config.toml&lt;/code> file, your site preview will immediately and automatically update with your new color theme. For example, let&amp;rsquo;s choose &lt;code>&amp;quot;peach&amp;quot;&lt;/code>!&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;peach&amp;#34;&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">[&lt;/span>&lt;span style="color:#1f2328">params&lt;/span>&lt;span style="color:#1f2328">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f6f8fa;background-color:#82071e">&amp;lt;!&lt;/span>&lt;span style="color:#1f2328">--snip&lt;/span> &lt;span style="color:#1f2328">snip--&lt;/span>&lt;span style="color:#f6f8fa;background-color:#82071e">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># poppy / sky / violet / water&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">theme&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;peach&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You should see:&lt;/p>
 &lt;p>&lt;img src="peach.png" alt="Switching to the peach color theme">&lt;/p>
 &lt;p>If you select a theme that isn&amp;rsquo;t one of the available options (like &lt;code>&amp;quot;pecan&amp;quot;&lt;/code>),
 you should see an error message print to your viewer pane in the RStudio IDE:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>Selected theme &lt;span style="color:#d14">&amp;#39;pecan&amp;#39;&lt;/span> is not one of the options.
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>Selected theme &lt;span style="color:#0a3069">&amp;#39;pecan&amp;#39;&lt;/span> is not one of the options.
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>All of the color themes were designed to meet 
 &lt;a href="https://webaim.org/articles/contrast/" target="_blank" rel="noopener">WCAG 2.0 level AA requirements&lt;/a> for contrast ratios.&lt;/p>
 
@@ -64,23 +64,23 @@ offer an easy way for you to setup your site using your favorite colors. Here ar
 &lt;a href="https://tachyons.io/docs/themes/skins/" target="_blank" rel="noopener">https://tachyons.io/docs/themes/skins/&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">// basic color options: use only color names as shown in the
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">// &amp;#34;Color Palette&amp;#34; section of https://tachyons.io/docs/themes/skins/
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">&lt;/span>&lt;span style="color:#008080">$siteBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-white&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;light-gray&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$textColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;dark-gray&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;mid-gray&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headlineColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;dark-pink&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headingColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-black&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$bodyLinkColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;blue&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$navLinkColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-black&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarLinkColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-black&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$footerTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;silver&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;near-white&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;black&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverTextColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;white&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverBgColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;blue&amp;#34;&lt;/span> ;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$borderColor&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#34;moon-gray&amp;#34;&lt;/span> ;
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#57606a">// basic color options: use only color names as shown in the
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#57606a">// &amp;#34;Color Palette&amp;#34; section of https://tachyons.io/docs/themes/skins/
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#57606a">&lt;/span>&lt;span style="color:#953800">$siteBgColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;near-white&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$sidebarBgColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;light-gray&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$textColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;dark-gray&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$sidebarTextColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;mid-gray&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$headlineColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;dark-pink&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$headingColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;near-black&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$bodyLinkColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;blue&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$navLinkColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;near-black&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$sidebarLinkColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;near-black&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$footerTextColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;silver&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$buttonTextColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;near-white&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$buttonBgColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;black&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$buttonHoverTextColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;white&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$buttonHoverBgColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;blue&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$borderColor&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#34;moon-gray&amp;#34;&lt;/span> &lt;span style="color:#1f2328">;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Two last steps- back in your &lt;code>config.toml&lt;/code> file:&lt;/p>
 &lt;ol>
 &lt;li>
@@ -91,19 +91,19 @@ offer an easy way for you to setup your site using your favorite colors. Here ar
 &lt;/li>
 &lt;/ol>
 &lt;p>Your final &lt;code>config.toml&lt;/code> would look something like this:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water &lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">[&lt;/span>&lt;span style="color:#1f2328">params&lt;/span>&lt;span style="color:#1f2328">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f6f8fa;background-color:#82071e">&amp;lt;!&lt;/span>&lt;span style="color:#1f2328">--snip&lt;/span> &lt;span style="color:#1f2328">snip--&lt;/span>&lt;span style="color:#f6f8fa;background-color:#82071e">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># poppy / sky / violet / water &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">theme&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># or, leave theme empty &amp;amp; make your own palette&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># see docs at https://hugo-apero.netlify.app/blog/color-themes/&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># the custom scss file must be in the assets/ folder&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># add the filename name here, without extension&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># to use hex colors instead of named tachyons colors, include &amp;#34;hex&amp;#34; in filename&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> custom_theme = &lt;span style="color:#d14">&amp;#34;named-colors&amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># or, leave theme empty &amp;amp; make your own palette&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># see docs at https://hugo-apero.netlify.app/blog/color-themes/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># the custom scss file must be in the assets/ folder&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># add the filename name here, without extension&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># to use hex colors instead of named tachyons colors, include &amp;#34;hex&amp;#34; in filename&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">custom_theme&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;named-colors&amp;#34;&lt;/span> 
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 
 
@@ -117,36 +117,36 @@ offer an easy way for you to setup your site using your favorite colors. Here ar
 &lt;p>Let&amp;rsquo;s say you have a style guide to follow and &lt;code>washed-blue&lt;/code> just won&amp;rsquo;t cut the
 mustard. There is a bypass of these
 predefined colors built in, you just need to do &lt;em>one very special extra step&lt;/em>. Follow the steps above for using named Tachyons colors, but then, add &lt;code>hex&lt;/code> anywhere in the filename for your custom &lt;code>.scss&lt;/code> (for example, you may name this file &lt;code>hex-colors.scss&lt;/code>). If you include &lt;code>hex&lt;/code> in the filename, you get to assign your own HEX codes, like this:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">// set custom hex colors
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">&lt;/span>&lt;span style="color:#008080">$siteBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#e3e3da&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#dbdbd2&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$textColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#666260&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#666260&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headlineColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#103742&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$headingColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#103742&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$bodyLinkColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$navLinkColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$sidebarLinkColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$footerTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#918f8d&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#f7f7f4&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverTextColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#f9f9f8&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#103742&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$buttonHoverBgColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4001a&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#008080">$borderColorCustom&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">#c4beb9&lt;/span>;
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#57606a">// set custom hex colors
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#57606a">&lt;/span>&lt;span style="color:#953800">$siteBgColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#e3e3da&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$sidebarBgColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#dbdbd2&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$textColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#666260&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$sidebarTextColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#666260&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$headlineColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#103742&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$headingColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#103742&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$bodyLinkColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#c4001a&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$navLinkColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#c4001a&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$sidebarLinkColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#c4001a&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$footerTextColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#918f8d&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$buttonTextColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#f7f7f4&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$buttonHoverTextColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#f9f9f8&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$buttonBgColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#103742&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$buttonHoverBgColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#c4001a&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#953800">$borderColorCustom&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">#c4beb9&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After adding the name of your theme file (minus the &lt;code>.scss&lt;/code> extension) that you added to &lt;code>assets/&lt;/code> as the &lt;code>custom_theme&lt;/code>, your final &lt;code>config.toml&lt;/code> would look something like this:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use a built-in color theme&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># one of: forest / grayscale / peach / plum /&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># poppy / sky / violet / water &lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> theme = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">[&lt;/span>&lt;span style="color:#1f2328">params&lt;/span>&lt;span style="color:#1f2328">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f6f8fa;background-color:#82071e">&amp;lt;!&lt;/span>&lt;span style="color:#1f2328">--snip&lt;/span> &lt;span style="color:#1f2328">snip--&lt;/span>&lt;span style="color:#f6f8fa;background-color:#82071e">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># use a built-in color theme&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># one of: forest / grayscale / peach / plum /&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># poppy / sky / violet / water &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">theme&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># or, leave theme empty &amp;amp; make your own palette&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># see docs at https://hugo-apero.netlify.app/blog/color-themes/&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># the custom scss file must be in the assets/ folder&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># add the filename name here, without extension&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># to use hex colors instead of named tachyons colors, include &amp;#34;hex&amp;#34; in filename&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> custom_theme = &lt;span style="color:#d14">&amp;#34;hex-colors&amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># or, leave theme empty &amp;amp; make your own palette&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># see docs at https://hugo-apero.netlify.app/blog/color-themes/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># the custom scss file must be in the assets/ folder&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># add the filename name here, without extension&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># to use hex colors instead of named tachyons colors, include &amp;#34;hex&amp;#34; in filename&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">custom_theme&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;hex-colors&amp;#34;&lt;/span> 
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Style your site typography</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/fonts/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/fonts/</guid><description>&lt;p>As with 
 &lt;a href="../color-themes">color themes&lt;/a>, you can completely customize your site&amp;rsquo;s fonts within minutes of creating a new site. How you do it depends on how much control and customization you need.&lt;/p>
 
@@ -162,14 +162,14 @@ predefined colors built in, you just need to do &lt;em>one very special extra st
 &lt;p>Hugo Apéro includes 6 embedded fonts that work &amp;ldquo;out of the box.&amp;rdquo; We selected 3 serif and 3 sans-serif options that we thought looked good with this theme, in our humble opinions. All embedded fonts include 
 &lt;a href="https://www.marksimonson.com/notebook/view/FakevsTrueItalics" target="_blank" rel="noopener">real italics&lt;/a> so you may &lt;em>emphasize&lt;/em> to your &lt;em>heart&amp;rsquo;s&lt;/em> content &amp;#x2764;&amp;#xfe0f;! How to choose?&lt;/p>
 &lt;p>You may choose fonts for headings and body text in your site&amp;rsquo;s &lt;code>config.toml&lt;/code> file. Scroll down to find:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use an embedded font-family&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># if you import your own fonts, name them here too&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customtextFontFamily = &lt;span style="color:#d14">&amp;#34;Commissioner&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customheadingFontFamily = &lt;span style="color:#d14">&amp;#34;Fraunces&amp;#34;&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">[&lt;/span>&lt;span style="color:#1f2328">params&lt;/span>&lt;span style="color:#1f2328">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f6f8fa;background-color:#82071e">&amp;lt;!&lt;/span>&lt;span style="color:#1f2328">--snip&lt;/span> &lt;span style="color:#1f2328">snip--&lt;/span>&lt;span style="color:#f6f8fa;background-color:#82071e">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># use an embedded font-family&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># if you import your own fonts, name them here too&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">customtextFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;Commissioner&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">customheadingFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;Fraunces&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here are the links to each font so you can see them in action:&lt;/p>
 &lt;h6 class="ttu tracked pv3 bt">Embedded font options&lt;/h6>
  &lt;table class="collapse ba bw1 b--moon-gray mv4 w-100">
@@ -210,8 +210,7 @@ predefined colors built in, you just need to do &lt;em>one very special extra st
 &lt;blockquote>
 &lt;p>Relying on systems fonts greatly improves page performance and can also help your web application/site blend in with the user’s operating system. Readability is strongly linked to familiarity, so this helps create a more fluid reading experience, allowing your users to focus on your content.&lt;/p>
 &lt;p>— 
-&lt;a href="http://tachyons.io/docs/typography/font-family/" target="_blank" rel="noopener">Tachyons typography docs&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="http://tachyons.io/docs/typography/font-family/" target="_blank" rel="noopener">Tachyons typography docs&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>Here is a step-by-step, using the &lt;code>config.toml&lt;/code> file:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -222,22 +221,22 @@ predefined colors built in, you just need to do &lt;em>one very special extra st
 &lt;a href="http://tachyons.io/docs/typography/font-family/" target="_blank" rel="noopener">here&lt;/a>. All values are lower case, and exclude the &lt;code>.&lt;/code> in front.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use an embedded font-family&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># if you import your own fonts, name them here too&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customtextFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customheadingFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">[&lt;/span>&lt;span style="color:#1f2328">params&lt;/span>&lt;span style="color:#1f2328">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f6f8fa;background-color:#82071e">&amp;lt;!&lt;/span>&lt;span style="color:#1f2328">--snip&lt;/span> &lt;span style="color:#1f2328">snip--&lt;/span>&lt;span style="color:#f6f8fa;background-color:#82071e">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># use an embedded font-family&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># if you import your own fonts, name them here too&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">customtextFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">customheadingFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># alternatively, leave empty and select basic font options: sans-serif or serif&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># for more http://tachyons.io/docs/typography/font-family/&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> textFontFamily = &lt;span style="color:#d14">&amp;#34;sans-serif&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> headingFontFamily = &lt;span style="color:#d14">&amp;#34;serif&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># alternatively, leave empty and select basic font options: sans-serif or serif&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># for more http://tachyons.io/docs/typography/font-family/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">textFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;sans-serif&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">headingFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;serif&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>For example, you may choose:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span> textFontFamily = &lt;span style="color:#d14">&amp;#34;courier&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> headingFontFamily = &lt;span style="color:#d14">&amp;#34;baskerville&amp;#34;&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">textFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;courier&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">headingFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;baskerville&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And your site would look like:&lt;/p>
 &lt;p>&lt;img src="system-font.png" alt="">&lt;/p>
 
@@ -268,29 +267,29 @@ predefined colors built in, you just need to do &lt;em>one very special extra st
 &lt;a href="https://google-webfonts-helper.herokuapp.com/fonts" target="_blank" rel="noopener">webfonts helper app&lt;/a> will help write your CSS for you (using &lt;code>../fonts/&lt;/code> to customize the folder prefix correctly by default), like this:&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic">/* nanum-myeongjo-regular - latin */&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">@font-face&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">font-family&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#d14">&amp;#39;Nanum Myeongjo&amp;#39;&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">font-style&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#800080">normal&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">font-weight&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#099">400&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#008080">src&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#900;font-weight:bold">local&lt;/span>(&lt;span style="color:#d14">&amp;#39;&amp;#39;&lt;/span>)&lt;span style="color:#000;font-weight:bold">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d14">url(&amp;#39;../fonts/nanum-myeongjo-v15-latin-regular.woff2&amp;#39;)&lt;/span> &lt;span style="color:#900;font-weight:bold">format&lt;/span>(&lt;span style="color:#d14">&amp;#39;woff2&amp;#39;&lt;/span>)&lt;span style="color:#000;font-weight:bold">,&lt;/span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d14">url(&amp;#39;../fonts/nanum-myeongjo-v15-latin-regular.woff&amp;#39;)&lt;/span> &lt;span style="color:#900;font-weight:bold">format&lt;/span>(&lt;span style="color:#d14">&amp;#39;woff&amp;#39;&lt;/span>); 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-scss" data-lang="scss">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#57606a">/* nanum-myeongjo-regular - latin */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cf222e">@font-face&lt;/span> &lt;span style="color:#1f2328">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">font-family&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0a3069">&amp;#39;Nanum Myeongjo&amp;#39;&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">font-style&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#6639ba">normal&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">font-weight&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#0550ae">400&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">src&lt;/span>&lt;span style="color:#0550ae">:&lt;/span> &lt;span style="color:#6639ba">local&lt;/span>&lt;span style="color:#1f2328">(&lt;/span>&lt;span style="color:#0a3069">&amp;#39;&amp;#39;&lt;/span>&lt;span style="color:#1f2328">)&lt;/span>&lt;span style="color:#0550ae">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#0a3069">url(&amp;#39;../fonts/nanum-myeongjo-v15-latin-regular.woff2&amp;#39;)&lt;/span> &lt;span style="color:#6639ba">format&lt;/span>&lt;span style="color:#1f2328">(&lt;/span>&lt;span style="color:#0a3069">&amp;#39;woff2&amp;#39;&lt;/span>&lt;span style="color:#1f2328">)&lt;/span>&lt;span style="color:#0550ae">,&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#0a3069">url(&amp;#39;../fonts/nanum-myeongjo-v15-latin-regular.woff&amp;#39;)&lt;/span> &lt;span style="color:#6639ba">format&lt;/span>&lt;span style="color:#1f2328">(&lt;/span>&lt;span style="color:#0a3069">&amp;#39;woff&amp;#39;&lt;/span>&lt;span style="color:#1f2328">);&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Your final step is to go back to your &lt;code>config.toml&lt;/code> file and add the &lt;code>font-family&lt;/code> values for the font(s) you want to use to the &lt;code>customtextFontFamily&lt;/code> and/or &lt;code>customheadingFontFamily&lt;/code> keys. You can combine custom fonts with system fonts too.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[params]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a61717;background-color:#e3d2d2">&amp;lt;!&lt;/span>--snip snip--&lt;span style="color:#a61717;background-color:#e3d2d2">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># use an embedded font-family&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># if you import your own fonts, name them here too&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customtextFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> customheadingFontFamily = &lt;span style="color:#d14">&amp;#34;Nanum Myeongjo&amp;#34;&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">[&lt;/span>&lt;span style="color:#1f2328">params&lt;/span>&lt;span style="color:#1f2328">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f6f8fa;background-color:#82071e">&amp;lt;!&lt;/span>&lt;span style="color:#1f2328">--snip&lt;/span> &lt;span style="color:#1f2328">snip--&lt;/span>&lt;span style="color:#f6f8fa;background-color:#82071e">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># use an embedded font-family&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># serif options: Fraunces / EB Garamond / Bitter&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># sans-serif options: Commissioner / Alegreya Sans / Metropolis&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># if you import your own fonts, name them here too&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">customtextFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">customheadingFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;Nanum Myeongjo&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># alternatively, leave empty and select basic font options: sans-serif or serif&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#998;font-style:italic"># for more http://tachyons.io/docs/typography/font-family/&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> textFontFamily = &lt;span style="color:#d14">&amp;#34;sans-serif&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> headingFontFamily = &lt;span style="color:#d14">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># alternatively, leave empty and select basic font options: sans-serif or serif&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#57606a"># for more http://tachyons.io/docs/typography/font-family/&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">textFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;sans-serif&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#1f2328">headingFontFamily&lt;/span> &lt;span style="color:#1f2328">=&lt;/span> &lt;span style="color:#0a3069">&amp;#34;&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here is what this could look like (thanks to workshop participant 
 &lt;a href="https://github.com/issactoast" target="_blank" rel="noopener">Issac Lee&lt;/a>!)&lt;/p>
 &lt;p>&lt;img src="isaac-font.png" alt="">&lt;/p>
