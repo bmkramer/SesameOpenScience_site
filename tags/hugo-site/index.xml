@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo-Site on Sesame Open Science</title><link>https://bmkramer.github.io/SesameOpenScience_site/tags/hugo-site/</link><description>Recent content in Hugo-Site on Sesame Open Science</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bmkramer.github.io/SesameOpenScience_site/tags/hugo-site/index.xml" rel="self" type="application/rss+xml"/><item><title>CSS Grid Scaffold</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</link><pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo-site on Sesame Open Science</title><link>https://bmkramer.github.io/SesameOpenScience_site/tags/hugo-site/</link><description>Recent content in hugo-site on Sesame Open Science</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://bmkramer.github.io/SesameOpenScience_site/tags/hugo-site/index.xml" rel="self" type="application/rss+xml"/><item><title>CSS Grid Scaffold</title><link>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</link><pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/</guid><description>
 
 
 
@@ -23,8 +23,8 @@
 &lt;/h2>
 &lt;p>Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid &lt;code>TABLE&lt;/code>.&lt;/p>
 &lt;p>Well, technology sure has come a long way since slicing up images to match the table-based layout that was just created in Dreamweaver. You&amp;rsquo;d be surprised (or maybe you wouldn&amp;rsquo;t) how challenging the standard header, content, sidebar, footer layout could be to actually get right.&lt;/p>
-&lt;figure>&lt;img src="https://bmkramer.github.io/SesameOpenScience_site/blog/css-grid-scaffold/css-grid-cover.png"
- alt="Traditional right sidebar layout">&lt;figcaption>
+&lt;figure>&lt;img src="css-grid-cover.png"
+ alt="Traditional right sidebar layout"/>&lt;figcaption>
  &lt;p>A visual example of the traditional right sidebar layout&lt;/p>
  &lt;/figcaption>
 &lt;/figure>
@@ -34,8 +34,8 @@
 
 
 
-&lt;h3 id="ermahgerd">&lt;dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD&lt;/dfn>
- &lt;a href="#ermahgerd">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+&lt;h3 id="dfn-titleermahgerd-is-a-humorous-version-of-the-phrase-oh-my-god-written-as-though-pronounced-with-a-heavy-influence-of-extra-rs-its-meant-to-imitate-the-sound-of-someone-speaking-through-a-retainerermahgerddfn">&lt;dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD&lt;/dfn>
+ &lt;a href="#dfn-titleermahgerd-is-a-humorous-version-of-the-phrase-oh-my-god-written-as-though-pronounced-with-a-heavy-influence-of-extra-rs-its-meant-to-imitate-the-sound-of-someone-speaking-through-a-retainerermahgerddfn">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
@@ -43,11 +43,16 @@
 &lt;p>A proper grid is what we always wanted, no &amp;hellip; &lt;em>needed&lt;/em> to build websites with a solid, unbreakable structure. And that&amp;rsquo;s why I used it in this theme. I call this feature a &amp;ldquo;scaffold&amp;rdquo; because none of the &lt;em>content&lt;/em> is laid out on this grid. Only the main &lt;em>structure&lt;/em>: consisting of the &lt;code>header&lt;/code>, &lt;code>footer&lt;/code>, &lt;code>main&lt;/code>, &lt;code>aside&lt;/code>, and &lt;code>footer&lt;/code>. As you can tell by this quote from the 
 &lt;a href="https://www.w3.org/TR/css-grid-1/" target="_blank" rel="noopener">W3C&lt;/a> on the candidate recommendation itself, Grid is the perfect tool for the job:&lt;/p>
 &lt;blockquote>
+
+
+
+
 &lt;h5 id="css-grid-layout-module">CSS Grid Layout Module
  &lt;a href="#css-grid-layout-module">&lt;/a>
 &lt;/h5>
 &lt;p>This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.&lt;/p>
-&lt;p>— &lt;em>W3C&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;p>— &lt;em>W3C&lt;/em>&lt;/p>
+&lt;/blockquote>
 
 
 
@@ -59,11 +64,11 @@
  &lt;/svg>&lt;/a>
 &lt;/h2>
 &lt;p>CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">.&lt;/span>&lt;span style="color:#1f2328">grid-container&lt;/span> &lt;span style="color:#1f2328">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#cf222e">display&lt;/span>&lt;span style="color:#1f2328">:&lt;/span> &lt;span style="color:#cf222e">grid&lt;/span>&lt;span style="color:#1f2328">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#cf222e">grid-template-columns&lt;/span>&lt;span style="color:#1f2328">:&lt;/span> &lt;span style="color:#6639ba">repeat&lt;/span>&lt;span style="color:#1f2328">(&lt;/span>&lt;span style="color:#0550ae">6&lt;/span>&lt;span style="color:#1f2328">,&lt;/span> &lt;span style="color:#0550ae">1&lt;/span>fr&lt;span style="color:#1f2328">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#cf222e">grid-template-rows&lt;/span>&lt;span style="color:#1f2328">:&lt;/span> &lt;span style="color:#6639ba">repeat&lt;/span>&lt;span style="color:#1f2328">(&lt;/span>&lt;span style="color:#0550ae">3&lt;/span>&lt;span style="color:#1f2328">,&lt;/span> &lt;span style="color:#cf222e">auto&lt;/span>&lt;span style="color:#1f2328">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">}&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-css" data-lang="css">&lt;span style="display:flex;">&lt;span>.&lt;span style="color:#458;font-weight:bold">grid-container&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">display&lt;/span>: &lt;span style="color:#000;font-weight:bold">grid&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">grid-template-columns&lt;/span>: &lt;span style="color:#900;font-weight:bold">repeat&lt;/span>(&lt;span style="color:#099">6&lt;/span>, &lt;span style="color:#099">1&lt;/span>fr);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">grid-template-rows&lt;/span>: &lt;span style="color:#900;font-weight:bold">repeat&lt;/span>(&lt;span style="color:#099">3&lt;/span>, &lt;span style="color:#000;font-weight:bold">auto&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 
 
@@ -84,9 +89,9 @@
 
 
 
-&lt;h2 id="formspree-makes-it-easy-to-receive-submissions-from-html-forms-on-your-static-website">
+&lt;h2 id="formspreehttpsformspreeio-makes-it-easy-to-receive-submissions-from-html-forms-on-your-static-website">
 &lt;a href="https://formspree.io" target="_blank" rel="noopener">Formspree&lt;/a> makes it easy to receive submissions from HTML forms on your static website.
- &lt;a href="#formspree-makes-it-easy-to-receive-submissions-from-html-forms-on-your-static-website">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;a href="#formspreehttpsformspreeio-makes-it-easy-to-receive-submissions-from-html-forms-on-your-static-website">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
  &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
  &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
  &lt;/svg>&lt;/a>
@@ -104,8 +109,8 @@
 &lt;/h3>
 &lt;p>This theme has a &lt;strong>form-to-email&lt;/strong> feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
 (&lt;code>/content/forms/contact.md&lt;/code>). Of course, the example shown below (&lt;code>your@email.here&lt;/code>) must not be used. Please use your actual email address.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#57606a"># please replace with a valid Formspree form id or email address&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">formspree_form_id&lt;/span>&lt;span style="color:#f6f8fa;background-color:#82071e">:&lt;/span> &lt;span style="color:#1f2328">your&lt;/span>&lt;span style="color:#f6f8fa;background-color:#82071e">@&lt;/span>&lt;span style="color:#1f2328">email&lt;/span>&lt;span style="color:#1f2328">.&lt;/span>&lt;span style="color:#1f2328">here&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># please replace with a valid Formspree form id or email address&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>formspree_form_id&lt;span style="color:#a61717;background-color:#e3d2d2">:&lt;/span> your&lt;span style="color:#a61717;background-color:#e3d2d2">@&lt;/span>email.here
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Update that file and you&amp;rsquo;re ready to begin receiving submissions. Just submit
 the active form for the first time, and complete the email address verification
 step with Formspree, and your contact form is live. The next time someone
@@ -125,8 +130,8 @@ you can type &lt;code>hugo new forms/contact.md&lt;/code> and you&amp;rsquo;re o
 layouts for &lt;code>forms&lt;/code> – &lt;code>split-right&lt;/code>, and &lt;code>split-left&lt;/code> – you guessed it, one puts
 the form on the right and the other on the left. You just fill out the front
 matter, and the rest is automatic.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#57606a"># layout options: split-right or split-left&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#1f2328">layout&lt;/span>&lt;span style="color:#f6f8fa;background-color:#82071e">:&lt;/span> &lt;span style="color:#1f2328">split-right&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># layout options: split-right or split-left&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>layout&lt;span style="color:#a61717;background-color:#e3d2d2">:&lt;/span> split-right
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="built-in-contact-form-screenshot.png" alt="Contact Form Split Right Layout Screenshot">&lt;/p>
 &lt;p>Both layouts display the page title and description opposite the form, and you
 can also choose to show your social icon links if you have those configured in

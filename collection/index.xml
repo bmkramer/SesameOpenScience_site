@@ -73,10 +73,10 @@
 &lt;/li>
 &lt;li>
 &lt;p>The R packages we will use, which you can install by connecting to the internet, opening RStudio, and running at the command line:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#0550ae">&amp;gt;&lt;/span> &lt;span style="color:#6639ba">install.packages&lt;/span>&lt;span style="color:#1f2328">(&lt;/span>&lt;span style="color:#6639ba">c&lt;/span>&lt;span style="color:#1f2328">(&lt;/span>&lt;span style="color:#0a3069">&amp;#34;usethis&amp;#34;&lt;/span>&lt;span style="color:#1f2328">,&lt;/span> &lt;span style="color:#0a3069">&amp;#34;remotes&amp;#34;&lt;/span>&lt;span style="color:#1f2328">,&lt;/span> &lt;span style="color:#0a3069">&amp;#34;distill&amp;#34;&lt;/span>&lt;span style="color:#1f2328">,&lt;/span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#0a3069">&amp;#34;postcards&amp;#34;&lt;/span>&lt;span style="color:#1f2328">,&lt;/span> &lt;span style="color:#0a3069">&amp;#34;blogdown&amp;#34;&lt;/span>&lt;span style="color:#1f2328">))&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#900;font-weight:bold">install.packages&lt;/span>(&lt;span style="color:#900;font-weight:bold">c&lt;/span>(&lt;span style="color:#d14">&amp;#34;usethis&amp;#34;&lt;/span>, &lt;span style="color:#d14">&amp;#34;remotes&amp;#34;&lt;/span>, &lt;span style="color:#d14">&amp;#34;distill&amp;#34;&lt;/span>, 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d14">&amp;#34;postcards&amp;#34;&lt;/span>, &lt;span style="color:#d14">&amp;#34;blogdown&amp;#34;&lt;/span>))
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You&amp;rsquo;ll also need to install the development version of the &lt;code>rmarkdown&lt;/code> package:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#0550ae">&amp;gt;&lt;/span> remotes&lt;span style="color:#0550ae">::&lt;/span>&lt;span style="color:#6639ba">install_github&lt;/span>&lt;span style="color:#1f2328">(&lt;/span>&lt;span style="color:#0a3069">&amp;#34;rmarkdown&amp;#34;&lt;/span>&lt;span style="color:#1f2328">)&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> remotes&lt;span style="color:#000;font-weight:bold">::&lt;/span>&lt;span style="color:#900;font-weight:bold">install_github&lt;/span>(&lt;span style="color:#d14">&amp;#34;rmarkdown&amp;#34;&lt;/span>)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul>
 
@@ -90,10 +90,10 @@
  &lt;/svg>&lt;/a>
 &lt;/h2>
 &lt;p>To use blogdown, please install Hugo:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#0550ae">&amp;gt;&lt;/span> blogdown&lt;span style="color:#0550ae">::&lt;/span>&lt;span style="color:#6639ba">install_hugo&lt;/span>&lt;span style="color:#1f2328">()&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> blogdown&lt;span style="color:#000;font-weight:bold">::&lt;/span>&lt;span style="color:#900;font-weight:bold">install_hugo&lt;/span>()
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And ensure your current version is at least as high as:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#0550ae">&amp;gt;&lt;/span> &lt;span style="color:#6639ba">hugo_version&lt;/span>&lt;span style="color:#1f2328">()&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[1] ‘&lt;span style="color:#0550ae">0.79.0&lt;/span>’
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> &lt;span style="color:#900;font-weight:bold">hugo_version&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[1] ‘&lt;span style="color:#099">0.79.0&lt;/span>’
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 
 
@@ -105,6 +105,6 @@
  &lt;/svg>&lt;/a>
 &lt;/h2>
 &lt;p>The RStudio IDE bundles an updated version of pandoc- if you did install v1.4 of the IDE, you should be all set!&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#0550ae">&amp;gt;&lt;/span> rmarkdown&lt;span style="color:#0550ae">::&lt;/span>&lt;span style="color:#6639ba">pandoc_version&lt;/span>&lt;span style="color:#1f2328">()&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[1] ‘&lt;span style="color:#0550ae">2.11.3&lt;/span>’
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span> rmarkdown&lt;span style="color:#000;font-weight:bold">::&lt;/span>&lt;span style="color:#900;font-weight:bold">pandoc_version&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[1] ‘&lt;span style="color:#099">2.11.3&lt;/span>’
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
