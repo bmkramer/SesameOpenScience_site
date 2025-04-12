@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Sesame Open Science</title><link>https://bmkramer.github.io/SesameOpenScience_site/about/</link><description>Recent content in About on Sesame Open Science</description><generator>Hugo</generator><language>en</language><atom:link href="https://bmkramer.github.io/SesameOpenScience_site/about/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://bmkramer.github.io/SesameOpenScience_site/about/header/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/about/header/</guid><description>&lt;!-- show header set to false in content/about/index.md -->
+&lt;hr>
+
+
+
+
+&lt;h2 id="configure-header-of-page">Configure header of page
+ &lt;a href="#configure-header-of-page">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+
+
+
+
+&lt;h2 id="hi-my-name-is-hugo-apero-nice-to-meet-you">text_align_right: false
+show_title_as_headline: false
+headline: |
+Hi, my name is Hugo Apero. Nice to meet you.
+ &lt;a href="#hi-my-name-is-hugo-apero-nice-to-meet-you">&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+ &lt;path d="M0 0h24v24H0z" fill="currentColor">&lt;/path>
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z">&lt;/path>
+ &lt;/svg>&lt;/a>
+&lt;/h2>
+&lt;!-- this is a subheadline -->
+&lt;p>I&amp;rsquo;m a Hugo theme you&amp;rsquo;ll want to hang out with. &amp;#x1f1eb;&amp;#x1f1f7;&lt;/p>
+&lt;p>The page you are reading is based on a markdown file- look in &lt;code>content/about/&lt;/code> to edit. There, look inside the &lt;code>header&lt;/code>, &lt;code>main&lt;/code>, and &lt;code>sidebar&lt;/code> folders to get started building your own &amp;ldquo;about&amp;rdquo; page.&lt;/p></description></item><item><title/><link>https://bmkramer.github.io/SesameOpenScience_site/about/sidebar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/about/sidebar/</guid><description>&lt;p>** index doesn&amp;rsquo;t contain a body, just front matter above.
+See about/list.html in the layouts folder **&lt;/p></description></item><item><title>About me</title><link>https://bmkramer.github.io/SesameOpenScience_site/about/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/about/main/</guid><description>&lt;p>** index doesn&amp;rsquo;t contain a body, just front matter above.
+See about/list.html in the layouts folder **&lt;/p></description></item></channel></rss>
