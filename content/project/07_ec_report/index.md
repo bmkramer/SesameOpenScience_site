@@ -17,7 +17,7 @@ subtitle: "Study on scientific publishing in Europe - development, diversity, an
 title: European Commmission
 ---
 
-![OA classification 2012-2022 by country](ec_study_fig_11.jpg "OA classification 2012-2022 by country")
+![OA classification 2012-2022 by country](ec_study_fig_11.png "OA classification 2012-2022 by country")
 
 #### "To support the Commission’s policies on open access, and subsequent to Council Conclusions to take concrete measures against the proliferation of insufficiently transparent contractual arrangements with publishers, this study was commissioned to provide a deeper understanding of the issues around practices and costs of scholarly publications, offer an analysis of the situation, and propose advice for policy actions."
 
