@@ -33,8 +33,7 @@ subtitle: Developing an M&E Framework for UKRI's Open Access policy
 title: UKRI / Research Consulting
 ---
 
-![Workflow schema](ukri_rc_fig2.png)
- <em>Workflow schema: identification of research outputs (denominator) and OA classification. Monitoring and evaluation of UKRI''s Open Access Policy: Exploring the use of open data sources to inform baseline values - Dataset (Fig 2)/em>
+![Workflow schema](ukri_rc_fig2.png "IMAGE")
 
 #### "A new study commissioned by UK Research and Innovation (UKRI) to develop a monitoring and evaluation (M&E) framework for their Open Access policy. This framework will seek to enable UKRI and the broader sector to assess progress towards Open Access, levels of compliance with the UKRI policy and its overall effectiveness. The M&E framework will also aim to establish how Open Access publication trends affect academic practices and society, where possible."
 
