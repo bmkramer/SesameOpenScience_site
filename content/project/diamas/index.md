@@ -20,6 +20,10 @@ links:
   icon_pack: ai
   name: 'Dataset (Oct 2023) "DIAMAS survey on Institutional Publishing - aggregated data"'
   url: https://doi.org/10.5281/zenodo.10590503
+- icon: link
+  icon_pack: fas
+  name: DIAMAS website
+  url: https://diamasproject.eu/
   
 
 subtitle: "Developing Institutional Open Access Publishing Models to Advance Scholarly Communication"
