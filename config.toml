@@ -34,7 +34,7 @@ enableEmoji = true
   description = "Open science, open metadata, open infrastructure"
   favicon = "/SesameOpenScience_site/img/SesameOpen_favicon_small.png"
   logo = "/SesameOpenScience_site/img/SesameOpen_logo.png"
-  #mainSections = ["blog", "project", "talk"]
+  #mainSections = ["blog", "project", "talk", "thought"]
   #only show 'ready' sections while setting up
   mainSections = ["about", "project", "publication", "talk", "thought"]
   navallcaps = true
@@ -45,8 +45,6 @@ enableEmoji = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/SesameOpenScience_site/img/SesameOpen_logo.png"
-  # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "MsPhelps"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
