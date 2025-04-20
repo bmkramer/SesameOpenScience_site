@@ -4,7 +4,7 @@ categories:
 - open infrastructure
 date: "2022-10-15"
 draft: false
-excerpt: For SCOSS, I am working together with participating infrastructures to develop strategies for achieving their funding goals, as well as to contribute to the general strategy of SCOSS.
+excerpt: For SCOSS, I worked together with participating infrastructures to develop strategies for achieving their funding goals, as well as to contribute to the general strategy of SCOSS.
 featured: true
 layout: single
 links:
@@ -27,6 +27,6 @@ For SCOSS, I am working together with participating infrastructures to develop s
 I see this an exciting opportunity in a research ecosystem where research organizations and funders increasingly recognize the importance of open scholarly infrastructure and face important choices in how to spend their budget.     
 
 *Role: community strategy and support*  
-*Time period: October 2022 - December 2023*
+*Time period: October 2022 - April 2024*
 
 ---

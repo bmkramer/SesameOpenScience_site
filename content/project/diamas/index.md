@@ -4,7 +4,7 @@ categories:
 - open science
 date: "2023-01-01"
 draft: false
-excerpt: For the European DIAMAS project, I am working with Utrecht University on mapping the European landscape of Institutional Publishing Service Providers.
+excerpt: For the European DIAMAS project, I worked with Utrecht University on mapping the European landscape of Institutional Publishing Service Providers.
 featured: true
 layout: single
 links:
@@ -35,9 +35,9 @@ To address this issue, the Horizon Europe project DIAMAS will:
 
 ---
 
-For DIAMAS, I am working with Utrecht University on mapping the European landscape of Insitutional Publishing Service Providers (IPSPs).
+For DIAMAS, I worked with Utrecht University on mapping the European landscape of Institutional Publishing Service Providers (IPSPs).
 
 *Role: data analysis, report writing (subcontracted)
-*Time period: 2023*
+*Time period: Sept 2022 - Oct 2023*
 
 ---
