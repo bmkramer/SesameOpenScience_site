@@ -30,7 +30,7 @@ subtitle: "Developing Institutional Open Access Publishing Models to Advance Sch
 title: DIAMAS
 ---
 
-!Publishing ecosystem](diamas_scoping_ecosystem.png "Publishing ecosystem")
+![Publishing ecosystem](diamas_scoping_ecosystem.png "Publishing ecosystem")
 
 #### "The DIAMAS project addresses institutional publishers and service providers in the broadest sense, focusing on publishing initiatives that do not charge fees to authors or readers. These ‘no fee’ publishing models are collectively known as Diamond Open Access. Diamond publishers often face similar fragmentation issues, varying service quality, visibility, and sustainability."
 
