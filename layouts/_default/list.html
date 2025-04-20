@@ -7,10 +7,12 @@
   </section>
   <section class="blog-content mw7 center">
     {{ $caller := . }}
+    {{ if eq .Kind "home" }}
     {{ $paginator := .Paginate (where .RegularPagesRecursive "Type" .Section).ByDate.Reverse }}
       {{ range $paginator.Pages }}
         {{ .Scratch.Set "$root" $caller }}
         {{ partial "shared/summary" . }}
+      {{ end }}
       {{ end }}
     {{ partial "shared/list-pagination.html" . }}
   </section>
