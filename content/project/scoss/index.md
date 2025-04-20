@@ -24,7 +24,7 @@ title: SCOSS
 
 For SCOSS, I worked together with participating infrastructures to develop strategies for achieving their funding goals, as well as to contribute to the general strategy of SCOSS.
 
-Role: community strategy and support 
+Role: community strategy and support. 
 *Time period: October 2022 - April 2024*
 
 ---
