@@ -25,7 +25,7 @@ links:
   name: 'dataset (Sept 2024) "Monitoring and evaluation of UKRI''s Open Access Policy: Exploring the use of open data sources to inform baseline values - Dataset"'
   url: https://doi.org/10.5281/zenodo.12801805
 - icon: github
-  icon_pack: ai
+  icon_pack: fab
   name: 'code repository (Sept 2024) "UKRI OA baseline values - exploration using open data sources"'
   url: https://github.com/bmkramer/ukri_oa_baseline
   
@@ -42,6 +42,7 @@ title: UKRI / Research Consulting
 ---
 
 I worked as associate to Research Consulting on this project, which identified a series of potential M&E questions, approaches to answer them, their feasibility and expected resource intensity. 
-In a follow-up project, we developed a set of baseline values for open access research articles, against which future progress can be assessed.The analysis was based exclusively on open data sources and the data and code have been made available to enable reuse, in line with UKRI’s commitment to open research.  
+In a follow-up project, we developed a set of baseline values for open access research articles, against which future progress can be assessed. The analysis was based exclusively on open data sources and the data and code have been made available to enable reuse, in line with UKRI’s commitment to open research.  
+
 *Role: research associate (subcontracted)*  
 *Time period: July 2022 - Sept 2023, Okt 2023 - Sept 2024*
