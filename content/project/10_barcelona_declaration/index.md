@@ -4,7 +4,7 @@ categories:
 - open science
 date: "2024-04-16"
 draft: false
-excerpt: I am Executive Director of the Barcelona Declaration on Open Research Information, The signatories of the Barcelona Declaration on Open Research Information commit to taking a lead in transforming the way research information is used and produced.  
+excerpt: I am Executive Director of the Barcelona Declaration on Open Research Information.
 featured: true
 layout: single
 links:
@@ -16,7 +16,7 @@ links:
   
 
 subtitle: "Openness of information about the conduct and communication of research must be the new norm."
-title: Barcelona Declaration on Open Research Information
+title: Barcelona Declaration
 ---
 
 ![Barcelona Declaration - commitments](barcelona_declaration_commitments.png "Barcelona Declaration - commmitments")
