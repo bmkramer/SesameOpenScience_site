@@ -22,7 +22,7 @@ title: SCOSS
 
 ---
 
-For SCOSS, I am working together with participating infrastructures to develop strategies for achieving their funding goals, as well as to contribute to the general strategy of SCOSS.
+For SCOSS, I worked together with participating infrastructures to develop strategies for achieving their funding goals, as well as to contribute to the general strategy of SCOSS.
 
 I see this an exciting opportunity in a research ecosystem where research organizations and funders increasingly recognize the importance of open scholarly infrastructure and face important choices in how to spend their budget.     
 
