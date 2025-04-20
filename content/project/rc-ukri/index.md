@@ -8,18 +8,27 @@ draft: false
 excerpt:  Study commissioned by UK Research and Innovation (UKRI) to Research Consulting Ltd to develop a monitoring and evaluation (M&E) framework for their Open Access policy.
 layout: single
 links:
-- icon: pen-nib
-  icon_pack: fas
-  name: 'project update (May 2023) "Monitoring and evaluating UKRI’s Open Access policy: Recommendations for implementation"'
-  url: https://www.research-consulting.com/monitoring-and-evaluating-ukris-open-access-policy-recommendations-for-implementation/
-- icon: pen-nib
-  icon_pack: fas
-  name: 'project update (Nov 2022) "Five principles for monitoring and evaluation: The case of UKRI’s Open Access policy"'
-  url: https://www.research-consulting.com/five-principles-for-monitoring-and-evaluation-the-case-of-ukris-open-access-policy/
-- icon: pen-nib
-  icon_pack: fas
-  name: 'project update (July 2022) "Developing an M&E framework for UKRI OA policy"'
-  url: https://www.research-consulting.com/developing-a-monitoring-and-evaluation-framework-for-the-ukri-open-access-policy/
+- icon: zenodo
+  icon_pack: ai
+  name: report
+  name: 'report (Sept 2023) "Monitoring and evaluating the effectiveness of UKRI's open access policy: Principles, opportunities and challenges"'
+  url: https://doi.org/10.5281/zenodo.7773581
+- icon: zenodo
+  icon_pack: ai
+  name: data specification
+  name: 'data specification (Sept 2023) "Monitoring and evaluating the effectiveness of UKRI's open access policy: Principles, opportunities and challenges (Annex A)"'
+  url: https://doi.org/10.5281/zenodo.7773583
+- icon: zenodo
+  icon_pack: ai
+  name: report
+  name: 'technical report (Sept 2024) "Technical report: Monitoring and evaluation of UKRI's Open Access Policy - Exploring the use of open data sources to inform baseline values"'
+  url: https://doi.org/10.5281/zenodo.12804855
+- icon: zenodo
+  icon_pack: ai
+  name: dataset
+  name: 'dataset (Sept 2024) "Monitoring and evaluation of UKRI's Open Access Policy: Exploring the use of open data sources to inform baseline values - Dataset"'
+  url: https://doi.org/10.5281/zenodo.12801805
+
 subtitle: Developing an M&E Framework for UKRI's Open Access policy
 title: UKRI / Research Consulting
 ---
