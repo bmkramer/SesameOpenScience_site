@@ -4,7 +4,7 @@ categories:
 - open science
 date: "2024-01-01"
 draft: false
-excerpt: For NWO and ZonMW, I worked with Utrecht University on mapping the European landscape of Institutional Publishing Service Providers.
+excerpt: I worked with NWO and ZonMW to analyze the openness of publications from publication year 2023 resulting from NWO/ZonMW-funded research, using openly accessible research information and metadata.
 featured: true
 layout: single
 links:
