@@ -8,9 +8,9 @@ excerpt: For the European Commission, I wrote a report on the development, diver
 featured: true
 layout: single
 links:
-- icon: zenodo
+- icon: doi
   icon_pack: ai
-  name: 'Report (Oct 2024) "NWO and ZonMw Open Access Monitor 2023"'
+  name: 'Report (Jan 2024) "Study on scientific publishing in Europe - development, diversity, and transparency of costs"'
   url: https://doi.org/10.2777/89349
 
 subtitle: "Study on scientific publishing in Europe - development, diversity, and transparency of costs"
