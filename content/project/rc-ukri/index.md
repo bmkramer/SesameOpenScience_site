@@ -44,6 +44,6 @@ title: UKRI / Research Consulting
 I worked as associate to Research Consulting on this project, which identified a series of potential M&E questions, approaches to answer them, their feasibility and expected resource intensity. 
 In a follow-up project, we developed a set of baseline values for open access research articles, against which future progress can be assessed. The analysis was based exclusively on open data sources and the data and code have been made available to enable reuse, in line with UKRI’s commitment to open research.  
 
-Role: research associate (subcontracted)  
+Role: research associate (subcontracted)    
 *Time period: July 2022 - Sept 2023, Okt 2023 - Sept 2024*
 
