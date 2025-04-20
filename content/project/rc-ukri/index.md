@@ -10,19 +10,19 @@ layout: single
 links:
 - icon: zenodo
   icon_pack: ai
-  name: 'report (Sept 2023) "Monitoring and evaluating the effectiveness of UKRI open access policy: Principles, opportunities and challenges"'
+  name: 'report (Sept 2023) "Monitoring and evaluating the effectiveness of UKRI''s open access policy: Principles, opportunities and challenges"'
   url: https://doi.org/10.5281/zenodo.7773581
 - icon: zenodo
   icon_pack: ai
-  name: 'data specification (Sept 2023) "Monitoring and evaluating the effectiveness of UKRI open access policy: Principles, opportunities and challenges (Annex A)"'
+  name: 'data specification (Sept 2023) "Monitoring and evaluating the effectiveness of UKRI''s open access policy: Principles, opportunities and challenges (Annex A)"'
   url: https://doi.org/10.5281/zenodo.7773583
 - icon: zenodo
   icon_pack: ai
-  name: 'technical report (Sept 2024) "Technical report: Monitoring and evaluation of UKRI Open Access Policy - Exploring the use of open data sources to inform baseline values"'
+  name: 'technical report (Sept 2024) "Technical report: Monitoring and evaluation of UKRI''s Open Access Policy - Exploring the use of open data sources to inform baseline values"'
   url: https://doi.org/10.5281/zenodo.12804855
 - icon: zenodo
   icon_pack: ai
-  name: 'dataset (Sept 2024) "Monitoring and evaluation of UKRI Open Access Policy: Exploring the use of open data sources to inform baseline values - Dataset"'
+  name: 'dataset (Sept 2024) "Monitoring and evaluation of UKRI''s Open Access Policy: Exploring the use of open data sources to inform baseline values - Dataset"'
   url: https://doi.org/10.5281/zenodo.12801805
 
 
