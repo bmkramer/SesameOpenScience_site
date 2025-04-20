@@ -10,25 +10,25 @@ layout: single
 links:
 - icon: zenodo
   icon_pack: ai
-  name: 'Infographic "The institutional publishing ecosystem, publishing and service providers: scope and concepts for DIAMAS"'
+  name: 'Infographic () "The institutional publishing ecosystem, publishing and service providers: scope and concepts for DIAMAS"'
   url: https://doi.org/10.5281/zenodo.7378067
-- icon: link
-  icon_pack: fas
-  name: DIAMAS website
-  url: https://diamasproject.eu/
+- icon: zenodo
+  icon_pack: ai
+  name: 'Report (Oct 2023) "Institutional Publishing in the ERA: Results from the DIAMAS survey"'
+  url: https://doi.org/10.5281/zenodo.10022184
+- icon: zenodo
+  icon_pack: ai
+  name: 'Dataset (Oct 2023) "DIAMAS survey on Institutional Publishing - aggregated data"'
+  url: https://doi.org/10.5281/zenodo.10590503
+  
 
 subtitle: "Developing Institutional Open Access Publishing Models to Advance Scholarly Communication"
 title: DIAMAS
 ---
-#### "In the transition towards Open Access, institutional publishing is challenged by fragmentation and varying service quality, visibility,and sustainability."
 
-To address this issue, the Horizon Europe project DIAMAS will:
+!Publishing ecosystem](diamas_scoping_ecosystem.png "Publishing ecosystem")
 
-+ Map the current landscape of Institutional Publishing Service Providers (IPSPs)
-+ Coordinate and improve the efficiency and quality of IPSPs by developing an Extensible Quality Standard for Institutional Publishing (EQSIP)
-+ Formulate community-led, actionable recommendations and strategies for institutional leaders, funders/sponsors/donors, and policymakers.
-
-
+#### "The DIAMAS project addresses institutional publishers and service providers in the broadest sense, focusing on publishing initiatives that do not charge fees to authors or readers. These ‘no fee’ publishing models are collectively known as Diamond Open Access. Diamond publishers often face similar fragmentation issues, varying service quality, visibility, and sustainability."
 
 
 — [DIAMAS website - Welcome to the DIAMAS project](https://diamasproject.eu/)
