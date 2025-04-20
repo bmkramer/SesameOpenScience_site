@@ -10,7 +10,7 @@ layout: single
 links:
 - icon: zenodo
   icon_pack: ai
-  name: 'Infographic () "The institutional publishing ecosystem, publishing and service providers: scope and concepts for DIAMAS"'
+  name: 'Infographic (Nov 2022) "The institutional publishing ecosystem, publishing and service providers: scope and concepts for DIAMAS"'
   url: https://doi.org/10.5281/zenodo.7378067
 - icon: zenodo
   icon_pack: ai
