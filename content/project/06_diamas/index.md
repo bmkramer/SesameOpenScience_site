@@ -2,7 +2,7 @@
 author: 
 categories:
 - open science
-date: "2023-01-01"
+date: "2022-09-01"
 draft: false
 excerpt: For the European DIAMAS project, I worked with Utrecht University on mapping the European landscape of Institutional Publishing Service Providers.
 featured: true
