@@ -44,3 +44,5 @@ In a follow-up project, we developed a set of baseline values for open access re
 
 *Role: research associate (subcontracted)*  
 *Time period: July 2022 - Sept 2023, Okt 2023 - Sept 2024*
+
+![Cumulative COVID-19 preprints](ukri_rc_fig2.png)
