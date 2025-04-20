@@ -869,7 +869,7 @@ can also choose to show your social icon links if you have those configured in
 the &lt;code>config.toml&lt;/code> file.&lt;/p></description></item><item><title>Contact</title><link>https://bmkramer.github.io/SesameOpenScience_site/contact/</link><pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/contact/</guid><description>&lt;p>** Contact page don&amp;rsquo;t contain a body, just the front matter above.
 See form.html in the layouts folder.&lt;/p>
 &lt;p>Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.
-**&lt;/p></description></item><item><title>101 Innovations in Scholarly Communication</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/101_innovations/</link><pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/101_innovations/</guid><description>
+**&lt;/p></description></item><item><title>101 Innovations in Scholarly Communication</title><link>https://bmkramer.github.io/SesameOpenScience_site/project/00_101_innovations/</link><pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/project/00_101_innovations/</guid><description>
 
 
 
