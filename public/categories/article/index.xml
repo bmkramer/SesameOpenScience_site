@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article on Sesame Open Science</title>
+    <link>http://localhost:4321/SesameOpenScience_site/categories/article/</link>
+    <description>Recent content in Article on Sesame Open Science</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/SesameOpenScience_site/categories/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The availability and completeness of open funder metadata</title>
+      <link>http://localhost:4321/SesameOpenScience_site/publication/202211_qss/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/SesameOpenScience_site/publication/202211_qss/</guid>
+      <description>&lt;p&gt;Research funders spend considerable efforts collecting information on the outcomes of the research they fund. To help funders track publication output associated with their funding, Crossref initiated FundRef in 2013, enabling publishers to register funding information using persistent identifiers. However, it is hard to assess the coverage of funder metadata because it is unknown how many articles are the result of funded research and should therefore include funder metadata. In this paper we looked at 5,004 publications reported by researchers to be the result of funding by a specific funding agency: the Dutch Research Council NWO. Only 67% of these articles contain funding information in Crossref, with a subset acknowledging NWO as funder name and/or Funder IDs linked to NWO (53% and 45%, respectively). Web of Science (WoS), Scopus, and Dimensions are all able to infer additional funding information from funding statements in the full text of the articles. Funding information in Lens largely corresponds to that in Crossref, with some additional funding information likely taken from PubMed. We observe interesting differences between publishers in the coverage and completeness of funding metadata in Crossref compared to proprietary databases, highlighting the potential to increase the quality of open metadata on funding.&lt;/p&gt;&#xA;&lt;p&gt;Note: A preprint of this article was posted on MetaArXiv: &#xA;&lt;a href=&#34;https://doi.org/10.31222/osf.io/gj4hq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.31222/osf.io/gj4hq&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Advancing open access in the Netherlands after 2020: from quantity to quality</title>
+      <link>http://localhost:4321/SesameOpenScience_site/publication/202106_insights/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/SesameOpenScience_site/publication/202106_insights/</guid>
+      <description>&lt;p&gt;The purpose of this article is to explore options to further open access in the Netherlands from 2021. Its premise is that there is a need to look at the qualitative aspects of open access, alongside quantitative ones. The article first takes stock of progress that has been made. Next, we suggest broadening the agenda by involving more types of actors and other scholarly formats (like books, chapters, proceedings, preprints and textbooks). At the same time we suggest deepening the open access agenda by including several open access dimensions: immediacy, diamond open access, open metadata, open peer review and open licences. To facilitate discussion, a framework is proposed that allows specifying these actions by the a) aspects of open access they address (what is made open access, how, when and where it is made open access, and copyright and rights retention), b) the actors that play a role (government, research institutions, funders) and c) the various levels at which these actions can be taken: state as goal, set as policy, legalize and promote, recognize and reward, finance, support with infrastructure. A template is provided to ease the use of the framework.&lt;/p&gt;&#xA;&lt;p&gt;Note: A preprint of this article was posted on Zenodo: &#xA;&lt;a href=&#34;https://doi.org/10.5281/zenodo.4455790&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.5281/zenodo.4455790&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>OA Diamond Journals Study</title>
+      <link>http://localhost:4321/SesameOpenScience_site/publication/202103_zenodo_oadjs/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/SesameOpenScience_site/publication/202103_zenodo_oadjs/</guid>
+      <description>&lt;p&gt;From June 2020 to February 2021, a consortium of 10 organisations undertook a large-scale study on open access journals across the world that are free for readers and authors, usually referred to as “OA diamond journals”. This study was commissioned by cOAlition S in order to gain a better understanding of the OA diamond landscape.&lt;/p&gt;&#xA;&lt;p&gt;The study undertook a statistical analysis of several bibliographic databases, surveyed 1,619 journals, collected 7,019 free text submissions and other data from 94 questions, and organised three focus groups with 11 journals and 10 interviews with hosting platforms. It collected 163 references in the academic literature, and inventoried 1048 journals not listed in DOAJ.&lt;/p&gt;&#xA;&lt;p&gt;Findings:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A wide archipelago of relatively small journals serving diverse communities&lt;/li&gt;&#xA;&lt;li&gt;OA diamond journals are on the road to full compliance with Plan S&lt;/li&gt;&#xA;&lt;li&gt;A mix of scientific strengths and operational challenges&lt;/li&gt;&#xA;&lt;li&gt;An economy that largely depends on volunteers, universities and government&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

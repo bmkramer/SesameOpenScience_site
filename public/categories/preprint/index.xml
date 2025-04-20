@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preprint on Sesame Open Science</title>
+    <link>http://localhost:4321/SesameOpenScience_site/categories/preprint/</link>
+    <description>Recent content in Preprint on Sesame Open Science</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/SesameOpenScience_site/categories/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crossref metadata for preprints: Discussions and recommendations</title>
+      <link>http://localhost:4321/SesameOpenScience_site/publication/202211_metaarxiv_crossref/</link>
+      <pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/SesameOpenScience_site/publication/202211_metaarxiv_crossref/</guid>
+      <description>&lt;p&gt;In 2016, Crossref launched a metadata schema for ‘posted content’ with the aim of better accommodating the metadata needs for preprints, working papers, theses, reports, and related outputs, which are not typically peer-reviewed. In 2021, Crossref formed an Advisory Group (AG) to discuss how the quality of metadata for preprints using this schema could be improved. The group focused on four topics: 1) preprints as an article type (rather than subtype of posted-content); 2) relationships to/from preprints; 3) versioning; and 4) withdrawal/removal of preprints. The recommendations that resulted from the group’s deliberations have been published previously. Here we provide further background to the recommendations and report more details of the discussions.&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>
