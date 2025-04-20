@@ -25,12 +25,10 @@ links:
   name: 'dataset (Sept 2024) "Monitoring and evaluation of UKRI''s Open Access Policy: Exploring the use of open data sources to inform baseline values - Dataset"'
   url: https://doi.org/10.5281/zenodo.12801805
 - icon: github
-  icon_pack: fab
+  icon_pack: ai
   name: 'code repository (Sept 2024) "UKRI OA baseline values - exploration using open data sources"'
   url: https://github.com/bmkramer/ukri_oa_baseline
   
-
-
 subtitle: Developing an M&E Framework for UKRI's Open Access policy
 title: UKRI / Research Consulting
 ---
