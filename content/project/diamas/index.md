@@ -41,7 +41,7 @@ title: DIAMAS
 
 For DIAMAS, I worked with Utrecht University on mapping the European landscape of Institutional Publishing Service Providers (IPSPs).
 
-*Role: data analysis, report writing (subcontracted)
+Role: data analysis, report writing (subcontracted). 
 *Time period: Sept 2022 - Oct 2023*
 
 ---
