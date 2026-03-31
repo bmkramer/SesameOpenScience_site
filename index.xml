@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sesame Open Science</title><link>https://bmkramer.github.io/SesameOpenScience_site/</link><description>Recent content on Sesame Open Science</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://bmkramer.github.io/SesameOpenScience_site/index.xml" rel="self" type="application/rss+xml"/><item><title>Prework</title><link>https://bmkramer.github.io/SesameOpenScience_site/collection/prework/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/collection/prework/</guid><description>&lt;p&gt;Welcome to the 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sesame Open Science</title><link>https://bmkramer.github.io/SesameOpenScience_site/</link><description>Recent content on Sesame Open Science</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bmkramer.github.io/SesameOpenScience_site/index.xml" rel="self" type="application/rss+xml"/><item><title>Prework</title><link>https://bmkramer.github.io/SesameOpenScience_site/collection/prework/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/collection/prework/</guid><description>&lt;p&gt;Welcome to the 
 &lt;a href="https://bmkramer.github.io/SesameOpenScience_site/"&gt;Introducing Yourself Online&lt;/a&gt; workshop! We look forward to meeting you. Before attending the workshop, please complete the following prework.&lt;/p&gt;
 
 
@@ -107,7 +107,91 @@
 &lt;p&gt;The RStudio IDE bundles an updated version of pandoc- if you did install v1.4 of the IDE, you should be all set!&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-r" data-lang="r"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#0550ae"&gt;&amp;gt;&lt;/span&gt; rmarkdown&lt;span style="color:#0550ae"&gt;::&lt;/span&gt;&lt;span style="color:#6639ba"&gt;pandoc_version&lt;/span&gt;&lt;span style="color:#1f2328"&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[1] ‘&lt;span style="color:#0550ae"&gt;2.11.3&lt;/span&gt;’
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>More open abstracts?</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</link><pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</guid><description>&lt;p&gt;&lt;em&gt;Abstracts are increasingly important given the rise of large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts.&lt;/em&gt;&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Funding metadata in OpenAlex: where are they now?</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202603_open_funding_information/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202603_open_funding_information/</guid><description>&lt;p&gt;&lt;em&gt;With a grant from Wellcome, OpenAlex is working to improve its coverage of funding metadata. The three-year project started in September 2025, and the effects are already visible. Building on an earlier study, we show that OpenAlex is already performing almost as well as Dimensions.&lt;/em&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3 id="openalex-and-funding-data"&gt;OpenAlex and funding data
+ &lt;a href="#openalex-and-funding-data"&gt;&lt;svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"&gt;
+ &lt;path d="M0 0h24v24H0z" fill="currentColor"&gt;&lt;/path&gt;
+ &lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"&gt;&lt;/path&gt;
+ &lt;/svg&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;In recent years, 
+&lt;a href="https://openalex.org" target="_blank" rel="noopener"&gt;OpenAlex&lt;/a&gt; has grown into one of the largest open bibliographic databases of scientific literature. However, funding information was never a high priority. OpenAlex did have “funders” and “grants,” and took this information directly from Crossref, which is known to be incomplete. In addition OpenAlex also had Crossref grant ID’s. Large proprietary databases such as Scopus, Web of Science, and Dimensions are known to have much more complete funding metadata. With the financial support of 
+&lt;a href="https://wellcome.org/insights/articles/wellcome-announces-suite-open-research-measures" target="_blank" rel="noopener"&gt;Wellcome&lt;/a&gt;, OpenAlex is now rapidly catching up with this gap.&lt;/p&gt;
+&lt;p&gt;The aim of the 
+&lt;a href="https://github.com/ourresearch/openalex-walden/blob/main/plans/awards/ApplicationForm-Demes-323416-Z-24-Z.pdf" target="_blank" rel="noopener"&gt;project&lt;/a&gt; is to fully integrate funding metadata into the database and make it a first-class citizen. In addition to making better use of existing sources of funding metadata such as Crossref and Datacite, OpenAlex aims to use two new sources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mining the acknowledgment section from full-text articles&lt;/li&gt;
+&lt;li&gt;working with funders&amp;rsquo; own registries. The idea is to not only ingest the grant information that many funders make available publicly, but also the works that many funders have linked to grants in their own output registries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once the corpus of grant information is large enough, the ambition is also to make better connections between grants and works.&lt;/p&gt;
+
+
+
+
+&lt;h4 id="first-results"&gt;First results
+ &lt;a href="#first-results"&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;Where does OpenAlex stand now, a few months after the project&amp;rsquo;s launch? And how does its coverage compare to Crossref and proprietary databases? To find out, we took a dataset of publications that we have previously used, namely a corpus of 5,004 publications resulting from funding from the Dutch Research Council NWO. In 2022, we used these publications to study the availability and completeness of funding metadata in Crossref (
+&lt;a href="https://doi.org/10.1162/qss_a_00210" target="_blank" rel="noopener"&gt;de Jonge and Kramer, 2022&lt;/a&gt;). We found that of the 5,004 publications, 67% had some funding information with a subset correctly acknowledging NWO as funder with the funder name (53%) and correct funder ID (45%).&lt;/p&gt;
+&lt;p&gt;We also compared these scores with four other bibliographic databases: Web of Science, Scopus, Dimensions, and Lens, and concluded that each of these databases was able to report funding information for additional publications for which no funding metadata had been deposited in Crossref. For the three commercial databases that amounted to up to 1,000 extra publications which lacked funding metadata in Crossref.&lt;/p&gt;
+&lt;p&gt;We have now run the same publication data through OpenAlex and can therefore compare how OpenAlex performs against those other bibliographic databases. The figure below shows the results of that exercise.&lt;/p&gt;
+&lt;p&gt;&lt;img src="featured_fig1_202603_open_funding_metadata.png" alt="featured image"&gt;
+&lt;em&gt;Figure 1. Performance of five bibliographic databases in providing funder information compared to Crossref. Light grey bars show publications found in each database that either lack (left) or have (right) funder information in Crossref. The colored bars show the proportions of each of these sets of papers for which the other databases have funder information.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In summary, OpenAlex has made considerable progress in a short period of time. Of the 5,004 publications, it now (February 2026) has funding information for 3,903 (or 78,0%). This means that OpenAlex performs exactly as well as Scopus (78,1%) and slightly less well than Dimensions (81,1%) and Web of Science (83,1%).&lt;/p&gt;
+&lt;p&gt;As Crossref has been an important source for OpenAlex, it is somewhat surprising to see that OpenAlex does not have funding information for all publications that have funding metadata in Crossref: 224 publications are missing. A closer inspection revealed that of those 224 records 78 did have a funder DOI in Crossref (so might be glitch worth looking at by OpenAlex), 145 only had one or more funder names, but no Funder ID (which arguably should not be a reason to not link the publication to a funder), and 1 only had an award number, without funder indication.&lt;/p&gt;
+&lt;p&gt;In addition to 3,071 publications that also have funding information in Crossref, OpenAlex has found 832 additional publications with funding information. That is just as good as Dimensions (840). Scopus and Web of Science do slightly better with 962 and 1,042 respectively, suggesting that both may have access to additional sources of funding information (
+&lt;a href="https://doi.org/10.1162/qss_a_00019" target="_blank" rel="noopener"&gt;Baas, Schotten et al., 2020&lt;/a&gt;): either metadata directly obtained from publishers or funding information from full text articles OpenAlex (and Dimensions) have no access to.&lt;/p&gt;
+
+
+
+
+&lt;h4 id="sources"&gt;Sources
+ &lt;a href="#sources"&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;The main source for the additional funding information in OpenAlex appears to be the mining of full-text articles. 3,202 of the 5,004 articles now contain the field “grobid_xml” (as part of “has_content”) in OpenAlex, which indicates that OpenAlex has the content and has mined it using GROBID (
+&lt;a href="https://github.com/grobidOrg" target="_blank" rel="noopener"&gt;GeneRation Of BIbliographic Data&lt;/a&gt;) an open source machine learning tool for extracting encoded documents like PDFs.&lt;/p&gt;
+&lt;p&gt;For now, OpenAlex seems to apply text mining primarily to articles that are full-text available from publisher websites: in our corpus, 78% of articles labeled gold, hybrid or bronze OA had the “grobid_xml” tag, versus 7% of green OA articles (and 0% of closed articles).&lt;/p&gt;
+&lt;p&gt;Of the 3,903 articles with funding information in OpenAlex, 2,031 have both funding information in Crossref and were text-mined, 667 were text-mined only, and 1,030 were not text-mined, but had funding information in Crossref (Fig 2). This leaves 165 articles for which OpenAlex has other sources of funding information.&lt;/p&gt;
+&lt;p&gt;&lt;img src="fig2_202603_open_funding_metadata.png" alt="figure 2"&gt;
+&lt;em&gt;Figure 2. Further breakdown of the articles in our dataset with funding information in OpenAlex.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Currently, these additional sources are non-pdf fulltext, landing pages, and n-grams. In future, OpenAlex is planning to also capture works that have been linked to grants in funder registries, such as the 
+&lt;a href="https://data.nwo.nl/en/how-to-use-the-nwopen-api" target="_blank" rel="noopener"&gt;NWO Open API&lt;/a&gt; which provides access to structured data on NWO funded projects and their outputs. In addition OpenAlex has announced exploring the idea of encouraging institutions to extract funding links from full text of closed articles they have text and data mining right to, and expose those links through the institutional repository for harvesting by OpenAlex (
+&lt;a href="https://www.youtube.com/watch?v=BcnigbsDKpw&amp;amp;t=3190s" target="_blank" rel="noopener"&gt;OpenAlex, 2026&lt;/a&gt;). It will be interesting to see how far OpenAlex will come compared to its commercial competitors using this combination of approaches.&lt;/p&gt;
+
+
+
+
+&lt;h4 id="a-call-to-publishers"&gt;A call to publishers
+ &lt;a href="#a-call-to-publishers"&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;The progress OpenAlex has made in just a few months is remarkable. From a database that long had no funding metadata and then only limited data, to a platform that now performs almost on par with commercial competitors such as Dimensions and Scopus - this is an impressive achievement. The speed at which OpenAlex is closing this gap is encouraging.&lt;/p&gt;
+&lt;p&gt;Yet it is worth being clear that what OpenAlex is doing is compensating for a structural failure upstream. The funding metadata that OpenAlex is now mining from full-text articles and landing pages was always there - in acknowledgment sections, in grant numbers, in funder names. It simply was never captured and deposited by publishers in Crossref. OpenAlex deserves credit for filling that gap, but the gap should not have existed.&lt;/p&gt;
+&lt;p&gt;Funders can be expected to provide clear guidance to their grantees to acknowledge funding in publications and preferably mint DOIs for their grants. But good research information citizenship equally requires publishers to capture this metadata as a structural part of their publication workflows and make it available as structured open metadata - not leave it to others to retrieve it after the fact.&lt;/p&gt;
+&lt;p&gt;We hope that the progress OpenAlex is making and the attention this project brings - will ultimately also accelerate these structural changes towards richer, openly deposited funding metadata at the source.&lt;/p&gt;
+
+
+
+
+&lt;h4 id="data-and-code"&gt;Data and code:
+ &lt;a href="#data-and-code"&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href="https://doi.org/10.5281/zenodo.19216189" target="_blank" rel="noopener"&gt;https://doi.org/10.5281/zenodo.19216189&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;h4 id="about-the-authors"&gt;About the authors:
+ &lt;a href="#about-the-authors"&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Bianca Kramer is independent research analyst at Sesame Open Science and Executive Director of the Barcelona Declaration on Open Research Information&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Hans de Jonge is Director Open Science NL, part of Dutch Research Council NWO, and co-coordinator of the Barcelona Declaration working group on Funding metadata.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>More open abstracts?</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</link><pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</guid><description>&lt;p&gt;&lt;em&gt;Abstracts are increasingly important given the rise of large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts.&lt;/em&gt;&lt;/p&gt;
 
 
 
