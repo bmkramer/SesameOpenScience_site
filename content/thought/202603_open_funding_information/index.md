@@ -1,7 +1,7 @@
 ---
 author: Bianca Kramer and Hans de Jonge
 categories:
-date: "2026-03-25"
+date: "2026-03-31"
 draft: false
 excerpt: "With a grant from Wellcome, OpenAlex is working to improve its coverage of funding metadata. The three-year project started in September 2025, and the effects are already visible. Building on an earlier study, we show that OpenAlex is already performing almost as well as Dimensions."
 layout: single
