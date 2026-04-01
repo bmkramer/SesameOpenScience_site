@@ -59,7 +59,7 @@ The progress OpenAlex has made in just a few months is remarkable. From a databa
 
 Yet it is worth being clear that what OpenAlex is doing is compensating for a structural failure upstream. The funding metadata that OpenAlex is now mining from full-text articles and landing pages was always there - in acknowledgment sections, in grant numbers, in funder names. It simply was never captured and deposited by publishers in Crossref. OpenAlex deserves credit for filling that gap, but the gap should not have existed.
 
-Funders can be expected to provide clear guidance to their grantees to acknowledge funding in publications and preferably mint DOIs for their grants. But good research information citizenship equally requires publishers to capture this metadata as a structural part of their publication workflows and make it available as structured open metadata - not leave it to others to retrieve it after the fact.
+Funders can be expected to provide clear guidance to their grantees to acknowledge funding in publications and preferably mint DOIs for their grants. But publishers must equally capture this metadata as a structural part of their publication workflows and make it available as structured open metadata - not leave it to others to retrieve it after the fact.
 
 We hope that the progress OpenAlex is making and the attention this project brings - will ultimately also accelerate these structural changes towards richer, openly deposited funding metadata at the source.
 
