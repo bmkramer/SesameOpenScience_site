@@ -107,7 +107,8 @@
 &lt;p&gt;The RStudio IDE bundles an updated version of pandoc- if you did install v1.4 of the IDE, you should be all set!&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-r" data-lang="r"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#0550ae"&gt;&amp;gt;&lt;/span&gt; rmarkdown&lt;span style="color:#0550ae"&gt;::&lt;/span&gt;&lt;span style="color:#6639ba"&gt;pandoc_version&lt;/span&gt;&lt;span style="color:#1f2328"&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[1] ‘&lt;span style="color:#0550ae"&gt;2.11.3&lt;/span&gt;’
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Open funding metadata - comparing OpenAlex and OpenAIRE</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202604_open_funding_information_openalex_openaire/</link><pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202604_open_funding_information_openalex_openaire/</guid><description>&lt;p&gt;&lt;em&gt;With a grant from Wellcome, OpenAlex is working to improve its coverage of funding metadata, with effects that are already visible. In this context, OpenAlex is part of a wider ecosystem of databases collecting and providing open funding metadata, including OpenAIRE and EuropePMC. Here we compare the presence of funder information in OpenAlex and OpenAIRE for a set of NWO-funded publications. We also look at the coverage of awards and linked publications for 20 funders for which both OpenAlex and OpenAIRE currently collect information directly from funders.&lt;/em&gt;&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Open funding metadata - comparing OpenAlex and OpenAIRE</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202604_open_funding_information_openalex_openaire/</link><pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202604_open_funding_information_openalex_openaire/</guid><description>&lt;div align="right"&gt;doi: &lt;a href="https://doi.org/10.59350/kn3hf-r5j81"&gt;https://doi.org/10.59350/kn3hf-r5j81&lt;/a&gt;&lt;/div&gt; 
+&lt;p&gt;&lt;em&gt;With a grant from Wellcome, OpenAlex is working to improve its coverage of funding metadata, with effects that are already visible. In this context, OpenAlex is part of a wider ecosystem of databases collecting and providing open funding metadata, including OpenAIRE and EuropePMC. Here we compare the presence of funder information in OpenAlex and OpenAIRE for a set of NWO-funded publications. We also look at the coverage of awards and linked publications for 20 funders for which both OpenAlex and OpenAIRE currently collect information directly from funders.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Disclaimer: the results reported here reflect the data in OpenAlex and OpenAIRE at specific points in time (late Jan-March 2026) which may have undergone changes since then given the dynamic nature and continuous development of these databases.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 
 
@@ -309,7 +310,7 @@
 &lt;ul&gt;
 &lt;li&gt;Comparison I: 
 &lt;a href="https://doi.org/10.5281/zenodo.19216189" target="_blank" rel="noopener"&gt;https://doi.org/10.5281/zenodo.19216189&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Conparison II: 
+&lt;li&gt;Comparison II: 
 &lt;a href="https://doi.org/10.5281/zenodo.20012683" target="_blank" rel="noopener"&gt;https://doi.org/10.5281/zenodo.20012683&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -348,7 +349,8 @@
 &lt;p&gt;no works linked (yet)&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:6" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Funding metadata in OpenAlex: where are they now?</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202603_open_funding_information/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202603_open_funding_information/</guid><description>&lt;p&gt;&lt;em&gt;With a grant from Wellcome, OpenAlex is working to improve its coverage of funding metadata. The three-year project started in September 2025, and the effects are already visible. Building on an earlier study, we show that OpenAlex is already performing almost as well as Dimensions.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>Funding metadata in OpenAlex: where are they now?</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202603_open_funding_information/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202603_open_funding_information/</guid><description>&lt;div align="right"&gt;doi: &lt;a href="https://doi.org/10.59350/ywdc4-eck58"&gt;https://doi.org/10.59350/ywdc4-eck58&lt;/a&gt;&lt;/div&gt; 
+&lt;p&gt;&lt;em&gt;With a grant from Wellcome, OpenAlex is working to improve its coverage of funding metadata. The three-year project started in September 2025, and the effects are already visible. Building on an earlier study, we show that OpenAlex is already performing almost as well as Dimensions.&lt;/em&gt;&lt;/p&gt;
 
 
 
@@ -432,7 +434,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Bianca Kramer is independent research analyst at Sesame Open Science and Executive Director of the Barcelona Declaration on Open Research Information&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Hans de Jonge is Director Open Science NL, part of Dutch Research Council NWO, and co-coordinator of the Barcelona Declaration working group on Funding metadata.&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>More open abstracts?</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</link><pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</guid><description>&lt;p&gt;&lt;em&gt;Abstracts are increasingly important given the rise of large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts.&lt;/em&gt;&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>More open abstracts?</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</link><pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202411_open_abstracts/</guid><description>&lt;div align="right"&gt;doi: &lt;a href="https://doi.org/10.59350/vy0mr-wcc38"&gt;https://doi.org/10.59350/vy0mr-wcc38&lt;/a&gt;&lt;/div&gt; 
+&lt;p&gt;&lt;em&gt;Abstracts are increasingly important given the rise of large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts.&lt;/em&gt;&lt;/p&gt;
 
 
 
@@ -585,7 +588,8 @@
 In addition, we applied an experimental method to estimate the costs associated with the publications data used in the report, using openly available data collected under the OpenAPC project.&lt;/p&gt;
 &lt;p&gt;Role: data analysis
 &lt;em&gt;Time period: June - Oct 2024&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;</description></item><item><title>Comments on EC Council Conclusions on scholarly publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</link><pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</guid><description>&lt;p&gt;&lt;img src="featured_202306_ec.png" alt="featured image"&gt;&lt;/p&gt;
+&lt;hr&gt;</description></item><item><title>Comments on EC Council Conclusions on scholarly publishing</title><link>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</link><pubDate>Sun, 04 Jun 2023 00:00:00 +0000</pubDate><guid>https://bmkramer.github.io/SesameOpenScience_site/thought/202306_ec/</guid><description>&lt;div align="right"&gt;doi: &lt;a href="https://doi.org/10.59350/q983v-tne25"&gt;https://doi.org/10.59350/q983v-tne25&lt;/a&gt;&lt;/div&gt; 
+&lt;p&gt;&lt;img src="featured_202306_ec.png" alt="featured image"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;On May 23, 2023, the Council of the European Union approved a set of conclusions on&lt;/em&gt; &lt;em&gt;&lt;strong&gt;&amp;lsquo;High-quality, transparent, open, trustworthy and equitable scholarly publishing&amp;rsquo;&lt;/strong&gt;&lt;/em&gt; &lt;em&gt;(see 
 &lt;a href="https://data.consilium.europa.eu/doc/document/ST-9616-2023-INIT/en/pdf" target="_blank" rel="noopener"&gt;pdf&lt;/a&gt;).&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;Below are some of my thoughts on these conclusions.&lt;/em&gt;&lt;/p&gt;
