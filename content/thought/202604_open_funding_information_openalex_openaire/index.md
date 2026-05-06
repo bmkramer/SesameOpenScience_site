@@ -148,7 +148,7 @@ Users of research information can take advantage of the diversity and wider cove
   - All data snapshots are hosted on Google Big Query as part of the [ORION DBs collection](https://orion-dbs.community/).
 - Data and code:
   - Comparison I: https://doi.org/10.5281/zenodo.19216189
-  - Conparison II: https://doi.org/10.5281/zenodo.20012683
+  - Comparison II: https://doi.org/10.5281/zenodo.20012683
 
 #### About the author:
 *Bianca Kramer is independent research analyst at Sesame Open Science and Executive Director of the Barcelona Declaration on Open Research Information. This piece is written in a personal capacity.*  
