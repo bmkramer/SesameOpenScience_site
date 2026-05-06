@@ -9,6 +9,7 @@ subtitle:
 title: "Funding metadata in OpenAlex: where are they now?"
 
 ---
+<div align="right">doi: <a href="https://doi.org/10.59350/ywdc4-eck58">https://doi.org/10.59350/ywdc4-eck58</a></div>  
 
 *With a grant from Wellcome, OpenAlex is working to improve its coverage of funding metadata. The three-year project started in September 2025, and the effects are already visible. Building on an earlier study, we show that OpenAlex is already performing almost as well as Dimensions.* 
 

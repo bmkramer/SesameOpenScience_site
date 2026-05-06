@@ -9,7 +9,8 @@ subtitle:
 title: "Open funding metadata - comparing OpenAlex and OpenAIRE"
 
 ---
-
+<div align="right">doi: <a href="https://doi.org/10.59350/kn3hf-r5j81">https://doi.org/10.59350/kn3hf-r5j81</a></div>  
+  
 *With a grant from Wellcome, OpenAlex is working to improve its coverage of funding metadata, with effects that are already visible. In this context, OpenAlex is part of a wider ecosystem of databases collecting and providing open funding metadata, including OpenAIRE and EuropePMC. Here we compare the presence of funder information in OpenAlex and OpenAIRE for a set of NWO-funded publications. We also look at the coverage of awards and linked publications for 20 funders for which both OpenAlex and OpenAIRE currently collect information directly from funders.* 
 
 ***Disclaimer: the results reported here reflect the data in OpenAlex and OpenAIRE at  specific points in time (late Jan-March 2026) which may have undergone changes since then given the dynamic nature and continuous development of these databases.***
