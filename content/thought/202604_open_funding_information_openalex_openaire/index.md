@@ -152,5 +152,6 @@ Users of research information can take advantage of the diversity and wider cove
 
 #### About the author:
 *Bianca Kramer is independent research analyst at Sesame Open Science and Executive Director of the Barcelona Declaration on Open Research Information. This piece is written in a personal capacity.*  
+  
 *The author thanks Hans de Jonge and Cameron Neylon for discussions and comments on this piece - any inaccuracies in analysis and interpretation remain the responsibility of the author.*
 
