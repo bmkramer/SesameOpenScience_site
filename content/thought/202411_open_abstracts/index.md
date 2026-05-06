@@ -9,6 +9,7 @@ subtitle: Comparing abstract coverage in Crossref and OpenAlex
 title: More open abstracts?
 
 ---
+<div align="right">doi: <a href="https://doi.org/10.59350/vy0mr-wcc38">https://doi.org/10.59350/vy0mr-wcc38</a></div>  
 
 *Abstracts are increasingly important given the rise of  large language models (LLM) and generative AI. While OpenAlex provides a source of open abstracts in addition to Crossref, the takedown of abstracts from OpenAlex by two major publishers points to an increased commodification of abstracts.* 
 

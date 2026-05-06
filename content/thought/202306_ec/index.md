@@ -8,6 +8,7 @@ layout: single
 subtitle:
 title: Comments on EC Council Conclusions on scholarly publishing
 ---
+<div align="right">doi: <a href="https://doi.org/10.59350/q983v-tne25">https://doi.org/10.59350/q983v-tne25</a></div>  
 
 ![featured image](featured_202306_ec.png)
 
