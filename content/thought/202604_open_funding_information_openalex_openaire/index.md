@@ -56,7 +56,7 @@ Using full data snapshots of OpenAlex (2026-03-30) and OpenAIRE (2026-01-29) in 
 
 
 ###### Awards
-In both databases, awards (OpenAlex) and projects (OpenAIRE) are a separate database entity, both representing single grants awarded by a funder. For OpenAlex, a provenance field is included, indicating whether the award was harvested from Crossref or from a specific funder database. It should be noted that the data snapshot used did not yet include Crossref Grant DOIs as grants.
+In both databases, awards (OpenAlex) and projects (OpenAIRE) are a separate database entity, both representing single grants awarded by a funder. For OpenAlex, a provenance field is included, indicating whether the award was harvested from Crossref or from a specific funder database. It should be noted that the OpenAlex data snapshot used (March 2026) did not yet include Crossref Grant DOIs as grants.
 
 
 Figure 2 shows, for each funder, the number of awards identified from each source in both OpenAlex and OpenAIRE. In most (but not all) cases, OpenAlex collects more grants from funder databases than are retrieved from Crossref, and the number of grants collected from funder databases is roughly similar in OpenAlex and OpenAIRE. There are some notable exceptions though: OpenAIRE captures considerably more awards for AKA, FWF, NWO, the EC and the Australian national funders, and considerably fewer for DFG and the Canadian Tri-Agency. For the latter, it appears that OpenAIRE uses a single nominal project ID for each funder, and links all publications to that project ID. 
