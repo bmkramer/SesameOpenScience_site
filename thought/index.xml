@@ -71,7 +71,7 @@
 &lt;h6 id="awards"&gt;Awards
  &lt;a href="#awards"&gt;&lt;/a&gt;
 &lt;/h6&gt;
-&lt;p&gt;In both databases, awards (OpenAlex) and projects (OpenAIRE) are a separate database entity, both representing single grants awarded by a funder. For OpenAlex, a provenance field is included, indicating whether the award was harvested from Crossref or from a specific funder database. It should be noted that the data snapshot used did not yet include Crossref Grant DOIs as grants.&lt;/p&gt;
+&lt;p&gt;In both databases, awards (OpenAlex) and projects (OpenAIRE) are a separate database entity, both representing single grants awarded by a funder. For OpenAlex, a provenance field is included, indicating whether the award was harvested from Crossref or from a specific funder database. It should be noted that the OpenAlex data snapshot used (March 2026) did not yet include Crossref Grant DOIs as grants.&lt;/p&gt;
 &lt;p&gt;Figure 2 shows, for each funder, the number of awards identified from each source in both OpenAlex and OpenAIRE. In most (but not all) cases, OpenAlex collects more grants from funder databases than are retrieved from Crossref, and the number of grants collected from funder databases is roughly similar in OpenAlex and OpenAIRE. There are some notable exceptions though: OpenAIRE captures considerably more awards for AKA, FWF, NWO, the EC and the Australian national funders, and considerably fewer for DFG and the Canadian Tri-Agency. For the latter, it appears that OpenAIRE uses a single nominal project ID for each funder, and links all publications to that project ID.&lt;/p&gt;
 &lt;p&gt;
 &lt;a href="fig2_202604_openalex_openaire_funding_metadata.png"&gt;&lt;img src="fig2_202604_openalex_openaire_funding_metadata.png" alt="figure 2"&gt;&lt;/a&gt;
@@ -97,7 +97,6 @@
  &lt;a href="#publications-linked-to-funders"&gt;&lt;/a&gt;
 &lt;/h6&gt;
 &lt;p&gt;In OpenAIRE, the primary relation between funders and publications is through project-publication links&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;. In contrast, in OpenAlex publications can also be linked to funders directly. Figure 4 shows the number of unique publications linked to each funder, in addition to the publications already identified through publication-award links. It is assumed that these publications are either identified via funder metadata in Crossref (where the funder ID or funder name is present, but no award information is included), or through full-text matching of funder acknowledgements.&lt;/p&gt;
-&lt;p&gt;In OpenAIRE, publications are also directly linked to datasources, which include Funder databases and Funder CRIS systems. Furthermore, for each project-publication link information is available on the provenance of the connected: either harvested or inferred. These relations were not explored as part of this analysis.&lt;/p&gt;
 &lt;p&gt;When publications linked directly to funders (but not to awards) are added, the total number of publications per funder in OpenAlex generally exceeds that in OpenAIRE. Two notable exceptions are Wellcome and the European Commission, for which OpenAIRE identifies a notably larger number of publications than OpenAlex, even when publications linked to the funder, but not the grant, are included. The performance of OpenAIRE for European Commission funding in particular is perhaps not surprising, given that OpenAIRE originated as an 
 &lt;a href="https://www.openaire.eu/openaire-project" target="_blank" rel="noopener"&gt;EC-funded project&lt;/a&gt; itself to support the implementation of open access in Europe.&lt;/p&gt;
 &lt;p&gt;
@@ -227,8 +226,7 @@
 &lt;a href="https://web.archive.org/web/20160319024240/https://www.openaire.eu/funders-functionalities" target="_blank" rel="noopener"&gt;https://web.archive.org/web/20160319024240/https://www.openaire.eu/funders-functionalities&lt;/a&gt; (archived from March 19, 2016)&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:3"&gt;
-&lt;p&gt;
-&lt;a href="https://api.openalex.org/awards?group_by=provenance" target="_blank" rel="noopener"&gt;https://api.openalex.org/awards?group_by=provenance&lt;/a&gt;&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In OpenAIRE, publications are also directly linked to datasources, which include Funder databases and Funder CRIS systems. Furthermore, for each project-publication link information is available on the provenance of the connected: either harvested or inferred. These relations were not explored as part of this analysis.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:4"&gt;
 &lt;p&gt;nominal project_id, no works linked (yet)&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href="#fnref1:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
