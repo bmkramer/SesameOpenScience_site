@@ -80,9 +80,7 @@ _Figure 3. Capture of publications (journal articles with Crossref DOIs) linked 
 ###### Publications linked to funders
 In OpenAIRE, the primary relation between funders and publications  is through project-publication links[^3]. In contrast, in OpenAlex publications can also be linked to funders directly. Figure 4 shows the number of unique publications linked to each funder, in addition to the publications already identified through publication-award links. It is assumed that these publications are either identified via funder metadata in Crossref (where the funder ID or funder name is present, but no award information is included), or through full-text matching of funder acknowledgements. 
 
-[^3]: https://api.openalex.org/awards?group_by=provenance
-
-In OpenAIRE, publications are also directly linked to datasources, which include Funder databases and Funder CRIS systems. Furthermore, for each project-publication link information is available on the provenance of the connected: either harvested or inferred. These relations were not explored as part of this analysis.
+[^3]: In OpenAIRE, publications are also directly linked to datasources, which include Funder databases and Funder CRIS systems. Furthermore, for each project-publication link information is available on the provenance of the connected: either harvested or inferred. These relations were not explored as part of this analysis.
 
 When publications linked directly to funders (but not to awards) are added, the total number of publications per funder in OpenAlex generally exceeds that in OpenAIRE. Two notable exceptions are Wellcome and the European Commission, for which OpenAIRE identifies a notably larger number of publications than OpenAlex, even when publications linked to the funder, but not the grant, are included. The performance of OpenAIRE for European Commission funding in particular is perhaps not surprising, given that OpenAIRE originated as an [EC-funded project](https://www.openaire.eu/openaire-project) itself to support the implementation of open access in Europe.
 
