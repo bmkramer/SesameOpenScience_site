@@ -11,7 +11,7 @@ title: "Other models are available - MetaROR review"
 ---
 <div align="right">doi: <a href="https://doi.org/10.70744/MetaROR.427.1.rv1">https://doi.org/10.70744/MetaROR.427.1.rv1</a></div>  
   
-[![](featured_202608_other_models_are_available_metaror_review.png)](https://metaror.org/article/market-dynamics-governance-and-open-research-metadata-in-the-ai-era/)
+[![](featured_202609_other_models_are_available_metaror_review.png)](https://metaror.org/article/market-dynamics-governance-and-open-research-metadata-in-the-ai-era/)
 
 *Response to **Market dynamics, governance and open research metadata in the AI era** - Daniel Hook (https://doi.org/10.48550/arXiv.2604.19507)*  
 
