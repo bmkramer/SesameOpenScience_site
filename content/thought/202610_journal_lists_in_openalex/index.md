@@ -3,14 +3,14 @@ author: Bianca Kramer
 categories:
 date: "2026-10-26"
 draft: false
-excerpt: "Review for MetaROR of 'Market dynamics, governance and open research metadata in the AI era' (2026)."
+excerpt: ""
 layout: single
 subtitle: 
 title: "Journal lists in OpenAlex - mixed feelings "
 
 ---
   
-[![](202610_journal_lists_in_openalex_1.png)](https://metaror.org/article/market-dynamics-governance-and-open-research-metadata-in-the-ai-era/)
+[![screenshot of source lists as entity to search in OpenAlex](featured_202610_journal_lists_in_openalex.png)](https://openalex.org/source-lists)
 
 ## Journal lists in OpenAlex
 [OpenAlex](https://openalex.org) shared a blog post last week about their implementation of journal lists: https://blog.openalex.org/trusted-journal-lists-come-to-openalex/. OpenAlex previously had '*in_scopus*' as a variable (which is no longer available) as well '*in_core*' to indicate inclusion in the 'core journal list' from the Leiden Ranking (Open Edition). Since September 2026, coverage has been extended to include first 22 and now 61 journal lists of all stripes.
