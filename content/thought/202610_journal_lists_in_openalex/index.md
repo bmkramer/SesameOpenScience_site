@@ -28,7 +28,7 @@ More importantly, the inclusion of national research evaluation lists mixes (pro
 ## Where does responsibility lie?
 Of course it can be argued that OpenAlex' role is not to explicitly support responsible research evaluation, and that, in their words 'Judgment stays with the people who made the list", as well as those that use the list(s).
 
-I am broadly suportive of that from an open research information perspective. However, I do think that the use of journal list still deserves critical reflection and that it is important to be aware of the nature and purpose of various lists, and how that affects their inclusion criteria. OpenAlex takes on some responsibility on this when they integrate these lists - and could, for example, include such information, either as a list typology or by including a list's own description as a variable in the source list entity. 
+I am broadly supportive of that from an open research information perspective. However, I do think that the use of journal list still deserves critical reflection and that it is important to be aware of the nature and purpose of various lists, and how that affects their inclusion criteria. OpenAlex takes on some responsibility on this when they integrate these lists - and could, for example, include such information, either as a list typology or by including a list's own description as a variable in the source list entity. 
 
 
 #### About the author:
