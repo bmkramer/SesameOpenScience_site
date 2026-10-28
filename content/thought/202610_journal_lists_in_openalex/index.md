@@ -13,7 +13,7 @@ title: "Journal lists in OpenAlex - mixed feelings "
 [![screenshot of source lists as entity to search in OpenAlex](featured_202610_journal_lists_in_openalex.png)](https://openalex.org/source-lists)
 
 ## Journal lists in OpenAlex
-[OpenAlex](https://openalex.org) shared a blog post last week about their implementation of journal lists: https://blog.openalex.org/trusted-journal-lists-come-to-openalex/. OpenAlex previously had '*in_scopus*' as a variable (which is no longer available) as well '*in_core*' to indicate inclusion in the 'core journal list' from the Leiden Ranking (Open Edition). Since September 2026, coverage has been extended to include first 22 and now 61 journal lists of all stripes.
+[OpenAlex](https://openalex.org) shared a blog post earlier this month about their implementation of journal lists: https://blog.openalex.org/trusted-journal-lists-come-to-openalex/. OpenAlex previously had '*in_scopus*' as a variable (which is no longer available) as well '*in_core*' to indicate inclusion in the 'core journal list' from the Leiden Ranking (Open Edition). Since September 2026, coverage has been extended to include first 22 and now 61 journal lists of all stripes.
 
 ## What to think?
 Personally, I am of two minds about this - on one hand, having this information available as open data, and made interoperable with the other data in OpenAlex, is useful and meeting a need that has been articulated often by users. Also, the fact that OpenAlex implements a broad set of lists (including e.g. LatIndex, SciELO and AJOL) does allow people to take their own responsibility for what they choose to use, shows the diversity in indexes/journal lists, and can help expand the concept of 'visibility' beyond 'included in Web of Science or Scopus'.
